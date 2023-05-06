@@ -1,0 +1,11 @@
+encoding  utf-8
+
+map MP-boyau-plan-tot -title "Kriska-spel"
+    SP-boyau-1
+    break
+endmap
+
+map MC-boyau-coupe-tot -title "Kriska-spel"
+    SC-boyau-1
+    break
+endmap

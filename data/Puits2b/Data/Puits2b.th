@@ -1,0 +1,76 @@
+# 2021.07.17 created by TopoDroid v 5.1.2
+
+survey Puits2b -title "Puits2b"
+    # jonction vire 
+
+  centerline
+    date 2021.07.17
+    team "Solveig/Reymond(GUCEM)"
+    team "Benoît/Urruty(GUCEM)"
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
+    # extend auto
+    p2b.0 . 2.15 135.9 -1.3
+    p2b.0 . 2.12 244.5 3.1
+    p2b.0 . 1.69 302.1 4.5
+    p2b.0 . 5.64 51.7 -13.1
+    extend left
+    p2b.0 p2b.1 4.44 204.6 64.0
+    # extend auto
+    p2b.1 . 1.11 225.4 -6.5
+    p2b.1 . 0.79 262.1 -0.9
+    p2b.1 . 1.18 336.9 11.3
+    extend left
+    p2b.1 p2b.2 5.60 87.1 84.8
+    #p2b.1 . 5.78 85.1 84.7
+    #p2b.1 . 6.17 84.7 85.0
+    #p2b.1 . 5.60 85.9 84.8
+    p2b.2 . 0.58 302.4 -2.0
+    p2b.2 . 1.16 251.1 -7.4
+    p2b.2 . 1.02 46.4 -3.9
+    p2b.2 . 3.49 341.0 65.7
+    p2b.2 . 2.35 138.2 77.4
+    extend left
+    p2b.2 p2b.3 6.60 124.6 87.6
+    # extend auto
+    p2b.3 . 0.72 245.7 -1.8
+    p2b.3 . 1.13 296.9 5.6
+    p2b.3 . 0.53 193.5 -8.8
+    extend left
+    p2b.3 p2b.4 1.44 217.4 47.5
+    # extend auto
+    p2b.4 . 0.51 34.1 15.4
+    p2b.4 . 1.21 307.6 43.0
+    p2b.4 . 1.28 163.1 5.8
+    p2b.4 . 1.12 195.6 8.1
+    p2b.4 . 0.96 225.2 11.9
+    p2b.4 . 0.44 203.2 -69.5
+    p2b.4 . 0.91 178.0 81.4
+    extend left
+    p2b.4 p2b.5 1.41 155.1 54.0
+    # extend auto
+    p2b.5 . 1.16 243.9 3.8
+    p2b.5 . 0.46 297.9 10.6
+    p2b.5 . 0.38 327.1 10.0
+    p2b.5 . 0.21 72.7 5.5
+    extend vertical
+    p2b.5 p2b.6 1.84 274.8 75.0
+    # extend auto
+    p2b.6 . 0.26 74.1 -0.7
+    p2b.6 . 0.89 130.4 -2.7
+    p2b.6 . 0.40 273.7 -3.6
+    p2b.6 . 0.93 331.0 -1.2
+    extend left
+    p2b.6 p2b.7 2.62 183.3 61.5
+    # extend auto
+    p2b.7 . 0.34 46.5 19.6
+    p2b.7 . 0.56 134.4 -0.2
+    p2b.7 . 1.97 338.0 22.3
+    p2b.7 . 2.73 312.1 16.1
+    extend right
+    # jontion p1.3
+    p2b.7 p2b.8 1.82 307.9 -26.0
+  endcenterline
+
+endsurvey

@@ -1,0 +1,23 @@
+# 2021.07.17 created by TopoDroid v 5.1.2
+
+survey jonction -title "jonction"
+
+  centerline 
+    flags surface
+    date 2021.07.17 
+    team "Solveig/Reymond(GUCEM)"
+    team "Benoît/Urruty(GUCEM)" 
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
+    # extend auto
+    #j1-3.0 . 2.87 188.9 48.7
+    #j1-3.0 . 2.87 185.9 48.8
+    extend left
+    j1-3.0 j1-3.1 4.89 168.9 25.0
+    j1-3.1 j1-3.2 5.33 174.1 -14.0
+    extend right
+    j1-3.2 j1-3.3 2.15 312.0 -36.0
+  endcenterline
+
+endsurvey

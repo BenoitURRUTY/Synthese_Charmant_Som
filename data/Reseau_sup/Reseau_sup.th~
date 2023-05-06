@@ -1,0 +1,23 @@
+encoding  utf-8
+
+survey Ded -title "Ded"
+   input Aura/Aura-tot.th
+   #input FT/FT-tot.th
+   #input Porte_Enclos/Enclos-tot.th
+   input jonction/jonction-tot.th
+   #input Kriska/Kriska.th
+   input Puits1/Puits1-tot.th
+   input Puits2b/Puits2b-tot.th
+   #input Valombre/Valombre-tot.th
+   input Vire/Vire-tot.th
+   input William/William-tot.th
+
+   equate j1-3.3@jonction.jonction p3.9@William.William
+   equate j1-3.0@jonction.jonction p1.6@Puits1.Puits1
+   equate aura.1@aura.Aura p3.4@William.William
+   equate p1.3@Puits1.Puits1 p2b.8@Puits2b.Puits2b
+   equate p2b.0@Puits2b.Puits2b vire.5@Vire.Vire
+   #equate bivy29@Kriska2.spel-bivy.Kriska 0@Valombre.Valombre
+
+  
+endsurvey

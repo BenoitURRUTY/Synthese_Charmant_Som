@@ -1,0 +1,29 @@
+encoding  utf-8
+
+# Copyright (C) 2019 Xavier Robert <xavier.robert***@***ird.fr>
+# This work is under the Creative Commons Attribution-ShareAlike-NonCommecial License:
+#	<http://creativecommons.org/licenses/by-nc-sa/4.0/> 
+
+
+map MP-Ded-tot -title "Synthèse topographie du Réseau Ded"
+	
+    MP-Kriska-tot@Kriska
+    preview below MP-Valombre-plan-tot@Valombre
+    break
+    MP-Valombre-plan-tot@Valombre [0 -30 m] above
+    break
+	MP-Aura-plan-tot@Aura
+    break
+    MP-Corneilles-plan-tot@Corneilles
+    break
+	MP-FT-plan-tot@FT
+    break
+    MP-William-plan-tot@William
+    break
+    MP-Vire-plan-tot@Vire
+    break
+    MP-SE-plan-tot@SE-tot
+    break
+    MP-Puits1-coupe-tot@Puits1
+
+endmap

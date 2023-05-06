@@ -1,0 +1,9 @@
+encoding  utf-8
+
+map MP-Actif-plan-tot -title "Actif"
+    SP-Actif-1
+endmap
+
+map MC-Actif-coupe-tot -title "Actif"
+    SC-Actif-1
+endmap

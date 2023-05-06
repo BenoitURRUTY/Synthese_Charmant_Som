@@ -1,0 +1,17 @@
+set xth(ctrl,cp,datlist) {}
+xth_cp_data_tree_insert 1 {} 0   "" "" "length: 126.92m (surface 0.00m, duplicated 0.00m)\nvertical range: 51.35m (from 45@siphon.siphon at 51.35m to 0@siphon.siphon at 0.00m)\nnorth-south range: 26.42m (from 2@siphon.siphon at 2.24m to 46@siphon.siphon at -24.18m)\neast-west range: 59.84m (from 0@siphon.siphon at 0.00m to 46@siphon.siphon at -59.84m)\nnumber of shots: 188\nnumber of stations: 189"
+xth_cp_data_tree_insert 47 1 1 siphon siphon "siphon" "siphon" "length: 126.92m (surface 0.00m, duplicated 0.00m)\nvertical range: 51.35m (from 45@siphon.siphon at 51.35m to 0@siphon.siphon at 0.00m)\nnorth-south range: 26.42m (from 2@siphon.siphon at 2.24m to 46@siphon.siphon at -24.18m)\neast-west range: 59.84m (from 0@siphon.siphon at 0.00m to 46@siphon.siphon at -59.84m)\nnumber of shots: 188\nnumber of stations: 189"
+xth_cp_data_tree_insert 49 47 2 siphon siphon.siphon "siphon" "siphon" "length: 126.92m (surface 0.00m, duplicated 0.00m)\nvertical range: 51.35m (from 45@siphon.siphon at 51.35m to 0@siphon.siphon at 0.00m)\nnorth-south range: 26.42m (from 2@siphon.siphon at 2.24m to 46@siphon.siphon at -24.18m)\neast-west range: 59.84m (from 0@siphon.siphon at 0.00m to 46@siphon.siphon at -59.84m)\nnumber of shots: 188\nnumber of stations: 189"
+xth_cp_data_tree_create
+set xth(ctrl,cp,maplist) {}
+xth_cp_map_tree_insert projection 0 p1 {} 0 plan {} {} {}
+xth_cp_map_tree_insert projection 0 p2 {} 0 extended {} {} {}
+xth_cp_map_tree_insert projection 0 p3 {} 0 elevation\[17.0\] {} {} {}
+xth_cp_map_tree_insert map 1 272X1 p1 1 MP-siphon-plan-tot MP-siphon-plan-tot@siphon "siphon" "siphon"
+xth_cp_map_tree_insert map 1 273X1 p2 1 MC-Spel-bivy-coupe-tot MC-Spel-bivy-coupe-tot@siphon "Spel-bivy" "Spel-bivy"
+xth_cp_map_tree_insert map 1 274X1 p3 1 MC-Spel-bivy-coupe-elev-tot MC-Spel-bivy-coupe-elev-tot@siphon "Spel-bivy" "Spel-bivy"
+xth_cp_map_tree_create
+xth_cp_comp_stat 127 11
+set xth(th_exit_state) 1
+set xth(th_exit_number) 1661460466
+

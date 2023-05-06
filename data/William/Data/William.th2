@@ -1,0 +1,115 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -130.0 -130.0 1466.5834 1466.5834
+##XTHERION## xth_me_area_zoom_to 50
+##XTHERION## xth_me_image_insert {944.886 1 1.0} {472.43899999999996 p3.0} William-map.xvi 0 {}
+
+
+
+scrap SP-William-1 -projection plan -station-names "" "@William" -scale [-128.0 -128.0 2175.2452000000003 -128.0 0.0 0.0 58.50242808000001 0.0 m]
+
+line wall -subtype invisible
+  508.0 1028.0
+  773.0 760.0
+endline
+
+line wall -reverse on
+  508.0 1028.0
+  582.0 1107.0
+endline
+
+line wall -subtype invisible
+endline
+
+line wall -reverse on -subtype invisible
+  582.0 1107.0
+  608.0 1134.0 711.0 1234.0 852.0 1242.0
+  smooth off
+endline
+
+point 1016.0 716.0 label -text "P33"
+
+line wall -reverse on -subtype pit
+  852.0 1242.0
+  1018.89 1251.47 1264.0 1152.0 1264.0 1152.0
+  smooth off
+endline
+
+line wall -reverse on -subtype pit
+  1264.0 1152.0
+  1291.35 1134.9 1288.0 1116.0 1292.0 1084.0
+  smooth off
+endline
+
+line wall -reverse on -subtype pit
+  1292.0 1084.0
+  1305.65 974.8 1090.0 790.0 958.0 813.0
+  871.44 828.08 841.0 779.0 773.0 760.0
+  smooth off
+endline
+
+point 849.606 888.979 station -name p3.4
+
+point 934.646 933.069 station -name p3.5
+
+point 995.2760000000001 1021.259 station -name p3.6
+
+point 857.476 974.019 station -name p3.7
+
+point 850.396 1077.1689999999999 station -name p3.8
+
+line pit -close off
+  764.0 1080.0
+  776.0 1028.0 796.0 1024.0 834.0 1016.0
+  872.0 1008.0 912.0 1022.0 918.0 1042.0
+  924.0 1062.0 950.0 1124.0 934.0 1144.0
+  918.0 1164.0 854.0 1180.0 814.0 1156.0
+  774.0 1132.0 756.0 1096.0 764.0 1080.0
+  smooth off
+endline
+
+point 847.246 1049.609 station -name p3.9
+
+endscrap
+
+
+
+scrap SP-William-2 -projection plan -station-names "" "@William" -scale [-128.0 -128.0 2175.2452000000003 -128.0 0.0 0.0 58.50242808000001 0.0 m]
+
+line wall -subtype pit
+  508.0 1028.0
+  461.0 973.0 449.0 953.0 408.0 887.0
+  367.0 821.0 217.0 352.0 211.0 311.0
+  205.0 270.0 176.0 213.0 203.0 204.0
+  230.0 195.0 250.0 285.0 294.0 329.0
+  338.0 373.0 440.0 514.0 473.0 503.0
+  506.0 492.0 587.0 442.0 623.0 395.0
+  659.0 348.0 673.0 315.0 727.0 300.0
+  781.0 285.0 968.0 260.0 1004.0 273.0
+  smooth off
+endline
+
+line wall -reverse on -subtype invisible
+  508.0 1028.0
+  773.0 760.0
+endline
+
+line wall -subtype pit
+  1004.0 273.0
+  1031.0 288.0 1021.0 416.0 1008.0 465.0
+  995.0 514.0 919.0 636.0 831.0 659.0
+  743.0 682.0 747.0 657.0 738.0 667.0
+  729.0 677.0 738.0 750.0 773.0 760.0
+  smooth off
+endline
+
+point 944.886 472.43899999999996 station -name p3.0
+
+point 703.936 577.949 station -name p3.1
+
+point 476.376 517.319 station -name p3.2
+
+point 246.45600000000002 356.68899999999996 station -name p3.3
+
+endscrap
+
+

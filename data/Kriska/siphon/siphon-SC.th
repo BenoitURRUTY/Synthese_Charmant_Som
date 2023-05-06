@@ -1,0 +1,9 @@
+encoding  utf-8
+
+map MC-Spel-bivy-coupe-tot -title "Spel-bivy"
+    SC-siphon-1
+    break
+    SC-siphon-2
+    break
+    SC-siphon-3
+endmap

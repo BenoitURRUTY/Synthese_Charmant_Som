@@ -1,0 +1,36 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -128.0 -127.99999999999999 1072.8824 521.701
+##XTHERION## xth_me_area_zoom_to 100
+##XTHERION## xth_me_image_insert {866.14 1 1.0} {157.485 j1-3.0} jonction-coupe.xvi 0 {}
+
+
+
+scrap SC-jonction -projection extended -station-names "" "@jonction" -scale [-128.0 -128.0 1072.8824 -128.0 0.0 0.0 30.502412959999997 0.0 m]
+
+line wall -close on -subtype invisible
+  256.0 122.0
+  255.0 129.0 131.0 218.0 131.0 218.0
+  smooth off
+  508.0 303.0
+  862.0 150.0
+  881.0 174.0
+  523.0 338.0
+  88.0 226.0
+  230.0 107.0
+  230.0 107.0 257.0 115.0 256.0 122.0
+endline
+
+area water
+endarea
+
+point 866.14 157.485 station -name j1-3.0
+
+point 517.1800000000001 320.475 station -name j1-3.1
+
+point 109.96000000000004 218.895 station -name j1-3.2
+
+point 246.92000000000002 118.895 station -name j1-3.3
+
+endscrap
+
+

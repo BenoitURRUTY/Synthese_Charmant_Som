@@ -1,0 +1,6 @@
+encoding  utf-8
+
+map MP-Puits1-plan-tot -title "Puits1"
+  SP-Puits1-1
+endmap
+

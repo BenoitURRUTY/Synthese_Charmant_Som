@@ -1,0 +1,4 @@
+map MC-boyau-coupe-tot -title "boyau"
+    SC-boyau-1
+    break
+endmap

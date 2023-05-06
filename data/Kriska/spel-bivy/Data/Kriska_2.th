@@ -1,0 +1,510 @@
+# 2021.07.11 created by TopoDroid v 5.1.2
+
+survey Kriska2 -title "Kriska2"
+
+  centerline
+    date 2021.07.10 
+    team "Solveig/Reymond(GUCEM)"
+    team "Benoît/Urruty(GUCEM)"
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
+    extend left
+    bivy1 bivy2 7.65 218.5 83.4
+    # extend auto
+    bivy2 . 0.45 237.2 -27.9
+    bivy2 . 0.33 29.6 -21.0
+    bivy2 . 0.88 109.5 -48.8
+    extend right
+    bivy2 bivy3 1.77 320.1 10.9
+    # extend auto
+    bivy3 . 1.28 223.2 -1.5
+    bivy3 . 0.36 197.9 80.7
+    bivy3 . 0.36 260.0 -71.7
+    extend right
+    bivy3 bivy4 1.48 226.8 13.9 
+    bivy4 . 0.67 319.5 -6.3
+    bivy4 . 0.71 113.1 7.2
+    bivy4 . 0.75 33.3 -3.9
+    bivy4 . 1.28 338.6 79.1
+    extend right
+    bivy4 bivy5 2.07 310.9 51.7
+    # extend auto
+    bivy5 . 0.56 216.3 -13.0
+    bivy5 . 0.73 341.6 -84.9
+    bivy5 . 0.60 191.3 35.1
+    extend vertical
+    bivy5 bivy6 4.48 272.0 32.2
+    # extend auto
+    bivy6 . 0.88 15.2 0.3
+    bivy6 . 1.47 105.0 8.5
+    bivy6 . 0.67 180.7 18.9
+    extend right
+    bivy6 bivy7 3.77 296.8 72.1
+    # extend auto
+    bivy7 . 1.68 146.1 0.2
+    bivy7 . 0.74 202.3 -3.2
+    bivy7 . 0.49 55.0 3.6
+    extend left
+    bivy7 bivy8 3.34 194.3 69.0
+    # extend auto
+    bivy8 . 0.21 269.1 -8.0
+    bivy8 . 0.41 197.2 -16.4
+    extend right
+    bivy8 bivy9 1.21 340.3 0.0
+    # extend auto
+    bivy9 . 0.54 216.8 25.8
+    bivy9 . 0.55 344.7 -81.9
+    extend vertical
+    bivy9 bivy10 2.05 278.8 12.1
+    # extend auto
+    bivy10 . 1.26 129.6 84.4
+    bivy10 . 0.66 152.0 7.7
+    bivy10 . 0.30 64.9 6.6
+    bivy10 . 0.81 67.0 1.0
+    bivy10 . 0.73 51.3 47.0
+    bivy10 . 4.65 5.2 3.6
+    extend right
+    bivy10 bivy11 4.10 4.9 3.4
+    # extend auto
+    bivy11 . 2.57 153.6 -33.9
+    extend left
+    bivy11 bivy12 2.56 148.9 -30.8
+    # extend auto
+    bivy12 . 2.26 130.7 7.4
+    bivy12 . 2.28 42.6 4.4
+    bivy12 . 0.98 210.0 3.0
+    bivy12 . 2.27 333.1 -2.6
+    extend right
+    bivy12 bivy13 9.33 308.9 67.4
+    # extend auto
+    bivy13 . 4.24 141.4 -4.9
+    bivy13 . 4.30 103.6 4.2
+    bivy13 . 3.56 54.3 0.6
+    bivy13 . 4.23 131.2 -0.4
+    bivy13 . 0.99 271.0 13.6
+    extend left
+    bivy13 bivy14 10.85 248.3 73.1
+    # extend auto
+    bivy14 . 1.39 103.1 5.1
+    bivy14 . 3.91 53.5 3.9
+    bivy14 . 1.38 324.7 -0.4
+    bivy14 . 2.98 8.5 2.6
+    extend right
+    bivy14 bivy15 3.78 329.4 59.1 
+    bivy15 . 0.92 206.4 -0.6
+    bivy15 . 0.49 158.4 -1.0
+    bivy15 . 2.42 73.9 3.1
+    bivy15 . 0.84 117.6 -0.6
+    extend right
+    bivy15 bivy16 7.67 306.3 68.2
+    # extend auto
+    bivy16 . 0.84 190.0 -1.4
+    bivy16 . 1.20 176.8 -0.1
+    bivy16 . 2.28 143.6 0.6
+    bivy16 . 0.84 271.4 2.7
+    bivy16 . 3.19 225.5 85.8
+    bivy16 . 3.79 233.0 -80.8
+    extend right
+    bivy16 bivy17 4.29 306.6 52.9
+    # extend auto
+    bivy17 . 5.05 259.3 -1.3
+    bivy17 . 2.37 222.8 -8.0
+    bivy17 . 4.12 279.7 -7.2
+    extend ignore
+    bivy17 bivy18 11.23 284.8 51.9
+    # extend auto
+    bivy18 . 2.74 42.9 4.3
+    bivy18 . 5.22 106.9 1.3
+    bivy18 . 6.48 124.3 -1.5
+    bivy18 . 2.85 148.7 1.4
+    bivy18 . 5.33 63.6 59.1
+    bivy18 . 8.69 115.0 52.6
+    bivy18 . 7.14 204.4 58.3
+    bivy18 . 4.74 81.9 -38.1
+    extend right
+    bivy18 bivy19 13.47 306.5 76.7
+    bivy19 . 0.59 63.8 -1.2
+    bivy19 . 1.52 64.5 22.9
+    bivy19 . 6.82 53.5 76.0
+    bivy19 . 2.37 69.5 61.7
+    bivy19 . 4.51 341.1 5.5
+    bivy19 . 2.09 169.6 0.4
+    extend right
+    bivy19 bivy20 5.19 346.9 2.1
+    # extend auto
+    bivy20 . 2.07 95.5 -0.4
+    bivy20 . 3.64 17.1 -5.2
+    bivy20 . 3.42 40.2 -3.5
+    bivy20 . 3.17 199.2 -10.2
+    bivy20 . 2.47 156.8 6.9
+    bivy20 . 2.76 180.4 0.7
+    bivy20 . 2.53 58.5 -73.4
+    extend right
+    bivy20 bivy21 10.24 9.6 72.2
+    # extend auto
+    bivy21 . 2.77 185.2 0.7
+    bivy21 . 0.47 244.0 16.0
+    bivy21 . 1.17 332.1 12.7
+    bivy21 . 4.43 347.6 5.1
+    bivy21 . 1.98 0.7 5.7
+    bivy21 . 3.77 64.3 81.3
+    bivy21 . 3.90 13.6 69.3
+    extend right
+    bivy21 bivy22 3.72 356.8 47.9
+    # extend auto
+    bivy22 . 2.26 150.3 -0.7
+    bivy22 . 2.96 249.2 85.1
+    bivy22 . 0.89 61.0 2.3
+    bivy22 . 1.50 99.8 54.1
+    extend right
+    bivy22 bivy23 4.21 345.2 35.5
+    # extend auto
+    bivy23 . 1.51 333.1 3.4
+    bivy23 . 1.08 220.5 -17.8
+    bivy23 . 1.26 267.1 10.0
+    bivy23 . 2.00 288.2 -6.7
+    bivy23 . 1.88 284.6 -50.9
+    bivy23 . 2.62 267.8 74.5
+    extend vertical
+    bivy23 bivy24 4.85 279.4 46.2
+    # extend auto
+    bivy24 . 1.48 315.3 2.2
+    bivy24 . 1.28 347.0 5.1
+    bivy24 . 1.41 55.6 0.1
+    bivy24 . 1.98 350.4 56.3
+    bivy24 . 1.49 267.6 -72.2
+    extend right
+    bivy24 bivy25 5.48 308.4 28.5
+    # extend auto
+    bivy25 . 1.06 48.7 21.4
+    bivy25 . 4.30 133.1 88.3
+    bivy25 . 2.78 20.0 -73.8
+    bivy25 . 3.70 95.0 33.6
+    extend right
+    bivy25 bivy26 5.94 331.6 15.0
+    # extend auto
+    bivy26 . 0.47 81.4 36.2
+    bivy26 . 0.75 221.5 0.8
+    bivy26 . 6.72 114.5 85.0
+    bivy26 . 3.16 286.3 8.6
+    bivy26 . 7.94 162.5 7.6
+    bivy26 . 1.75 146.3 4.0
+    bivy26 . 1.51 183.6 1.7
+    extend right
+    bivy26 bivy27 8.34 317.2 70.7
+    # extend auto
+    bivy27 . 2.08 198.5 3.3
+    bivy27 . 3.96 248.8 5.6
+    bivy27 . 3.50 221.6 5.4
+    bivy27 . 3.11 119.0 4.0
+    bivy27 . 4.80 99.3 -0.1
+    bivy27 . 4.01 160.8 56.2
+    bivy27 . 6.68 155.2 78.8
+    bivy27 . 2.48 195.4 -57.5
+    extend left
+    bivy27 bivy28 10.20 237.9 80.5
+    # extend auto
+    bivy28 . 0.87 352.0 65.0
+    bivy28 . 0.83 100.3 -29.8
+    bivy28 . 11.88 208.9 -83.5
+    bivy28 . 1.14 347.7 0.7
+    extend right
+    bivy28 bivy29 3.64 303.5 12.2
+    # extend auto
+    bivy29 . 2.40 80.7 15.8
+    bivy29 . 2.40 63.7 1.3
+    bivy29 . 1.87 127.3 6.7
+    bivy29 . 1.52 225.7 11.1
+    bivy29 . 4.25 313.7 4.5
+    bivy29 . 3.17 299.6 -1.1
+    bivy29 . 5.97 343.4 1.0
+    bivy29 . 14.65 292.8 87.6
+    bivy29 . 4.09 340.1 -29.3
+    bivy29 . 14.39 17.0 70.4
+    extend right
+    bivy29 bivy30 14.34 12.0 70.3
+    # extend auto
+    bivy30 . 1.21 189.3 5.6
+    bivy30 . 3.97 220.4 6.4
+    bivy30 . 4.55 242.7 5.5
+    bivy30 . 3.66 293.8 -0.8
+    bivy30 . 7.96 266.6 -2.2
+    bivy30 . 5.13 246.4 -3.4
+    bivy30 . 9.46 277.4 63.0
+    bivy30 . 14.61 253.1 -75.2
+    bivy30 . 11.06 31.9 80.9
+    bivy30 . 9.49 38.8 77.9
+    bivy30 . 4.12 54.2 8.3
+    bivy30 . 2.70 346.3 -1.5
+    bivy30 . 4.59 240.6 -0.2
+    bivy30 . 4.16 274.6 -1.7
+    extend vertical
+    bivy30 bivy31 18.41 276.7 85.2
+    # extend auto
+    bivy31 . 2.90 15.6 -1.2
+    bivy31 . 5.41 95.3 2.4
+    bivy31 . 5.69 60.6 -6.5
+    bivy31 . 4.17 48.7 -12.9
+    bivy31 . 3.47 320.9 2.6
+    bivy31 . 2.69 0.3 -1.0
+    bivy31 . 5.88 22.7 59.3
+    bivy31 . 5.85 12.3 -76.9
+    extend right
+    bivy31 bivy32 25.43 315.0 82.6
+    bivy32 . 1.70 229.9 -0.7
+    bivy32 . 2.50 165.7 -2.1
+    bivy32 . 4.72 135.7 0.2
+    bivy32 . 3.19 105.3 16.7
+    bivy32 . 3.42 81.4 36.4
+    bivy32 . 5.88 97.3 72.3
+    bivy32 . 5.99 135.5 -25.1
+    bivy32 . 6.02 265.6 -62.3
+    bivy32 . 3.62 321.8 -64.8
+    bivy32 . 2.02 201.3 -42.3
+    extend left
+    bivy32 bivy33 6.79 248.2 80.6
+    #ivy32 . 17.57 247.5 80.3 balise?
+    #bivy32 . 6.85 246.0 80.4
+    bivy33 . 1.06 43.8 -1.4
+    bivy33 . 2.72 97.1 -1.1
+    bivy33 . 0.93 144.1 -3.5
+    bivy33 . 2.51 138.8 69.4
+    bivy33 . 1.24 0.7 68.6
+    bivy33 . 0.60 291.2 -4.2
+    bivy33 . 0.82 354.7 2.8
+    extend left
+    bivy33 bivy34 2.92 300.1 -21.1
+    # extend auto
+    bivy34 . 0.73 181.8 1.3
+    bivy34 . 1.37 201.0 71.5
+    bivy34 . 3.71 147.5 -82.6
+    bivy34 . 2.00 258.0 -8.4
+    bivy34 . 1.14 107.7 -6.8
+    extend left
+    bivy34 bivy35 4.56 243.6 21.7
+    # extend auto
+    bivy35 . 0.27 160.0 1.6
+    bivy35 . 0.28 320.3 10.4
+    bivy35 . 2.32 54.2 76.9
+    bivy35 . 1.01 217.7 -76.0
+    bivy35 . 3.72 279.6 46.4
+    extend right
+    bivy35 bivy36 2.77 290.5 50.2
+    # extend auto
+    bivy36 . 0.87 166.9 4.9
+    bivy36 . 1.12 120.5 6.3
+    bivy36 . 1.01 89.5 11.5
+    bivy36 . 1.77 251.4 5.1
+    bivy36 . 2.41 154.1 -75.4
+    bivy36 . 8.72 260.4 86.0
+    extend left
+    bivy36 bivy37 8.33 243.0 63.3
+    # extend auto
+    bivy37 . 4.30 76.1 -5.4
+    bivy37 . 3.88 347.5 81.7
+    bivy37 . 0.40 174.9 5.0
+    bivy37 . 0.67 13.4 -7.0
+    bivy37 . 1.05 282.4 0.2
+    bivy37 . 3.66 289.2 0.4
+    bivy37 . 0.97 301.6 3.4
+    bivy37 . 2.43 283.0 -58.9
+    extend vertical
+    bivy37 bivy38 8.20 271.1 63.2
+    # extend auto
+    bivy38 . 3.37 353.4 -2.8
+    bivy38 . 3.13 28.5 -30.1
+    bivy38 . 1.70 5.5 43.7
+    bivy38 . 0.74 184.1 11.3
+    bivy38 . 0.65 116.6 -6.7
+    bivy38 . 3.13 110.5 -34.2
+    bivy38 . 1.41 312.1 78.4
+    bivy38 . 0.95 314.4 -0.8
+    extend left
+    bivy38 bivy39 3.00 219.9 32.6
+    # extend auto
+    bivy39 . 0.60 1.7 -5.7
+    bivy39 . 0.24 13.8 52.9
+    bivy39 . 1.85 22.7 -77.4
+    bivy39 . 0.73 350.5 -42.4
+    extend left
+    bivy39 bivy40 2.91 241.7 14.5
+    # extend auto
+    bivy40 . 0.57 345.3 12.1
+    bivy40 . 2.52 74.6 2.0
+    bivy40 . 0.24 227.3 17.2
+    bivy40 . 2.22 186.8 12.3
+    bivy40 . 0.62 334.1 11.3
+    bivy40 . 3.12 100.3 5.3
+    bivy40 . 1.57 137.7 16.5
+    bivy40 . 7.31 85.3 74.2
+    bivy40 . 5.64 272.4 75.5
+    bivy40 . 3.86 76.0 -36.3
+    extend ignore
+    bivy40 bivy41 18.76 13.3 79.5
+    # extend auto
+    bivy41 . 1.31 274.4 -0.8
+    bivy41 . 2.22 181.0 17.9
+    bivy41 . 0.85 144.0 21.2
+    bivy41 . 3.53 148.5 -44.0
+    bivy41 . 3.70 190.8 -47.4
+    bivy41 . 2.72 191.0 49.9
+    bivy41 . 5.13 260.5 69.5
+    extend right
+    bivy41 bivy42 6.28 295.9 71.4
+    # extend auto
+    bivy42 . 1.48 115.6 -1.0
+    bivy42 . 2.14 299.9 13.4
+    bivy42 . 1.72 350.5 8.6
+    bivy42 . 1.55 326.3 -27.3
+    bivy42 . 1.33 35.8 9.6
+    bivy42 . 1.59 96.1 9.3
+    bivy42 . 2.74 137.5 -35.0
+    bivy42 . 1.55 322.0 -63.6
+    extend right
+    bivy42 bivy43 13.32 307.9 71.9
+    # extend auto
+    bivy43 . 0.86 238.2 7.9
+    bivy43 . 6.29 330.8 80.8
+    bivy43 . 3.56 331.2 25.9
+    bivy43 . 3.43 315.4 29.2
+    bivy43 . 1.27 158.9 49.0
+    bivy43 . 1.14 169.4 -15.4
+    extend right
+    bivy43 bivy44 3.83 315.4 7.3
+    # extend auto
+    bivy44 . 0.50 39.8 -4.0
+    bivy44 . 4.50 53.9 81.4
+    bivy44 . 3.73 132.8 18.6
+    bivy44 . 1.83 350.4 -80.4
+    bivy44 . 2.42 135.6 -28.8
+    bivy44 . 4.52 305.4 -0.8
+    bivy44 . 3.10 328.4 -2.6
+    bivy44 . 2.09 337.0 -4.3
+    bivy44 . 0.68 348.5 -2.1
+    bivy44 . 10.33 277.9 -75.9
+    bivy44 . 4.06 328.3 -51.6
+    bivy44 . 3.05 327.3 6.0
+    bivy44 . 6.09 291.7 -40.9
+    bivy44 . 6.37 294.7 -41.4
+    extend right
+    bivy44 bivy45 4.06 315.5 43.5
+    # extend auto
+    bivy45 . 0.59 233.7 1.1
+    bivy45 . 2.41 146.1 11.0
+    bivy45 . 0.62 89.7 3.8
+    bivy45 . 1.88 300.8 3.3
+    bivy45 . 2.53 270.4 -0.3
+    bivy45 . 12.96 165.0 -82.6
+    bivy45 . 5.30 81.0 -80.0
+    bivy45 . 3.35 140.9 60.2
+    extend right
+    bivy45 bivy46 5.50 325.8 70.1
+    # extend auto
+    bivy46 . 0.51 211.1 -1.5
+    bivy46 . 0.86 173.1 61.4
+    bivy46 . 0.63 277.4 19.3
+    bivy46 . 0.97 143.5 5.6
+    bivy46 . 1.91 246.4 -80.1
+    extend vertical
+    bivy46 bivy47 1.30 263.8 34.8
+    # extend auto
+    bivy47 . 0.40 125.2 -11.6
+    bivy47 . 0.60 128.9 -37.3
+    bivy47 . 0.64 169.5 -73.8
+    bivy47 . 0.29 157.4 74.5
+    extend left
+    bivy47 bivy48 2.52 207.8 5.8
+    # extend auto
+    bivy48 . 0.99 218.4 24.0
+    bivy48 . 1.25 305.1 77.2
+    bivy48 . 0.32 94.7 38.4
+    bivy48 . 1.54 290.5 4.7
+    bivy48 . 0.93 247.7 9.1
+    bivy48 . 2.01 291.8 45.0
+    bivy48 . 2.86 245.2 44.7
+    bivy48 . 3.40 261.3 60.3
+    bivy48 . 4.51 270.1 9.1
+    extend vertical
+    bivy48 bivy49 8.21 265.6 26.5
+    # extend auto
+    bivy49 . 4.52 91.6 2.8
+    bivy49 . 5.46 123.7 5.6
+    bivy49 . 4.25 141.6 4.9
+    bivy49 . 2.06 60.5 1.3
+    bivy49 . 1.39 353.8 5.7
+    bivy49 . 3.94 89.4 -48.6
+    bivy49 . 5.64 103.7 58.7
+    bivy49 . 6.64 141.6 45.1
+    bivy49 . 4.10 55.0 58.5
+    extend left
+    bivy49 bivy50 4.16 106.3 -5.4
+    # extend auto
+    bivy50 . 3.33 263.5 -3.3
+    bivy50 . 4.90 298.3 5.8
+    bivy50 . 2.31 336.4 28.0
+    bivy50 . 2.62 186.3 -10.7
+    bivy50 . 2.08 253.8 76.4
+    extend left
+    bivy50 bivy51 16.90 256.8 76.3
+    bivy51 . 2.14 173.3 -5.2
+    bivy51 . 4.32 129.3 -4.6
+    bivy51 . 0.27 97.4 -0.8
+    bivy51 . 3.14 102.9 3.7
+    bivy51 . 2.13 261.1 7.2
+    bivy51 . 4.93 98.7 -48.6
+    bivy51 . 2.76 171.3 -27.0
+    bivy51 . 3.19 182.9 39.6
+    bivy51 . 3.73 120.9 42.1
+    bivy51 . 5.35 241.7 53.5
+    extend left
+    bivy51 bivy52 10.99 238.1 77.0
+    # extend auto
+    bivy52 . 0.14 206.7 39.3
+    bivy52 . 0.57 350.7 6.6
+    bivy52 . 5.57 193.8 86.0
+    bivy52 . 10.08 158.3 82.7
+    bivy52 . 2.26 298.4 -1.7
+    bivy52 . 0.30 201.1 13.3
+    bivy52 . 3.33 171.5 64.7
+    bivy52 . 4.36 237.0 -75.4
+    bivy52 . 3.44 273.3 -60.4
+    extend right
+    bivy52 bivy53 4.86 287.8 25.3
+    # extend auto
+    bivy53 . 0.61 157.8 9.8
+    bivy53 . 1.14 158.5 36.8
+    bivy53 . 4.41 134.1 78.1
+    bivy53 . 0.57 96.4 1.2
+    bivy53 . 2.12 86.5 -71.9
+    bivy53 . 9.35 239.5 80.1
+    extend left
+    bivy53 bivy54 4.61 225.1 24.6
+    # extend auto
+    bivy54 . 2.93 168.5 -0.2
+    bivy54 . 1.64 246.1 27.4
+    bivy54 . 2.31 337.3 19.0
+    bivy54 . 1.78 76.5 2.8
+    bivy54 . 25.78 165.3 77.2
+    bivy54 . 1.55 142.7 -19.7
+    bivy54 . 1.75 347.9 -30.3
+    extend left
+    bivy54 bivy55 3.92 147.4 -0.9
+    # extend auto
+    bivy55 . 1.31 63.6 0.9
+    bivy55 . 1.45 23.7 -7.0
+    bivy55 . 0.44 337.9 6.0
+    bivy55 . 2.94 337.3 -4.3
+    bivy55 . 8.79 65.2 86.1
+    extend vertical
+    bivy55 bivy56 1.62 88.7 -31.6
+    # extend auto
+    bivy56 . 0.67 177.9 -2.3
+    bivy56 . 0.49 16.1 -7.9
+    bivy56 . 1.77 168.8 -70.5
+    bivy56 . 0.38 151.9 50.9
+  endcenterline
+
+
+
+endsurvey

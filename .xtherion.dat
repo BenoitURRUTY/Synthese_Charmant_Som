@@ -1,0 +1,15 @@
+set xth(ctrl,cp,datlist) {}
+xth_cp_data_tree_insert 1 {} 0   "" "" "length: 678.32m (surface 0.00m, duplicated 0.00m)\nvertical range: 499.70m (from 0@Kriska1.ded at 1579.00m to bivy1@Kriska2.ded at 1079.30m)\nnorth-south range: 51.11m (from bivy46@Kriska2.ded at 2042046.62m to bivy2@Kriska2.ded at 2041995.51m)\neast-west range: 173.42m (from bivy1@Kriska2.ded at 869301.64m to 0@Kriska1.ded at 869128.22m)\nnumber of shots: 695\nnumber of stations: 697"
+xth_cp_data_tree_insert 33 1 1 ded ded "Réseau Ded" "Reseau Ded" "length: 678.32m (surface 0.00m, duplicated 0.00m)\nvertical range: 499.70m (from 0@Kriska1.ded at 1579.00m to bivy1@Kriska2.ded at 1079.30m)\nnorth-south range: 51.11m (from bivy46@Kriska2.ded at 2042046.62m to bivy2@Kriska2.ded at 2041995.51m)\neast-west range: 173.42m (from bivy1@Kriska2.ded at 869301.64m to 0@Kriska1.ded at 869128.22m)\nnumber of shots: 695\nnumber of stations: 697"
+xth_cp_data_tree_insert 35 33 2 Kriska1 Kriska1.ded "Kriska1" "Kriska1" "length: 312.91m (surface 0.00m, duplicated 0.00m)\nvertical range: 221.48m (from 0@Kriska1.ded at 1579.00m to 52@Kriska1.ded at 1357.52m)\nnorth-south range: 15.34m (from 26@Kriska1.ded at 2042045.75m to 15@Kriska1.ded at 2042030.41m)\neast-west range: 75.80m (from 52@Kriska1.ded at 869204.02m to 0@Kriska1.ded at 869128.22m)\nnumber of shots: 307\nnumber of stations: 308"
+xth_cp_data_tree_insert 39 33 2 Kriska2 Kriska2.ded "Kriska2" "Kriska2" "length: 365.41m (surface 0.00m, duplicated 0.00m)\nvertical range: 279.13m (from bivy54@Kriska2.ded at 1358.43m to bivy1@Kriska2.ded at 1079.30m)\nnorth-south range: 51.11m (from bivy46@Kriska2.ded at 2042046.62m to bivy2@Kriska2.ded at 2041995.51m)\neast-west range: 101.25m (from bivy1@Kriska2.ded at 869301.64m to bivy54@Kriska2.ded at 869200.39m)\nnumber of shots: 388\nnumber of stations: 389"
+xth_cp_data_tree_create
+set xth(ctrl,cp,maplist) {}
+xth_cp_map_tree_insert projection 0 p1 {} 0 plan {} {} {}
+xth_cp_map_tree_insert projection 0 p2 {} 0 extended {} {} {}
+xth_cp_map_tree_insert projection 0 p3 {} 0 elevation {} {} {}
+xth_cp_map_tree_create
+xth_cp_comp_stat 678 0
+set xth(th_exit_state) 2
+set xth(th_exit_number) 1626128809
+

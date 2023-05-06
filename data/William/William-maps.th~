@@ -1,0 +1,13 @@
+encoding  utf-8
+
+map MP-William-plan-tot -title "William"
+    SP-William-1
+    break
+    SP-William-2
+endmap
+
+map MC-William-coupe-tot -title "William"
+    SC-William-1
+    break
+    SP-William-2
+endmap

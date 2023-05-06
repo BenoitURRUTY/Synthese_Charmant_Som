@@ -1,0 +1,14 @@
+set xth(ctrl,cp,datlist) {}
+xth_cp_data_tree_insert 1 {} 0   "" "" "length: 98.05m (surface 0.00m, duplicated 0.00m)\nvertical range: 7.83m (from 0@enclos.enclos at 787.83m to 27@enclos.enclos at 780.00m)\nnorth-south range: 74.96m (from 27@enclos.enclos at 5026129.00m to 0@enclos.enclos at 5026054.04m)\neast-west range: 18.23m (from 0@enclos.enclos at 249308.13m to 25@enclos.enclos at 249289.90m)\nnumber of shots: 137\nnumber of stations: 137"
+xth_cp_data_tree_insert 48 1 1 enclos enclos "Enclos" "Enclos" "length: 98.05m (surface 0.00m, duplicated 0.00m)\nvertical range: 7.83m (from 0@enclos.enclos at 787.83m to 27@enclos.enclos at 780.00m)\nnorth-south range: 74.96m (from 27@enclos.enclos at 5026129.00m to 0@enclos.enclos at 5026054.04m)\neast-west range: 18.23m (from 0@enclos.enclos at 249308.13m to 25@enclos.enclos at 249289.90m)\nnumber of shots: 137\nnumber of stations: 137"
+xth_cp_data_tree_insert 50 48 2 enclos enclos.enclos "Enclos" "Enclos" "length: 98.05m (surface 0.00m, duplicated 0.00m)\nvertical range: 7.83m (from 0@enclos.enclos at 787.83m to 27@enclos.enclos at 780.00m)\nnorth-south range: 74.96m (from 27@enclos.enclos at 5026129.00m to 0@enclos.enclos at 5026054.04m)\neast-west range: 18.23m (from 0@enclos.enclos at 249308.13m to 25@enclos.enclos at 249289.90m)\nnumber of shots: 137\nnumber of stations: 137"
+xth_cp_data_tree_create
+set xth(ctrl,cp,maplist) {}
+xth_cp_map_tree_insert projection 0 p1 {} 0 plan {} {} {}
+xth_cp_map_tree_insert projection 0 p2 {} 0 extended {} {} {}
+xth_cp_map_tree_insert projection 0 p3 {} 0 elevation {} {} {}
+xth_cp_map_tree_create
+xth_cp_comp_stat 98 1
+set xth(th_exit_state) 1
+set xth(th_exit_number) 1647643786
+

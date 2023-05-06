@@ -1,0 +1,22 @@
+encoding  utf-8
+
+map MP-Corneilles-plan-tot -title "Corneilles"
+    SP-FT-0
+    break
+    SP-FT-1
+    break
+    SP-FT-2
+    break
+    SP-FT-3
+    break
+    SP-FT-4
+    break
+    SP-FT-5
+    break
+    SP-FT-6
+    break
+    SP-FT-7
+    break
+    SP-FT-8
+    break
+endmap

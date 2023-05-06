@@ -1,0 +1,11 @@
+encoding  utf-8
+
+map MP-SE-plan-tot -title "SE"
+    SP-SE-2
+    break
+    SP-SE-1
+    break
+    SP-SE-3
+    break
+    SP-SE-4
+endmap

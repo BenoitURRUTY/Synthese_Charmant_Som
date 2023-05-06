@@ -1,0 +1,19 @@
+encoding  utf-8
+
+map MC-Kriska-tot-elev -title "Kriska"
+    
+    MC-Escalade_speleoloques-coupe-tot-elev@Escalade_speleoloques
+    break
+    MC-Kriska-spel-coupe-tot-elev@Kriska-spel
+    break
+    MC-spel-bivy-coupe-elev-tot@spel-bivy
+    break
+    MC-fond-coupe-elev-tot@fond
+    break 
+    MC-Escalade1-coupe-elev-tot@Escalade1
+    break
+    MC-boyau-elev-tot@boyau
+    break
+    MC-Spel-bivy-coupe-elev-tot@siphon
+    
+endmap

@@ -1,0 +1,6 @@
+#map MP-Aura-plan-tot -title "Aura"
+#endmap
+
+map MC-Aura-coupe-tot -title "Aura"
+    SC-aura-1
+endmap

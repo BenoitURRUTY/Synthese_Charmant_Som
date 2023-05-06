@@ -1,0 +1,64 @@
+# 2022.10.01 created by TopoDroid v 5.1.40
+
+survey escalade_speleoloques -title "escalade_speleoloques"
+
+  centerline
+    date 2022.10.01 
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
+    
+    # extend auto
+    es.2 . 10.76 233.1 72.7
+    es.2 . 10.81 235.2 68.5
+    es.2 . 12.69 235.7 66.5
+    es.2 . 17.24 235.3 75.6
+    es.2 . 8.75 173.6 74.5
+    es.2 . 1.11 172.0 5.5
+    es.2 . 2.05 141.0 0.9
+    es.2 . 3.11 121.6 -2.5
+    es.2 . 3.94 109.5 -0.0
+    es.2 . 3.66 96.2 -1.1
+    es.2 . 9.39 131.0 60.7
+    es.2 . 5.67 130.1 40.7
+    es.2 . 4.26 132.4 15.3
+    es.2 . 2.56 116.4 2.3
+    es.2 . 2.59 113.8 2.8
+    extend ignore
+    es.2 es.3 2.58 112.5 2.7
+    # extend auto
+    es.3 . 1.38 296.6 -9.0
+    es.3 . 3.30 304.7 -9.2
+    es.3 . 2.66 324.9 -8.4
+    es.3 . 2.25 342.6 -6.3
+    es.3 . 2.09 5.3 10.8
+    es.3 . 2.38 73.4 4.1
+    es.3 . 3.09 37.2 3.8
+    extend right
+    es.3 es.4 5.25 1.2 1.0
+    # extend auto
+    es.4 . 1.52 214.0 -6.0
+    es.4 . 4.78 193.6 -66.4
+    es.4 . 1.61 164.2 -39.5
+    es.4 . 1.37 149.2 -12.2
+    es.4 . 1.77 42.2 -62.1
+    extend right
+    es.4 es.5 3.01 318.7 -55.6
+    # extend auto
+    es.5 . 0.53 217.7 0.8
+    es.5 . 0.74 214.5 58.4
+    es.5 . 1.52 200.2 -79.2
+    es.5 . 1.95 252.3 81.2
+    es.5 . 1.14 302.5 17.7
+    extend right
+    es.5 es.6 1.14 306.1 -6.7
+    extend ignore
+    es.6 es.7 16.61 10.7 -71.6
+    extend left
+    es.7 es.1 9.20 304.6 -66.0
+    extend right
+    es.1 es.0 2.48 111.8 -56.8
+    
+  endcenterline
+
+endsurvey

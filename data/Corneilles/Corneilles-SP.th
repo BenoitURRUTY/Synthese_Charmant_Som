@@ -1,0 +1,17 @@
+encoding  utf-8
+
+map MP-Corneilles-plan-tot -title "Corneilles"
+    SP-Corneilles-6
+    break
+    SP-Corneilles-4
+    break
+    SP-Corneilles-5
+    break
+    SP-Corneilles-3
+    break
+    SP-Corneilles-1
+    break
+    SP-Corneilles-2
+    
+    
+endmap

@@ -1,0 +1,46 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -1068.0 -368.0 5250.9954 8234.4612
+##XTHERION## xth_me_area_zoom_to 50
+##XTHERION## xth_me_image_insert {815.4899999999998 1 1.0} {828.5 0@Corneilles.Corneilles} Corneilles-coupe.xvi 0 {}
+
+
+
+scrap scrap1 -scale [-128.0 -128.0 5009.8924 -128.0 0.0 0.0 130.50246696 0.0 m]
+
+point 1972.4499999999998 5118.110000000001 station -name 16
+
+point 1836.83 4200.0 station -name 15
+
+point 1946.1299999999999 4063.0 station -name 14
+
+point 1727.8799999999999 3705.51 station -name 13
+
+point 1846.4099999999999 3445.67 station -name 12
+
+point 1176.6999999999998 2523.63 station -name 11
+
+point 1176.6999999999998 2260.63 station -name 10
+
+point 1045.33 2056.7000000000003 station -name 9
+
+point 1104.07 1992.92 station -name 8
+
+point 1104.07 1651.18 station -name 7
+
+point 1104.07 1520.4800000000002 station -name 6
+
+point 1104.07 1382.68 station -name 5
+
+point 929.9499999999998 896.0700000000002 station -name 4
+
+point 1253.2199999999998 938.5900000000001 station -name 3
+
+point 986.77 874.02 station -name 2
+
+point 869.56 879.5300000000002 station -name 1
+
+point 814.56 832.29 station -name 0
+
+endscrap
+
+

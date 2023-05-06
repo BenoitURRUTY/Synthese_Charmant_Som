@@ -1,0 +1,15 @@
+encoding  utf-8
+
+map MP-fond-plan-tot -title "fond"
+    SP-fond-1
+    break
+    SP-fond-2
+    break
+    SP-fond-3
+    break
+    SP-fond-4
+    break
+    SP-fond-5
+    break
+endmap
+

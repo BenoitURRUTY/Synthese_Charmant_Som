@@ -1,0 +1,14 @@
+encoding  utf-8
+
+map MP-siphon-plan-tot -title "siphon"
+    SP-siphon-4
+    break
+    SP-siphon-3
+    break
+    SP-siphon-2
+    break
+    SP-siphon-1
+    break
+    SP-siphon-5
+endmap
+

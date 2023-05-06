@@ -1,0 +1,7 @@
+encoding  utf-8
+
+map MP-Valombre-coupe-tot -title "Valombre"
+    SC-Valombre-1
+    break
+    SC-Valombre-2
+endmap

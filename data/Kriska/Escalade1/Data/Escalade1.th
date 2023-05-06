@@ -1,0 +1,83 @@
+encoding  utf-8
+# 2021.07.11 created by TopoDroid v 5.1.2
+
+survey Escalade1 -title "Escalade1"
+
+  centerline
+    explo-date 2021.07.10
+    explo-team "Solveig/Reymond(GUCEM)"
+    explo-team "Benoît/Urruty(GUCEM)"
+    date 2021.07.10 
+    team "Solveig/Reymond(GUCEM)"
+    team "Benoît/Urruty(GUCEM)"
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
+    # extend auto
+    bivouac . 0.61 217.9 4.4
+    bivouac . 1.33 104.4 15.2
+    bivouac . 2.08 35.3 3.3
+    bivouac . 2.79 69.9 4.7
+    bivouac . 1.02 149.3 -63.5
+    bivouac . 4.09 341.3 84.2
+    extend left
+    bivouac bivouad 5.89 133.9 62.4
+    # extend auto
+    bivouad . 0.43 253.9 -8.3
+    bivouad . 0.26 267.6 43.3
+    bivouad . 1.50 268.2 -81.7
+    extend left
+    bivouad bivouae 1.03 197.3 2.4
+    # extend auto
+    bivouae . 0.39 71.3 7.0
+    bivouae . 0.57 114.2 86.7
+    bivouae . 1.51 97.7 -57.5
+    bivouae . 0.50 119.5 -77.4
+    extend left
+    bivouae bivouaf 1.97 163.7 15.4
+    # extend auto
+    bivouaf . 0.60 313.0 -0.7
+    bivouaf . 1.75 59.1 -78.5
+    bivouaf . 1.08 304.3 57.4
+    bivouaf . 0.48 221.4 -1.9
+    bivouaf . 0.12 274.1 10.5
+    extend vertical
+    bivouaf bivouag 5.65 274.5 11.1
+    # extend auto
+    bivouag . 2.63 4.8 6.2
+    bivouag . 1.52 318.2 9.2
+    bivouag . 4.50 329.1 79.0
+    bivouag . 0.88 8.0 -88.7
+    bivouag . 1.59 152.8 2.4
+    bivouag . 1.62 66.0 1.2
+    extend right
+    bivouag bivouah 2.71 28.9 -13.4
+    # extend auto
+    bivouah . 2.48 219.2 1.6
+    bivouah . 0.69 169.0 0.9
+    bivouah . 3.75 222.3 54.6
+    bivouah . 1.39 216.7 -81.9
+    bivouah . 3.68 257.9 61.9
+    extend left
+    bivouah bivouai 8.48 107.9 -72.3
+    # extend auto
+    bivouai . 0.78 77.5 14.3
+    bivouai . 1.19 330.5 9.1
+    extend right
+    bivouai bivouaj 1.45 23.0 9.5
+    # extend auto
+    bivouaj . 0.74 157.0 -12.0
+    bivouaj . 0.34 249.3 1.7
+    bivouaj . 2.59 192.8 62.1
+    bivouaj . 1.55 82.4 -82.4
+    extend left
+    bivouaj bivouak 1.20 115.1 -36.7
+    # extend auto
+    bivouak . 13.69 115.0 -72.9
+    bivouak . 6.77 102.2 -76.5
+  endcenterline
+
+
+
+endsurvey
+

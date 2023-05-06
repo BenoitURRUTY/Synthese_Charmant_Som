@@ -1,0 +1,32 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -128.0 -128.0 364.2206 1006.0
+##XTHERION## xth_me_area_zoom_to 100
+##XTHERION## xth_me_image_insert {78.741 1 1.0} {866.14 j1-3.0} jonction-map.xvi 0 {}
+
+
+
+scrap SP-jonction -projection plan -station-names "" "@jonction" -scale [-128.0 -128.0 1072.8824 -128.0 0.0 0.0 30.502412959999997 0.0 m]
+
+line wall -close on -subtype invisible
+  78.0 195.0
+  200.0 97.0
+  164.0 517.0
+  92.0 874.0
+  59.0 863.0
+  128.0 522.0
+  174.0 164.0
+  94.0 227.0
+  78.0 195.0
+endline
+
+point 85.83099999999999 210.24 station -name j1-3.3
+
+point 193.0 119.0 station -name j1-3.2
+
+point 145.671 523.62 station -name j1-3.1
+
+point 78.741 866.14 station -name j1-3.0
+
+endscrap
+
+

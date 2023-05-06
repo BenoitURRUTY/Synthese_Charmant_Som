@@ -1,0 +1,8 @@
+encoding  utf-8
+
+map MP-boyau-plan-tot -title "Boyau"
+    SP-boyau-1
+    break
+endmap
+
+

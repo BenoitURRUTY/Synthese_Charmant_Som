@@ -1,0 +1,5 @@
+map MC-fond-coupe-tot -title "fond"
+    SC-fond-1
+    break
+    SC-fond-2
+endmap

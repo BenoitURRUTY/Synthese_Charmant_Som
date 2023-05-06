@@ -1,0 +1,10 @@
+encoding  utf-8
+
+
+map MP-Vire-plan-tot -title "Vire"
+  SP-Vire-1
+  break
+  SP-Vire-2
+  break
+  SP-Vire-3
+endmap

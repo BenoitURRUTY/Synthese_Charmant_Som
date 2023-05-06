@@ -1,0 +1,17 @@
+encoding  utf-8
+
+map MC-spel-bivy-coupe-tot -title "Spel-bivy"
+    SC-spel-bivy-1
+    break
+    SC-spel-bivy-2
+    break
+    SC-spel-bivy-3
+    break
+    SC-spel-bivy-4
+    break
+    SC-spel-bivy-5
+    break
+    SC-spel-bivy-6
+    break
+    SC-spel-bivy-7
+endmap

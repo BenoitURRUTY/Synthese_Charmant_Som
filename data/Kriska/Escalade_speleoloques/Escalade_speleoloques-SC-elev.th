@@ -1,0 +1,6 @@
+encoding  utf-8
+
+map MC-Escalade_speleoloques-coupe-tot-elev -title "Escalade_speleoloques"
+    SC-ES-elev-1
+    break
+endmap
