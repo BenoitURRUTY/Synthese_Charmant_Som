@@ -1,4 +1,4 @@
-# Base de données Topographiques du systèmes karstiques du massif du Charmant Som (Saint Pierre de Chartreuse, 38, France)
+# Base de données topographiques du systèmes karstiques du massif du Charmant Som (Saint Pierre de Chartreuse, 38, France)
 
 
 
@@ -10,7 +10,7 @@ Cela comprend :
 
 - le réseau Ded
 - le Trou qui pique 
-- La résurgence de la porte de l’Enclos
+- la résurgence de la porte de l’Enclos
 - des prospections.
 
 ## Description
