@@ -1,6 +1,6 @@
 encoding  utf-8
 ##XTHERION## xth_me_area_adjust -128.0 -128.0 1545.3236 4092.5688
-##XTHERION## xth_me_area_zoom_to 25
+##XTHERION## xth_me_area_zoom_to 50
 ##XTHERION## xth_me_image_insert {1023.623 1 1.0} {393.70000000000005 p3.0} William-coupe-elevation.xvi 0 {}
 
 
@@ -34,6 +34,13 @@ line rope
   788.0 612.0
 endline
 
+line wall -reverse on -subtype invisible
+  1130.0 2650.0
+  1160.0 2644.0
+endline
+
+point 986.0 434.0 map-connection
+
 line wall
   357.0 1193.0
   377.0 1169.0 273.0 1063.0 382.0 853.0
@@ -45,8 +52,13 @@ line wall
   938.0 434.0 1117.22 307.56 1135.0 352.0
   1151.0 392.0 960.0 461.0 892.0 579.0
   841.17 667.21 1082.0 1924.0 1099.0 1975.0
-  1116.0 2026.0 1145.0 2380.0 1135.0 2459.0
-  1125.0 2538.0 941.0 2586.0 891.0 2674.0
+  1116.0 2026.0 1128.25 2570.97 1160.0 2644.0
+  smooth off
+endline
+
+line wall
+  1130.0 2650.0
+  1070.0 2574.0 941.0 2586.0 891.0 2674.0
   841.0 2762.0 822.0 3093.0 827.0 3154.0
   smooth off
 endline

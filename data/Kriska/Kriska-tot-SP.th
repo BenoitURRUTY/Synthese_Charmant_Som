@@ -2,17 +2,19 @@ encoding  utf-8
 
 map MP-Kriska-tot -title "Kriska"
     
+    
+    
     MP-Escalade_speleoloques-plan-tot@Escalade_speleoloques
     break
-    MP-Kriska-spel-plan-tot@Kriska-spel
-    break
     MP-spel-bivy-plan-tot@spel-bivy
+    break
+    MP-Kriska-spel-plan-tot@Kriska-spel
     break
     MP-fond-plan-tot@fond
     break 
     MP-Escalade1-plan-tot@Escalade1
     break
-    MP-boyau-plan-tot@boyau
+    MP-boyau-plan-tot@boyau #[0 5 m] below
     break
     MP-siphon-plan-tot@siphon
     

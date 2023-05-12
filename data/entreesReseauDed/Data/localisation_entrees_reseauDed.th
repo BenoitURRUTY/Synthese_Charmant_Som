@@ -4,7 +4,7 @@ survey reseauDedEntrees -title "reseauDedEntrees"
 
   centerline
     date 2021.09.25 
-    team benoitsoso 
+    team Benoît Urruty (GUCEM) 
     cs UTM32
     station reseauDed.0 "Kriska" entrance
     #fix reseauDed.1 246864 5024224 1558

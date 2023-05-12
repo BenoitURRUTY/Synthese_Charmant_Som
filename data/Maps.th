@@ -8,22 +8,45 @@ encoding  utf-8
 map MP-Ded-tot -title "Synthèse topographie du Réseau Ded"
 	
     MP-Kriska-tot@Kriska
-    preview below MP-Valombre-plan-tot@Valombre
     break
-    MP-Valombre-plan-tot@Valombre [0 -30 m] above
+    MP-Valombre-plan-tot@Valombre [0 -60 m] below
     break
 	MP-Aura-plan-tot@Aura
     break
     MP-Corneilles-plan-tot@Corneilles
     break
-	MP-FT-plan-tot@FT
+	MP-FT-plan-tot@FT [0 -60 m] below
+    break
+    MP-Puits1-coupe-tot@Puits1
     break
     MP-William-plan-tot@William
     break
     MP-Vire-plan-tot@Vire
     break
     MP-SE-plan-tot@SE-tot
+    
+
+endmap
+
+map MC-Ded-tot -title "Synthèse topographie du Réseau Ded"
+	
+    MC-Kriska-tot-elev@Kriska
     break
-    MP-Puits1-coupe-tot@Puits1
+    MP-Valombre-coupe-tot@Valombre 
+    break
+	MC-Aura-coupe-tot@Aura [-50 0 m] below
+    break
+    MC-Corneilles-coupe-tot@Corneilles
+    break
+	MC-FT-coupe-tot@FT  [100 0 m] below
+    break
+    MC-Puits1-coupe-tot@Puits1
+    break
+    MC-William-coupe-tot@William [-50 0 m] below
+    break
+    MC-Vire-coupe-tot@Vire
+    break
+    MC-SE-elevation-tot@SE-tot
+    
 
 endmap

@@ -51,6 +51,8 @@ survey Ded -title "Synthèse topographie du Réseau Ded"
    join SC-spel-bivy-elev-1@spel-bivy.Kriska SC-Valombre-2@Valombre
    join SC-Valombre-2@Valombre SC-FT-1@FT
    join SC-FT-1@FT SC-Corneilles-1@Corneilles
+   join SC-Vire-1@Vire SC-Puits1-1@Puits1
+   join SC-William-1@William SC-Puits1-1@Puits1
 
 
 

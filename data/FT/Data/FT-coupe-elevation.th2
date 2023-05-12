@@ -11,6 +11,10 @@ point 3915.0 17671.0 label -text "François-Thierry"
 
 point 3908.0 17289.0 entrance -orientation 190.4
 
+point 3920.0 17100.0 map-connection
+
+point 4544.0 2120.0 map-connection
+
 line wall
   4866.0 2311.0
   4829.0 2357.0 4674.0 2625.0 4658.0 2656.0

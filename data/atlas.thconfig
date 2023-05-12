@@ -41,7 +41,7 @@ layout atlas_layout
    # employee, c est le cas apres avoir dessine la topo
    # sur un cheminement exporte avec le layout "xviexport"
    # (voir en bas)
-   base-scale 1 1000
+   base-scale 1 300
 
    # "scale" : specification de l echelle,
    # pour imprimer la topo. La combination entre scale et base-scale
@@ -52,7 +52,7 @@ layout atlas_layout
    # l imprimante ne specifie pas l option "Fit in page"
    # ou similaire, sinon, l echelle sera change pendant
    # l impression
-  scale 1 600
+  scale 1 200
 
   surface bottom
   #surface-opacity 70
@@ -304,8 +304,8 @@ endlayout
 
 
 # Select maps
-	select MP-Ded-plan-tot@Ded
-	select MC-Ded-coupe-tot@Ded
+	select MP-Ded-tot@Ded
+	
 	 
 
 export atlas -layout atlas_layout -o Ded-atlas.pdf

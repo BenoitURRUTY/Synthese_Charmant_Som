@@ -1,6 +1,6 @@
 encoding  utf-8
 
-map MP-Corneilles-coupe-tot -title "Corneilles"
+map MC-Corneilles-coupe-tot -title "Corneilles"
     SC-Corneilles-4
     break
     SC-Corneilles-2

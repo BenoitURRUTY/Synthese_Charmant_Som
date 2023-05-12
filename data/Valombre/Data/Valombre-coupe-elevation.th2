@@ -1,6 +1,6 @@
 encoding  utf-8
 ##XTHERION## xth_me_area_adjust -128.0 -128.0 24143.761000000002 32726.4428
-##XTHERION## xth_me_area_zoom_to 25
+##XTHERION## xth_me_area_zoom_to 100
 ##XTHERION## xth_me_image_insert {20629.9 1 1.0} {3385.7800000000007 0} Valombre-coupe-elevation.xvi 0 {}
 
 
@@ -66,6 +66,13 @@ point 3072.0 28404.0 label -text "P20"
 point 1728.0 29460.0 label -text "Puits Valombré"
 
 point 2936.0 29440.0 entrance -orientation 92.0
+
+line wall -close off
+  3245.0 29466.0
+endline
+
+line rock-edge
+endline
 
 line wall
   9096.0 21452.0
@@ -534,6 +541,7 @@ line wall
   19620.0 5860.0 19548.0 6000.0 19424.0 6148.0
   19300.0 6296.0 19196.0 6372.0 19128.0 6608.0
   19060.0 6844.0 19084.0 6924.0 19108.0 7064.0
+  smooth off
 endline
 
 point 16044.0 12356.0 continuation
