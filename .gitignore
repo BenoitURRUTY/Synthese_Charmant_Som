@@ -6,7 +6,7 @@
 
 #ignorer geoTIFF
 *.tif
-
+*.xvi
 
 *.kml
 *.lox
