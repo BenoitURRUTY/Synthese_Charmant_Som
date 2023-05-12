@@ -1,0 +1,15 @@
+set xth(ctrl,cp,datlist) {}
+xth_cp_data_tree_insert 1 {} 0   "" "" "length: 69.76m (surface 0.00m, duplicated 0.00m)\nvertical range: 41.51m (from vire.18@Vire.Vire at 41.51m to vire.0@Vire.Vire at 0.00m)\nnorth-south range: 9.42m (from vire.8@Vire.Vire at 2.16m to vire.12@Vire.Vire at -7.26m)\neast-west range: 11.40m (from vire.7@Vire.Vire at 0.15m to vire.9@Vire.Vire at -11.25m)\nnumber of shots: 129\nnumber of stations: 130"
+xth_cp_data_tree_insert 46 1 1 Vire Vire "Vire" "Vire" "length: 69.76m (surface 0.00m, duplicated 0.00m)\nvertical range: 41.51m (from vire.18@Vire.Vire at 41.51m to vire.0@Vire.Vire at 0.00m)\nnorth-south range: 9.42m (from vire.8@Vire.Vire at 2.16m to vire.12@Vire.Vire at -7.26m)\neast-west range: 11.40m (from vire.7@Vire.Vire at 0.15m to vire.9@Vire.Vire at -11.25m)\nnumber of shots: 129\nnumber of stations: 130"
+xth_cp_data_tree_insert 48 46 2 Vire Vire.Vire "Vire" "Vire" "length: 69.76m (surface 0.00m, duplicated 0.00m)\nvertical range: 41.51m (from vire.18@Vire.Vire at 41.51m to vire.0@Vire.Vire at 0.00m)\nnorth-south range: 9.42m (from vire.8@Vire.Vire at 2.16m to vire.12@Vire.Vire at -7.26m)\neast-west range: 11.40m (from vire.7@Vire.Vire at 0.15m to vire.9@Vire.Vire at -11.25m)\nnumber of shots: 129\nnumber of stations: 130"
+xth_cp_data_tree_create
+set xth(ctrl,cp,maplist) {}
+xth_cp_map_tree_insert projection 0 p1 {} 0 plan {} {} {}
+xth_cp_map_tree_insert projection 0 p2 {} 0 elevation\[17.0\] {} {} {}
+xth_cp_map_tree_insert map 1 140X1 p2 1 MC-Vire-coupe-tot MC-Vire-coupe-tot@Vire "Vire" "Vire"
+xth_cp_map_tree_insert map 1 141X1 p1 1 MP-Vire-plan-tot MP-Vire-plan-tot@Vire "Vire" "Vire"
+xth_cp_map_tree_create
+xth_cp_comp_stat 70 5
+set xth(th_exit_state) 1
+set xth(th_exit_number) 1661374651
+

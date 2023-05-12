@@ -1,0 +1,47 @@
+# 2022.11.15 created by TopoDroid v 5.1.40
+
+survey puits_des_3_morts -title "Puits des 3 cadavres"
+
+  centerline
+    date 2022.11.14 
+    cs UTM32
+    fix 2 245809 5023824 1696
+    team "Benoît/Urruty (GUCEM)"
+    team "Fabien/Simon (GUCEM)"
+    team "Fabien/Mullet (GUCEM)"
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
+    # extend auto
+    0 . 3.41 88.1 -5.7
+    0 . 1.99 118.7 -2.4
+    0 . 1.71 181.0 -0.0
+    0 . 4.31 225.7 -5.1
+    0 . 3.55 262.1 -0.4
+    0 . 1.32 319.0 0.0
+    0 . 1.31 277.8 -80.6
+    0 . 5.71 236.8 -34.8
+    0 . 4.23 104.1 -48.6
+    0 . 4.38 251.9 -30.6
+    extend left
+    0 1 12.91 111.0 80.9
+    # extend auto
+    1 . 2.98 318.0 -3.6
+    1 . 3.94 281.1 -6.4
+    1 . 5.04 257.8 -7.9
+    1 . 1.11 248.4 -1.3
+    1 . 0.47 224.6 1.3
+    extend right
+    1 2 7.05 359.6 86.8
+    2 3 4.97 69.9 33.6
+    # extend auto
+    2 . 0.99 80.4 2.6
+    2 . 2.03 109.6 1.8
+    2 . 2.37 127.8 -4.9
+    2 . 0.94 207.7 -5.8
+    2 . 1.39 184.9 -4.0
+  endcenterline
+
+
+
+endsurvey

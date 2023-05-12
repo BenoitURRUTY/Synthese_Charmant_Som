@@ -1,0 +1,7 @@
+encoding  utf-8
+
+
+map MC-P50-coupe-tot -title "P50"
+  SC-p50-1
+
+endmap
