@@ -37,6 +37,8 @@ point 4556.0 14456.0 label -text "P40"
 
 point 3068.0 18700.0 label -text "P27 des Chutes"
 
+point 3900.0 16572.0 label -text "Etroiture SuperMan"
+
 line wall
   3900.0 12980.0
   3907.0 12953.0 3999.0 12717.0 4015.0 12692.0

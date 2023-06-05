@@ -38,7 +38,7 @@ map MC-Ded-tot -title "Synthèse topographie du Réseau Ded"
     break
     MC-Corneilles-coupe-tot@Corneilles
     break
-	MC-FT-coupe-tot@FT  [100 0 m] below
+	MC-FT-coupe-tot@FT  [150 0 m] below
     break
     MC-Puits1-coupe-tot@Puits1
     break

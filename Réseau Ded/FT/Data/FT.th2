@@ -1,6 +1,6 @@
 encoding  utf-8
 ##XTHERION## xth_me_area_adjust -130.0 -130.0 4301.2306 4773.6718
-##XTHERION## xth_me_area_zoom_to 50
+##XTHERION## xth_me_area_zoom_to 25
 ##XTHERION## xth_me_image_insert {3519.21 1 1.0} {3006.85 FT.0@FT.FT} FT-map.xvi 0 {}
 
 
@@ -157,7 +157,7 @@ endline
 
 point 2619.5 2632.5 label -text "P30"
 
-point 2714.5 3539.5 label -text "P11, Pendule"
+point 1788.5 2763.5 label -text "P11, Pendule"
 
 line wall -subtype pit
   2014.0 3258.0
@@ -270,7 +270,7 @@ endscrap
 
 scrap SP-FT-4 -projection plan -station-names "" "@FT" -scale [-128.0 -128.0 4301.2306 -128.0 0.0 0.0 112.50245724 0.0 m]
 
-point 1835.5 4203.25 label -text "P15"
+point 1719.5 3529.25 label -text "P15"
 
 line wall
   1352.5 3844.0
@@ -464,7 +464,9 @@ scrap SP-FT-6 -projection plan -station-names "" "@FT" -scale [-128.0 -128.0 430
 
 point 268.0 3175.0 label -text "<center>P14 <br>Deux tirs <br> et ça passe"
 
-point 582.5 2823.0 label -text "Désob"
+point 868.0 2696.0 dig
+
+point 750.5 2799.0 dig
 
 line wall -subtype pit
   713.5 3266.0

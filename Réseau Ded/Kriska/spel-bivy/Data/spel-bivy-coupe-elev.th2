@@ -47,13 +47,13 @@ point 8408.0 14812.0 label -text "P65 Chienlit"
 
 point 8144.0 11608.0 label -text "P18"
 
-point 9752.0 10800.0 label -text "Traversée puits siphonnant"
+point 9752.0 10800.0 label -text "<center>Traversée<br>Puits siphonnant"
 
 point 9752.0 9396.0 label -text "P12"
 
 point 10368.0 8164.0 label -text "P20"
 
-point 12100.0 5884.0 label -text "P35 Grand écart"
+point 12100.0 5884.0 label -text "<center>P35<br>Grand écart"
 
 line rope
   8068.0 10624.0

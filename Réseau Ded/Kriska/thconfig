@@ -26,7 +26,7 @@ layout xviexport
 	scale 1 50 # pour le plan
 	#scale 1 1000 # pour la coupe
 	# taille de la grille
-	grid-size 10 10 10 m
+	grid-size 1 1 1 m
 	# mettre la grille en arrière plan
 	grid bottom
 endlayout

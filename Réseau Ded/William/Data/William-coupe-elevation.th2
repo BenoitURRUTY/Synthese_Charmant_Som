@@ -39,8 +39,6 @@ line wall -reverse on -subtype invisible
   1160.0 2644.0
 endline
 
-point 986.0 434.0 map-connection
-
 line wall
   357.0 1193.0
   377.0 1169.0 273.0 1063.0 382.0 853.0

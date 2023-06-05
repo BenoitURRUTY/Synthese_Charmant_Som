@@ -58,9 +58,9 @@ endline
 line wall
 endline
 
-point 845.0 708.0 label -text "Bivouac"
+point 837.0 812.0 label -text "Bivouac"
 
-point 517.0 576.0 altitude -align top-left
+point 516.0 577.0 altitude -align top-left
 
 point 582.5 635.5 camp -align center
 

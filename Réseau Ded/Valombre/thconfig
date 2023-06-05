@@ -12,7 +12,7 @@ input ../../config.thc
 
 
 #DEM
-source /home/urrutyb/Documents/Spéléo/database_speleo/Chartreuse/Réseau_ded/topo_kriska/therion_kriska/GIS/DEM2.th
+#source /home/urrutyb/Documents/Spéléo/database_speleo/Chartreuse/Réseau_ded/topo_kriska/therion_kriska/GIS/DEM2.th
 
 
 # 2-LAYOUT   

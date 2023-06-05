@@ -7,7 +7,7 @@ encoding  utf-8
 
 scrap SP-Valombre-1 -projection plan -station-names "" "@Valombre" -scale [0 0 1600 0 0.0 0.0 40.64 0.0 m]
 
-point 2060.0 5996.0 remark -text "P18"
+point 2060.0 5996.0 remark -text "P20"
 
 line wall
 endline
@@ -287,6 +287,8 @@ line wall -subtype invisible
   8459.0 4497.0 8604.0 4403.0 8637.0 4397.0
   smooth off
 endline
+
+point 9148.0 4760.0 label -text "P9+P7"
 
 line wall
   8637.0 4397.0

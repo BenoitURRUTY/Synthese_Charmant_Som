@@ -1,6 +1,6 @@
 encoding  utf-8
 ##XTHERION## xth_me_area_adjust -128.0 -128.0 24143.761000000002 32726.4428
-##XTHERION## xth_me_area_zoom_to 100
+##XTHERION## xth_me_area_zoom_to 25
 ##XTHERION## xth_me_image_insert {20629.9 1 1.0} {3385.7800000000007 0} Valombre-coupe-elevation.xvi 0 {}
 
 
@@ -41,7 +41,7 @@ line rope
   6268.0 23984.0
 endline
 
-point 2940.0 27044.0 label -text "Fissure dynamitée"
+point 2736.0 26680.0 label -text "Fissure dynamitée"
 
 point 3256.34 29438.54 altitude -align top
 
@@ -51,7 +51,7 @@ point 6520.0 23352.0 label -text "P8"
 
 point 7308.0 20624.0 label -text "P17"
 
-point 7352.0 21976.0 label -text "P12"
+point 7072.0 21836.0 label -text "P12"
 
 point 5748.0 24620.0 label -text "P15"
 
@@ -73,6 +73,10 @@ endline
 
 line rock-edge
 endline
+
+point 4112.0 26892.0 dig
+
+point 3728.0 27084.0 dig
 
 line wall
   9096.0 21452.0
@@ -598,7 +602,7 @@ point 10476.0 16616.0 label -text "P44"
 
 point 10348.0 19100.0 label -text "P7"
 
-point 10648.0 19980.0 label -text "P9"
+point 10828.0 19976.0 label -text "P9"
 
 line wall
   9292.0 19288.0

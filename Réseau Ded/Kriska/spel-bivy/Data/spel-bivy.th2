@@ -1,6 +1,6 @@
 encoding  utf-8
 ##XTHERION## xth_me_area_adjust -132.0 -132.0 10364.226 6427.216
-##XTHERION## xth_me_area_zoom_to 50
+##XTHERION## xth_me_area_zoom_to 100
 ##XTHERION## xth_me_image_insert {9448.82 1 1.0} {1574.7999999999997 bivy1} spel-bivy-map.xvi 0 {}
 
 
@@ -71,6 +71,7 @@ scrap SP-spel-bivy-2 -projection plan -station-names "" "@Kriska2" -scale [-128.
 line pit
   2033.25 5417.25
   2033.96 5389.2 2035.5 5356.5 2051.5 5339.0
+  smooth off
 endline
 
 line wall
@@ -214,6 +215,7 @@ endline
 line wall
   3332.0 5528.0
   3362.0 5508.0 3476.0 5322.0 3498.0 5286.0
+  smooth off
 endline
 
 line wall -subtype pit
@@ -249,7 +251,7 @@ line pit -reverse on
   smooth off
 endline
 
-point 3569.0 5637.0 remark -text "P40"
+point 3569.0 5637.0 remark -text "P35"
 
 point 3464.0 6004.0 remark -text "L'Araignée"
 
@@ -264,6 +266,7 @@ endline
 line wall -reverse on
   3438.0 5544.0
   3469.0 5508.0 3528.0 5366.0 3567.0 5332.0
+  smooth off
 endline
 
 line wall -reverse on -subtype pit
@@ -312,7 +315,7 @@ line wall -reverse on
   smooth off
 endline
 
-point 3393.0 4597.0 remark -text "<center>Suite<br>présumée<br>Darbouns"
+point 3445.0 4393.0 remark -text "<center>Suite<br>présumée<br>Darbouns"
 
 line wall -reverse on -subtype invisible
   3801.0 4716.0
@@ -385,7 +388,7 @@ line pit
   smooth off
 endline
 
-point 4523.0 5248.0 remark -text "P17"
+point 4531.0 5500.0 remark -text "P17"
 
 line wall -reverse on
   4161.0 5039.0
@@ -460,6 +463,7 @@ line wall -reverse on -subtype pit
   6094.08 5078.4 6091.0 5027.0 6083.0 4990.0
   6075.0 4953.0 6035.0 4930.0 6005.0 4903.0
   5975.0 4876.0 5923.0 4847.0 5901.0 4829.0
+  smooth off
 endline
 
 line wall -reverse on
@@ -472,7 +476,7 @@ line wall -reverse on
   smooth off
 endline
 
-point 6125.0 4665.0 label
+point 6125.0 4665.0 label -text "P18"
 
 line pit
   6024.0 4554.0
@@ -638,13 +642,14 @@ line pit
   smooth off
 endline
 
-point 7312.0 2977.0 remark -text "P23"
+point 7312.0 2977.0 remark -text "P20"
 
 line wall -reverse on -subtype pit
   7098.0 3486.0
   7098.0 3486.0 7154.0 3340.0 7160.0 3250.0
   7166.0 3160.0 7162.0 3132.0 7162.0 3036.0
   7162.0 2940.0 7120.0 2780.0 7184.0 2720.0
+  smooth off
 endline
 
 line wall -reverse on
@@ -685,6 +690,7 @@ line wall -subtype pit
   6988.0 3392.0 6994.0 3302.0 6988.0 3256.0
   6982.0 3210.0 6904.0 2888.0 6910.0 2806.0
   6916.0 2724.0 7040.0 2522.0 7066.0 2470.0
+  smooth off
 endline
 
 line wall
@@ -746,6 +752,7 @@ line wall
   8618.0 1865.0 8754.0 1728.0 8796.0 1742.0
   8838.0 1756.0 8833.54 1921.65 8828.0 1966.0
   8822.0 2014.0 8713.0 1985.0 8629.0 2031.0
+  smooth off
 endline
 
 line wall -subtype pit
@@ -762,7 +769,7 @@ point 8465.23 2038.4999999999995 station -name bivy13
 
 point 8234.48 1946.6699999999996 station -name bivy14
 
-point 8813.0 2547.0 remark -text "Puit du Grand Ecart P36"
+point 8813.0 2547.0 remark -text "<center>P35<br>du Grand Ecart"
 
 point 8156.67 2078.2299999999996 station -name bivy15
 
@@ -798,9 +805,9 @@ line wall -reverse on -subtype invisible
   9480.0 1566.0
 endline
 
-point 9374.0 1926.0 label -text "<center>P7"
+point 9383.0 1827.0 label -text "<center>P7"
 
-point 8169.0 1508.0 label -text "<center>P7<br>du monopoint"
+point 8384.0 1337.0 label -text "<center>P7<br>du monopoint"
 
 line wall
   8601.0 1723.0
