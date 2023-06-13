@@ -305,12 +305,12 @@ export map -proj extended -layout xviexport -fmt xvi -o Data/P50-coupe.xvi
 #export map -proj [elevation 17] -layout xviexport -o Data/P50-coupe.xvi 
 
 # Select maps
-	select MP-P50-plan-tot@P50
-   select MC-P50-coupe-tot@P50
+#	select MP-P50-plan-tot@P50
+#    select MC-P50-coupe-tot@P50
 	 
 #export map -projection [elevation 17] -layout my_layout-coupe -o Outputs/P50-coupe.pdf 
-export map -projection extended -layout my_layout-coupe -o Outputs/P50-coupe.pdf 
-export map -o Outputs/P50-plan.pdf -layout my_layout
+#export map -projection extended -layout my_layout-coupe -o Outputs/P50-coupe.pdf 
+#export map -o Outputs/P50-plan.pdf -layout my_layout
  
 export model -o Outputs/P50.lox
   

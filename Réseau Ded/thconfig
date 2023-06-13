@@ -270,9 +270,9 @@ layout my_layout-coupe
 
    # Specifier le pas de la grille, ici 100x100x100 metres
    # (Trois dimensions, oui, ça sert pour la coupe aussi) 
-   grid-size 10 10 10 m
+   grid-size 50 50 50 m
    # Si nous ne voulons pas de grille :
-   grid off
+   #grid off
    # Affiche les coordonnées de la grille <off (pas de coordonnées) / all (sur tous les croisements) / border (uniquement aux niveau des croix aux bords de la carte>
       grid-coords all
 
@@ -316,7 +316,15 @@ export map -projection extended -layout my_layout-coupe -o Outputs/Ded-coupe.pdf
 export map -o Outputs/Ded-plan.pdf -layout my_layout
  
 export model -o Outputs/Ded.lox
-  
+export model -fmt survex
+export model -fmt dxf
+export model -fmt kml
+export model -fmt esri
+export model -fmt compass
+export model -fmt 3dmf
+export model -fmt survex
+export model -fmt vrml
+
 # Export des fichiers ESRI
 export map -proj plan -fmt esri -o Outputs/Ded -layout my_layout
   
