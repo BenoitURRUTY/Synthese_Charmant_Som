@@ -1,0 +1,9 @@
+encoding  utf-8
+
+map MC-Kriska-spel-coupe-tot-elev -title "Kriska-spel"
+    SC-Kriska-spel-1
+    break
+    SC-Kriska-spel-2
+    break
+    SC-Kriska-spel-3
+endmap

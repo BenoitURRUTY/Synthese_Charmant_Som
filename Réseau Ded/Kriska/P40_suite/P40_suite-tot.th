@@ -1,0 +1,19 @@
+encoding  utf-8
+
+survey P40_suite -title "P40_suite"
+# Pour importer les différentes données de différents fichiers topos : 
+   input Data/suite_p40.th
+ 
+##########################################################################################
+## Pour importer les différents fichiers de dessins en plan
+	## Et Pour assembler plusieurs scraps entre eux, il faut utiliser la commande
+	## join scrap1 scrap2 -count n (où n = nombre de galerie à connecter, par défaut n = 1). C'est tout simple !
+
+#input Data/suite_p40-plan.th2
+#input Data/suite_p40-elevation.th2
+
+#input suite_p40-SP.th
+#input Kriska-spel-SC.th
+#input suite_p40-SC-elev.th
+
+endsurvey

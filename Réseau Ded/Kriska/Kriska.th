@@ -25,9 +25,12 @@ survey Kriska -title "Kriska"
    input Escalade_speleoloques/Escalade_speleoloques-tot.th
    equate es.0@escalade_speleoloques.Escalade_speleoloques  36@chienlit-speleoloques.chienlit-speleoloques
 
+   input P40_suite/P40_suite-tot.th
+   equate 15-16@suite_p40.P40_suite 15@Kriska1.Kriska-spel
+
    input Kriska-tot-SC-elev.th
    input Kriska-tot-SP.th
-   
+
 
    #join Scrap Plan
    join SP-Kriska-spel-11@Kriska-spel  SP-spel-bivy-1@spel-bivy

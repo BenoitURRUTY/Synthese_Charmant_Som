@@ -1678,6 +1678,7 @@ layout headerl
 			\fi}
 			%print scalebar
 			\ifscalebar\scalebar\vskip1cm\fi
+		
 		%print entrances coordinates (Lat-Long/WGS84) if defined
 		\edef\tmp{\the\ECoordinates} \ifx\tmp\empty \else
 			{\the\legendtextsize\si\the\thcoords: \ss\the\ECoordinates\par}
