@@ -1,5 +1,7 @@
 encoding  utf-8
 
+# Copyright (C) 2023 Benoît Urruty
+
 survey Kriska-spel -title "Kriska-spel"
 # Pour importer les différentes données de différents fichiers topos : 
    input Data/Kriska_1.th
