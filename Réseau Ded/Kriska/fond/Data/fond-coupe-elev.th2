@@ -1,6 +1,6 @@
 encoding  utf-8
 ##XTHERION## xth_me_area_adjust -132.0 -132.0 8395.721 9340.6034
-##XTHERION## xth_me_area_zoom_to 100
+##XTHERION## xth_me_area_zoom_to 25
 ##XTHERION## xth_me_image_insert {1023.6200000000003 1 1.0} {8267.72 0} fond-coupe-elevation.xvi 0 {}
 
 
@@ -107,6 +107,31 @@ endline
 
 point 7300.0 1504.0 label -text "R6"
 
+line water-flow
+  6376.0 1652.0
+  6428.0 1618.0 6466.0 1470.0 6550.0 1438.0
+  6634.0 1406.0 6896.0 1306.0 6962.0 1284.0
+  smooth off
+endline
+
+line water-flow -subtype conjectural
+  5106.0 2710.0
+  5164.0 2572.0 6236.0 1736.0 6348.0 1676.0
+  smooth off
+endline
+
+line water-flow -subtype conjectural
+  830.0 7716.0
+  870.0 7668.0 996.0 7618.0 1098.0 7432.0
+  1200.0 7246.0 2176.0 5638.0 2282.0 5556.0
+  2388.0 5474.0 2776.0 4578.0 2842.0 4432.0
+  2908.0 4286.0 3226.0 3956.0 3418.0 3836.0
+  3610.0 3716.0 4668.0 3212.0 4682.0 3209.0
+  smooth off
+endline
+
+point 3430.0 7056.0 station
+
 point 4408.0 2896.0 label -text "P3"
 
 point 4196.0 3516.0 label -text "P9"
@@ -162,6 +187,8 @@ line water-flow
   4975.0 2780.0 5090.0 2720.0 5106.0 2710.0
   smooth off
 endline
+
+point 6542.120000000001 2071.6599999999994 map-connection
 
 line wall
   6525.0 2096.75

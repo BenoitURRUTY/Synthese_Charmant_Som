@@ -1,0 +1,10 @@
+encoding  utf-8
+
+map MC-Escalade_speleoloques2-coupe-tot-elev -title "Escalade_speleoloques2"
+    SC-Esc-1
+    break
+    SC-Esc-2
+    break
+    SC-Esc-3
+    break
+endmap

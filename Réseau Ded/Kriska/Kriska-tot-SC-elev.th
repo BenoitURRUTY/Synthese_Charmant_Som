@@ -12,8 +12,12 @@ map MC-Kriska-tot-elev -title "Kriska"
     break 
     MC-Escalade1-coupe-elev-tot@Escalade1
     break
-    MC-boyau-elev-tot@boyau
+    MC-Escalade_speleoloques2-coupe-tot-elev@Escalade_speleoloques2
+    break
+    MC-boyau-elev-tot@boyau [-30 0 m] below
     break
     MC-Spel-bivy-coupe-elev-tot@siphon
+    break
+    MC-P40-coupe-tot-elev@P40_suite [30 0 m] below
     
 endmap

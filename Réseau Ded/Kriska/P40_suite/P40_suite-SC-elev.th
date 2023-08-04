@@ -1,9 +1,7 @@
 encoding  utf-8
 
-map MC-Kriska-spel-coupe-tot-elev -title "Kriska-spel"
-    SC-Kriska-spel-1
+map MC-P40-coupe-tot-elev -title "P40_suite"
+    SC-P40-1
     break
-    SC-Kriska-spel-2
-    break
-    SC-Kriska-spel-3
+    SC-P40-3
 endmap

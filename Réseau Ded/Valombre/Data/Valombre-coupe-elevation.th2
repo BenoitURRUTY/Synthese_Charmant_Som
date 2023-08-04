@@ -49,19 +49,21 @@ point 6572.0 22696.0 label -text "P8"
 
 point 6520.0 23352.0 label -text "P8"
 
-point 7308.0 20624.0 label -text "P17"
+point 7308.0 20624.0 label -text "<center>P17<br>du brouillard"
 
 point 7072.0 21836.0 label -text "P12"
 
 point 5748.0 24620.0 label -text "P15"
 
-point 5020.0 25964.0 label -text "P10"
+point 5020.0 25964.0 label -text "<center>P10<br>de la dalle"
 
 point 4608.0 26444.0 label -text "P3"
 
 point 4416.0 26752.0 label -text "P5"
 
-point 3072.0 28404.0 label -text "P20"
+point 5724.0 26720.0 label -text "Méandre surcreusé"
+
+point 3072.0 28404.0 label -text "<center>P20<br> des murettes"
 
 point 1728.0 29460.0 label -text "Puits Valombré"
 
@@ -548,9 +550,9 @@ line wall
   smooth off
 endline
 
-point 16044.0 12356.0 continuation
+point 16044.0 12356.0 continuation -attr Code B -text "Escalade possible, recherché si utile ou juste continuation de la faille" -align top-left -visibility on
 
-point 18976.0 7184.0 continuation
+point 18976.0 7184.0 continuation -attr Code A -text "Ouverture étroite au plafond"
 
 line wall -subtype invisible
   19108.0 7064.0
@@ -582,7 +584,7 @@ endline
 
 point 20288.55 4104.68 altitude -align left
 
-point 17884.0 6476.0 label -text "P18"
+point 17884.0 6476.0 label -text "<center>P18 :<br>Puits du maitre<br>qui retrouve son chien"
 
 point 19268.0 4776.0 label -text "P8"
 

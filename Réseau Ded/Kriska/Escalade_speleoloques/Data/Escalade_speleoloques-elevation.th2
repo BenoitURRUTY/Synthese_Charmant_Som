@@ -19,15 +19,16 @@ line wall -reverse on
   770.0 2544.0 814.0 2576.0 816.0 2642.0
   818.0 2708.0 752.0 2934.0 728.0 3008.0
   704.0 3082.0 620.0 3492.0 608.0 3540.0
+  smooth off
 endline
 
-point 704.0 4124.0 continuation
-
-line wall -reverse on -subtype presumed
+line wall -reverse on -subtype invisible
   608.0 3540.0
-  596.0 3588.0 494.0 4040.0 592.0 4052.0
-  690.0 4064.0 806.0 3604.0 834.0 3570.0
+  596.0 3588.0 806.0 3604.0 834.0 3570.0
+  smooth off
 endline
+
+point 1320.0 2262.0 label -text "<center>E30<br>du jeune"
 
 line wall -reverse on
   834.0 3570.0

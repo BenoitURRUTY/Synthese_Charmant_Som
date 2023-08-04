@@ -42,9 +42,30 @@ point 3900.0 16572.0 label -text "Etroiture SuperMan"
 line wall
   3900.0 12980.0
   3907.0 12953.0 3999.0 12717.0 4015.0 12692.0
-  4031.0 12667.0 4212.84 12650.0 4258.0 12697.0
-  4307.0 12748.0 4267.0 12811.0 4257.0 12847.0
-  4247.0 12883.0 4114.0 12971.0 4116.0 13009.0
+  4031.0 12667.0 4133.0 12662.0 4133.0 12662.0
+  smooth off
+endline
+
+line wall -subtype invisible
+  4133.0 12662.0
+  4186.0 12664.5
+endline
+
+line wall
+  4186.0 12664.5
+  4186.0 12664.5 4248.0 12674.0 4258.0 12697.0
+  smooth off
+endline
+
+line wall -reverse on -subtype invisible
+  4280.0 12772.0
+  4258.0 12697.0
+endline
+
+line wall
+  4280.0 12772.0
+  4233.97 12825.7 4288.0 12808.0 4257.0 12847.0
+  4233.75 12876.25 4114.0 12971.0 4116.0 13009.0
   4118.0 13047.0 4272.0 14028.0 4185.0 14534.0
   4100.25 15026.89 3702.0 15452.0 3713.0 15537.0
   3724.0 15622.0 3678.0 15911.0 3606.0 15958.0
@@ -89,7 +110,18 @@ line wall
   3547.0 15861.0 3513.0 15742.0 3540.0 15665.0
   3567.0 15588.0 3561.0 15557.0 3570.0 15540.0
   3579.0 15523.0 3601.76 14578.95 3604.0 14531.0
-  3620.0 14189.0 3974.0 13116.0 3898.0 13102.0
+  3620.0 14189.0 3658.0 14172.0 3658.0 14172.0
+  smooth off
+endline
+
+line wall -subtype invisible
+  3658.0 14172.0
+  3774.0 13770.0
+endline
+
+line wall
+  3774.0 13770.0
+  3774.0 13770.0 3974.0 13116.0 3898.0 13102.0
   smooth off
 endline
 
@@ -197,6 +229,10 @@ line wall -reverse on
   smooth off
 endline
 
+point 4300.0 7964.0 continuation -attr Code K -text "Topographie à réaliser"
+
+point 3040.0 13468.0 continuation -attr Code G -text "Jonction théorique vers P110"
+
 line wall -subtype invisible
   3066.0 13614.0
   3158.0 13234.0
@@ -264,6 +300,12 @@ endline
 
 area water
 endarea
+
+point 4716.0 5360.0 continuation -attr Code J -text "Depart dans méandre à aller voir, déjà visité"
+
+point 4636.0 3920.0 continuation -attr Code I -text "Puits Borgne à topographier"
+
+point 5444.0 8232.0 continuation -attr Code H -text "Escalade de 40m à réaliser"
 
 line wall -subtype presumed
   5495.0 6181.0

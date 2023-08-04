@@ -12,7 +12,7 @@ line wall -subtype invisible
   746.0 1810.0
 endline
 
-point 326.0 2320.0 continuation -orientation 0.0
+point 326.0 2320.0 continuation -text "Escalade à continuer plutot étroit et sec" -attr Code L
 
 line wall -subtype invisible
   444.0 2230.0
@@ -58,6 +58,8 @@ endscrap
 
 
 scrap SC-Escalade1-elev-2 -projection [elevation 17] -station-names "" "@Escalade1" -scale [-128.0 -128.0 1545.3236 -128.0 0.0 0.0 42.50241944 0.0 m]
+
+point 1014.0 322.0 water-flow -orientation 126.1
 
 line wall -subtype presumed
   820.0 798.0

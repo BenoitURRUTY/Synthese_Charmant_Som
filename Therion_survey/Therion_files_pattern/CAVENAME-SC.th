@@ -1,0 +1,7 @@
+encoding  utf-8
+
+
+map MC-<CAVENAME>-coupe-tot -title "<CAVENAME>"
+  SC-<CAVENAME>-1
+
+endmap

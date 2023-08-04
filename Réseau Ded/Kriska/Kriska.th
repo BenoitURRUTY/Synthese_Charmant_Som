@@ -25,6 +25,9 @@ survey Kriska -title "Kriska"
    input Escalade_speleoloques/Escalade_speleoloques-tot.th
    equate es.0@escalade_speleoloques.Escalade_speleoloques  36@chienlit-speleoloques.chienlit-speleoloques
 
+   input Escalade_speleoloques2/Escalade_speleoloques2-tot.th 
+   equate es.2@escalade_speleoloques.Escalade_speleoloques 00-5@escalade_speleoloques2.Escalade_speleoloques2
+
    input P40_suite/P40_suite-tot.th
    equate 15-16@suite_p40.P40_suite 15@Kriska1.Kriska-spel
 
@@ -39,7 +42,9 @@ survey Kriska -title "Kriska"
    join SP-boyau-1@boyau               SP-fond-4@fond
    join SP-siphon-5@siphon             SP-fond-5@fond
    join SP-spel-bivy-1@spel-bivy       SP-ES-1@Escalade_speleoloques
-    
+   join SP-ES-1@Escalade_speleoloques SP-Esc-1@Escalade_speleoloques2
+   join SP-Kriska-spel-4@Kriska-spel SP-P40-2@P40_suite
+   join SP-Kriska-spel-4@Kriska-spel SP-P40-3@P40_suite
 
    #join Scrap coupe
    
@@ -47,4 +52,11 @@ survey Kriska -title "Kriska"
    join SC-spel-bivy-elev-0@spel-bivy  SC-fond-elev-1@fond 
    join SC-spel-bivy-elev-1@spel-bivy  SC-ES-elev-1@Escalade_speleoloques
    join SC-Escalade1-elev-1@Escalade1  SC-fond-elev-1@fond
+   join SC-ES-elev-1@Escalade_speleoloques SC-Esc-1@Escalade_speleoloques2
+   join SC-Kriska-spel-1@Kriska-spel SC-P40-1@P40_suite
+   join SC-Kriska-spel-1@Kriska-spel SC-P40-3@P40_suite
+   join SC-Kriska-spel-1@Kriska-spel SC-P40-1@P40_suite
+
+
+
 endsurvey

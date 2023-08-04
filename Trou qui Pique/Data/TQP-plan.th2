@@ -1,0 +1,20 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -128.0 -128.0 5797.2944 5718.5542000000005
+##XTHERION## xth_me_area_zoom_to 100
+##XTHERION## xth_me_image_insert {3858.2700000000004 1 1.0} {4094.4900000000002 P-0} TQP-map.xvi 0 {}
+
+
+
+scrap SP-TQP-1 -projection plan -station-names "" "@Trou_qui_Pique" -scale [-128.0 -128.0 5797.2944 -128.0 0.0 0.0 150.50247775999998 0.0 m]
+
+point 3956.7000000000003 4022.05 station -name P-3
+
+point 3849.61 4144.1 station -name P-2
+
+point 3869.29 4095.28 station -name P-1
+
+point 3858.2700000000004 4094.4900000000002 station -name P-0
+
+endscrap
+
+

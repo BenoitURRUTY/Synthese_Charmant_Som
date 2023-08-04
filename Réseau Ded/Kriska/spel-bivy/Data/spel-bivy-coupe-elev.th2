@@ -27,6 +27,8 @@ line rope
   9104.0 8864.0
 endline
 
+point 8120.0 10120.0 continuation -attr Code F -text "Puits siphonnant à topographier"
+
 line wall -subtype invisible
   7996.0 10472.0
   7996.0 10472.0 7884.0 10052.0 8288.0 10296.0
@@ -39,7 +41,7 @@ point 4176.0 22036.0 label -text "L'Araignée"
 
 point 5968.0 20476.0 label -text "P35"
 
-point 4984.0 18896.0 label -text "Suite réseau des Darbouns ?"
+point 4984.0 18896.0 continuation -attr Code E -text "Suite réseau des Darbouns ?"
 
 point 6568.0 18640.0 label -text "Etroiture"
 

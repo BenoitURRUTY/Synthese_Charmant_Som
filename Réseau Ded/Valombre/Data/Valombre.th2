@@ -7,7 +7,7 @@ encoding  utf-8
 
 scrap SP-Valombre-1 -projection plan -station-names "" "@Valombre" -scale [0 0 1600 0 0.0 0.0 40.64 0.0 m]
 
-point 2060.0 5996.0 remark -text "P20"
+point 2060.0 5996.0 remark -text "<center>P20<br> des murettes"
 
 line wall
 endline
@@ -192,7 +192,7 @@ line border -close off
   smooth off
 endline
 
-point 7008.0 5760.0 label -text "P12+P17"
+point 7008.0 5760.0 label -text "<center>P12+P17<br>du brouillard"
 
 line wall -reverse on -subtype pit
   6289.0 5463.0
@@ -903,7 +903,9 @@ endline
 
 point 5796.0 4950.0 remark -text "Etroitures"
 
-point 4053.0 5658.0 remark -text "P10"
+point 3800.0 6004.0 remark -text "Méandre surcreusé"
+
+point 3861.0 5238.0 remark -text "<center>P10<br>de la dalle"
 
 point 4311.0 5673.0 remark -text "P9"
 

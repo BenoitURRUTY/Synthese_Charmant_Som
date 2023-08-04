@@ -329,7 +329,7 @@ line wall
   smooth off
 endline
 
-point 5852.0 7420.0 continuation -text "Puits de l'Escalade"
+point 5852.0 7420.0 continuation -attr Code C -text "Puits de l'Escalade, à grimper à nouveau"
 
 line wall
   6240.0 6428.0

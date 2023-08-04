@@ -1,0 +1,10 @@
+encoding  utf-8
+
+
+map MP-TQP-plan-tot -title "TQP"
+  SP-TQP-1
+  break
+  SP-TQP-2
+  break
+  SP-TQP-3
+endmap

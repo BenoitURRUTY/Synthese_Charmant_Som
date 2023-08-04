@@ -1,6 +1,6 @@
 encoding  utf-8
 ##XTHERION## xth_me_area_adjust -144.0 -144.0 7450.8386 2962.6472
-##XTHERION## xth_me_area_zoom_to 100
+##XTHERION## xth_me_area_zoom_to 50
 ##XTHERION## xth_me_image_insert {783.6199999999999 1 1.0} {1622.29 0@Kriska1.Kriska-spel} Kriska-spel-map.xvi 0 {}
 
 
@@ -188,8 +188,6 @@ line wall -reverse on -subtype invisible
   2256.0 1198.0
 endline
 
-point 2798.0 828.0 water-flow -orientation 100.0
-
 line wall -reverse on -subtype pit
   2256.0 1198.0
   2256.0 1198.0 2255.0 1276.5 2309.0 1289.5
@@ -212,7 +210,7 @@ endline
 
 line pit
   2638.0 960.0
-  2614.5 939.0 2626.5 750.5 2668.0 727.0
+  2614.5 939.0 2392.5 847.5 2434.0 824.0
   smooth off
 endline
 
@@ -229,19 +227,32 @@ line wall -subtype pit
   2248.0 1148.0
   2244.5 1140.5 2270.0 1074.5 2273.5 1067.5
   2275.78 1062.94 2311.0 1002.5 2327.0 988.0
-  2343.0 973.5 2433.0 752.0 2531.0 734.5
+  2343.0 973.5 2338.0 952.0 2338.0 952.0
+  smooth off
+endline
+
+line wall -subtype invisible
+  2338.0 952.0
+  2394.0 872.0
+endline
+
+line wall -subtype pit
+  2394.0 872.0
+  2464.26 801.48 2433.0 752.0 2531.0 734.5
+endline
+
+line wall -subtype invisible
+  2531.0 734.5
   2629.0 717.0 2662.0 724.5 2679.0 729.5
   2696.0 734.5 2724.5 737.5 2757.5 739.0
   smooth off
 endline
 
-line wall
+line wall -subtype invisible
   2757.5 739.0
   2790.5 740.5 2841.5 810.0 2847.0 830.0
   smooth off
 endline
-
-point 2900.0 841.0 continuation
 
 line wall -subtype invisible
   2847.0 830.0
@@ -358,8 +369,18 @@ line wall -subtype pit
   2296.0 1666.0 2410.0 1572.0 2406.0 1634.0
   2402.0 1696.0 2320.0 1900.0 2346.0 1912.0
   2372.0 1924.0 2402.0 1974.0 2440.0 1974.0
-  2478.0 1974.0 3306.0 1540.0 3364.0 1604.0
+  2478.0 1974.0 2612.0 1896.0 2612.0 1896.0
+  smooth off
+endline
+
+line wall -subtype unsurveyed
+  2612.0 1896.0
+  2612.0 1896.0 3306.0 1540.0 3364.0 1604.0
   3422.0 1668.0 2940.0 1888.0 2880.0 1942.0
+endline
+
+line wall -subtype pit
+  2880.0 1942.0
   2820.0 1996.0 2642.0 2034.0 2776.0 2022.0
   smooth off
 endline
@@ -645,7 +666,7 @@ scrap SP-Kriska-spel-10 -projection plan -station-names "" "@Kriska1" -scale [-1
 line wall -subtype invisible
 endline
 
-point 5560.0 556.0 remark -text "<center>Etroitures<br>des Spéléoloques"
+point 5704.0 1616.0 remark -text "<center>Etroitures<br>des Spéléoloques"
 
 line wall
   5566.75 996.75

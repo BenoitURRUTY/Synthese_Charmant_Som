@@ -2420,7 +2420,7 @@ layout layoutcontinuation
 				% set labeling color to light orange
 				push_label_fill_color(1.0, 0.9, 0.8);
 				% draw filled label with text next to ?
-				p_label.urt(ATTR__text,(.5u,-.25u) transformed T,0.0,8);
+				p_label.bot(ATTR_code,pos shifted (0,-0.5u),0.0,8);
 				% restore original labeling color
 				pop_label_fill_color;
 			fi;

@@ -48,7 +48,7 @@ endline
 
 point 3404.0 2774.0 label -text "P24"
 
-point 2402.0 3580.0 label -text "P8"
+point 2338.0 3828.0 altitude -align left
 
 point 2338.0 3828.0 map-connection
 

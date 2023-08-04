@@ -20,6 +20,8 @@ line wall -subtype invisible
   554.0 991.0
 endline
 
+point 917.0 930.0 label -text "<center>E30<br>du jeune"
+
 line wall -reverse on
   720.0 1051.0
   674.0 1005.0 649.73 991.07 648.0 984.0
@@ -30,7 +32,17 @@ line wall -reverse on
   916.0 474.0 945.0 400.0 928.0 367.0
   911.0 334.0 777.0 290.0 753.0 286.0
   729.0 282.0 565.0 310.0 552.0 312.0
+  smooth off
+endline
+
+line wall -reverse on -subtype invisible
+  552.0 312.0
   539.0 314.0 459.0 380.0 502.0 391.0
+  smooth off
+endline
+
+line wall -reverse on
+  502.0 391.0
   545.0 402.0 548.0 404.0 590.0 401.0
   632.0 398.0 626.0 448.0 625.0 473.0
   624.0 498.0 746.0 478.0 680.0 641.0

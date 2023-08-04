@@ -34,6 +34,7 @@ layout my_layout
    copy drawingconfig
    copy headerl
    copy langue-fr
+   copy layoutcontinuation
       
    # Titre  
    doc-title "Réseau Ded"
@@ -51,7 +52,7 @@ layout my_layout
    # employee, c est le cas apres avoir dessine la topo
    # sur un cheminement exporte avec le layout "xviexport"
    # (voir en bas)
-   base-scale 1 700
+   base-scale 1 1300
 
    # "scale" : specification de l echelle,
    # pour imprimer la topo. La combination entre scale et base-scale
@@ -164,8 +165,8 @@ layout my_layout
    endcode  
 
    # add extended-elev on the same pdf
-   #map-image 105 0 s Outputs/Ded-coupe_projected.pdf
-
+   #map-image 0 0 s Outputs/Ded-coupe_projected.pdf
+   
 endlayout
 
   
@@ -175,6 +176,7 @@ layout my_layout-coupe
    copy drawingconfig
    copy header_coupe
    copy langue-fr
+   copy layoutcontinuation
       
    # Titre  
    doc-title "Réseau Ded"
@@ -272,7 +274,7 @@ layout my_layout-coupe
    # (Trois dimensions, oui, ça sert pour la coupe aussi) 
    grid-size 50 50 50 m
    # Si nous ne voulons pas de grille :
-   #grid off
+   grid off
    # Affiche les coordonnées de la grille <off (pas de coordonnées) / all (sur tous les croisements) / border (uniquement aux niveau des croix aux bords de la carte>
       grid-coords all
 
@@ -324,6 +326,10 @@ export model -fmt compass
 export model -fmt 3dmf
 export model -fmt survex
 export model -fmt vrml
+export continuation-list -o Outputs/questions.html
+export cave-list -o Outputs/Reseau_ded.html
+
+
 
 # Export des fichiers ESRI
 export map -proj plan -fmt esri -o Outputs/Ded -layout my_layout

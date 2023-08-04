@@ -1,0 +1,7 @@
+encoding  utf-8
+
+
+map MP-<CAVENAME>-plan-tot -title "<CAVENAME>"
+  SP-<CAVENAME>-1
+
+endmap
