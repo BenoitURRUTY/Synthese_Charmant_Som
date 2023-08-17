@@ -4,7 +4,13 @@ survey suite_p40 -title "suite p40"
 
   centerline
     date 2023.06.14 
-    # team Benoît Simon 
+    team "Benoît/Urruty(GUCEM)"
+    team "Simon/Tissot(GUCEM)" 
+    explo-team "Benoît/Urruty(GUCEM)"
+    explo-team "Simon/Tissot(GUCEM)" 
+    explo-team "Romain/Vanel(GUCEM)" 
+    explo-date 2023.06.14
+    explo-date 2023.06.10
     units length meters
     units compass clino degrees
     data normal from to length compass clino

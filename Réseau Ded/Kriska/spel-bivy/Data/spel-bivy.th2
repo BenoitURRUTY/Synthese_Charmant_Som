@@ -1,6 +1,6 @@
 encoding  utf-8
 ##XTHERION## xth_me_area_adjust -132.0 -132.0 10364.226 6427.216
-##XTHERION## xth_me_area_zoom_to 100
+##XTHERION## xth_me_area_zoom_to 25
 ##XTHERION## xth_me_image_insert {9448.82 1 1.0} {1574.7999999999997 bivy1} spel-bivy-map.xvi 0 {}
 
 
@@ -390,11 +390,13 @@ endline
 
 point 4531.0 5500.0 remark -text "P17"
 
+point 4192.0 5368.0 water-flow -orientation 157.6
+
 line wall -reverse on
   4161.0 5039.0
   4161.0 5039.0 4162.12 5083.83 4161.0 5104.0
   4159.0 5140.0 4136.08 5280.72 4180.0 5310.0
-  4207.0 5328.0 4274.0 5291.0 4308.0 5259.0
+  4200.31 5323.54 4274.0 5291.0 4308.0 5259.0
   4330.27 5238.04 4418.0 5110.0 4470.0 5102.0
   4499.63 5097.44 4715.0 5181.0 4760.0 5186.0
   4789.99 5189.33 4852.01 5151.9 4895.0 5154.0
@@ -571,6 +573,15 @@ endscrap
 
 
 scrap SP-spel-bivy-10 -projection plan -station-names "" "@Kriska2" -scale [-128.0 -128.0 10364.226 -128.0 0.0 0.0 266.5025404 0.0 m]
+
+line water-flow
+  5898.0 4444.0
+  5972.0 4428.0 6080.0 4422.0 6106.0 4420.0
+  6132.0 4418.0 6170.0 4382.0 6192.0 4348.0
+  6214.0 4314.0 6262.0 4152.0 6302.0 4082.0
+  6342.0 4012.0 6390.0 3936.0 6404.0 3874.0
+  smooth off
+endline
 
 line wall -reverse on -subtype invisible
   6179.0 4266.0

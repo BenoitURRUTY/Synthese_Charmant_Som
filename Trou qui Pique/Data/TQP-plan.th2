@@ -1,7 +1,8 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust -128.0 -128.0 5797.2944 5718.5542000000005
-##XTHERION## xth_me_area_zoom_to 100
+##XTHERION## xth_me_area_adjust -127.99999999999977 -128.0 5797.2944 5750.5542000000005
+##XTHERION## xth_me_area_zoom_to 50
 ##XTHERION## xth_me_image_insert {3858.2700000000004 1 1.0} {4094.4900000000002 P-0} TQP-map.xvi 0 {}
+##XTHERION## xth_me_image_insert {600 1 1.0} {5170 {}} stations.png 0 {}
 
 
 
