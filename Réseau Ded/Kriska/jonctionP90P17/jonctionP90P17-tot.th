@@ -1,0 +1,11 @@
+encoding  utf-8
+
+survey jonctionP90P17 -title "jonctionP90P17"
+   input Data/jonctionP90P17.th
+	
+    input Data/jonctionP90P17-plan.th2
+	input jonctionP90P17-SP.th
+	input Data/jonctionP90P17-coupe.th2
+	input jonctionP90P17-SC.th
+	
+endsurvey

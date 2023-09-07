@@ -1,13 +1,12 @@
 encoding  utf-8
 
 map MP-Kriska-tot -title "Kriska"
-    
+    MP-jonctionP90P17-plan-tot@jonctionP90P17
+    break
     MP-Escalade_speleoloques2-plan-tot@Escalade_speleoloques2
     break
     MP-Escalade_speleoloques-plan-tot@Escalade_speleoloques
     break
-    
-    
     MP-Escalade1-plan-tot@Escalade1
     break
     MP-spel-bivy-plan-tot@spel-bivy
@@ -15,13 +14,12 @@ map MP-Kriska-tot -title "Kriska"
     MP-Kriska-spel-plan-tot@Kriska-spel
     break
     MP-P40-plan-tot@P40_suite
-    
-    
-   
+    break
     MP-fond-plan-tot@fond
     break 
-    MP-boyau-plan-tot@boyau #[0 5 m] below
+    MP-boyau-plan-tot@boyau 
     break
     MP-siphon-plan-tot@siphon
+    break
     
 endmap

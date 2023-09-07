@@ -1,0 +1,33 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -128.0 -128.0 1387.8432 5876.0346
+##XTHERION## xth_me_area_zoom_to 25
+##XTHERION## xth_me_image_insert {787.404 1 1.0} {2677.16 ES.1} E60-coupe_elevation.xvi 0 {}
+
+
+
+scrap SC-E60-1 -projection [elevation 17] -station-names "" "@E60" -scale [-128.0 -128.0 1387.8432 -128.0 0.0 0.0 38.502417279999996 0.0 m]
+
+line wall -subtype invisible
+  8.0 516.0
+  752.0 476.0
+endline
+
+line wall
+  752.0 476.0
+  732.0 580.0 748.0 2176.0 792.0 2264.0
+  836.0 2352.0 872.0 2616.0 864.0 2668.0
+  856.0 2720.0 784.0 5296.0 652.0 5400.0
+  520.0 5504.0 188.0 5456.0 116.0 5284.0
+  44.0 5112.0 -44.0 2532.0 -44.0 2500.0
+  -44.0 2468.0 20.0 672.0 8.0 516.0
+endline
+
+point 787.404 2677.16 station -name ES.1
+
+point 608.254 2285.04 station -name ES.2
+
+point 579.7139999999999 487.4000000000001 station -name ES.3
+
+endscrap
+
+

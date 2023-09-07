@@ -12,7 +12,7 @@ input legendes/entrances_coordinates.th
 input ../config.thc 
 
 #DEM
-#source ../GIS/DEM_new.th
+source ../GIS/DEM_new.th
 
 # 2-LAYOUT   
 
@@ -229,7 +229,7 @@ layout my_layout-coupe
    opacity 75
       
    # Un commentaire a ajounter au titule,
-   map-comment "<it>Coupe développée<ss> - Saint-Pierre de Chartreuse,38, France"
+   map-comment "<it>Coupe projetée<ss> - Saint-Pierre de Chartreuse,38, France"
 
    # Afficher les statistiques d explo par équipe/nom. C est lourd
    # si la cavite est importante et qu il y a beaucoup d explorateurs

@@ -1,0 +1,17 @@
+# 2023.08.20 created by TopoDroid v 6.2.13
+
+survey E60 -title "E60"
+
+  centerline
+    date 2023.08.18 
+    # team Fabien Benoît 
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
+    extend right
+    ES.1 . 33.61 269.4 83.4
+    ES.1 ES.2 5.56 310.2 -63.6
+    ES.2 ES.3 22.96 8.6 -83.8
+  endcenterline
+
+endsurvey

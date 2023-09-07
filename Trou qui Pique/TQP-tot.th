@@ -1,6 +1,6 @@
 encoding  utf-8
 
-survey TQP -title "GUCEM TQP"
+survey TQP -title "Trou qui pique"
    input Data/Trou_qui_Pique.th
 	
  
@@ -11,7 +11,7 @@ survey TQP -title "GUCEM TQP"
 
 	input Data/TQP-plan.th2
 	#input TQP-SP.th
-	input Data/TQP-coupe.th2
+#	input Data/TQP-coupe.th2
 	#input TQP-SC.th
 	
 endsurvey

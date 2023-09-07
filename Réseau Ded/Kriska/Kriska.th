@@ -31,6 +31,14 @@ survey Kriska -title "Kriska"
    input P40_suite/P40_suite-tot.th
    equate 15-16@suite_p40.P40_suite 15@Kriska1.Kriska-spel
 
+   input jonctionP90P17/jonctionP90P17-tot.th
+   equate jp.0@jonctionP90P17.jonctionP90P17 26@Kriska1.Kriska-spel
+   equate jp.7@jonctionP90P17.jonctionP90P17 35@Kriska1.Kriska-spel
+
+
+   input E60/E60-tot.th
+   equate 34@Kriska1.Kriska-spel ES.3@E60.E60
+
    input Kriska-tot-SC-elev.th
    input Kriska-tot-SP.th
 
@@ -45,6 +53,7 @@ survey Kriska -title "Kriska"
    join SP-ES-1@Escalade_speleoloques SP-Esc-1@Escalade_speleoloques2
    join SP-Kriska-spel-4@Kriska-spel SP-P40-2@P40_suite
    join SP-Kriska-spel-4@Kriska-spel SP-P40-3@P40_suite
+   join SP-Kriska-spel-6@Kriska-spel SP-JP-1@jonctionP90P17
 
    #join Scrap coupe
    
@@ -56,7 +65,8 @@ survey Kriska -title "Kriska"
    join SC-Kriska-spel-1@Kriska-spel SC-P40-1@P40_suite
    join SC-Kriska-spel-1@Kriska-spel SC-P40-3@P40_suite
    join SC-Kriska-spel-1@Kriska-spel SC-P40-1@P40_suite
-
+   join SC-JP-1@jonctionP90P17 SC-Kriska-spel-2@Kriska-spel
+   join SC-JP-1@jonctionP90P17 SC-Kriska-spel-3@Kriska-spel
 
 
 endsurvey
