@@ -17,3 +17,7 @@
 *.prj
 *.sbx
 *.sbn
+*.sqlite
+*.vtk
+*.html
+*.dxf
