@@ -12,8 +12,7 @@ survey FT -title "FT"
 input Data/FT.th2
 input Data/FT-coupe-elevation.th2
 
-input FT-SP.th
-input FT-SC.th
+input FT-maps.th
 
 equate FT.67@FT frb.17@ftb
 equate frb.0@ftb FT.57@FT

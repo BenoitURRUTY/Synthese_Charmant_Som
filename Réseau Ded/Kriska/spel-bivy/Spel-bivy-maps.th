@@ -26,3 +26,9 @@ map MP-spel-bivy-plan-tot -title "Spel-bivy"
     SP-spel-bivy-13
 endmap
 
+map MC-spel-bivy-coupe-elev-tot -title "Spel-bivy"
+    SC-spel-bivy-elev-0
+    break
+    SC-spel-bivy-elev-1
+endmap
+

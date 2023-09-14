@@ -1,7 +1,0 @@
-encoding  utf-8
-
-map MC-spel-bivy-coupe-elev-tot -title "Spel-bivy"
-    SC-spel-bivy-elev-0
-    break
-    SC-spel-bivy-elev-1
-endmap

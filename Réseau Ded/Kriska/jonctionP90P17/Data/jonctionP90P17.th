@@ -4,7 +4,8 @@ survey jonctionP90P17 -title "jonctionP90P17"
 
   centerline
     date 2023.08.18 
-    # team Benoît/Urruty Fabien/Simon 
+    team "Benoît/Urruty(GUCEM)"
+    team "Fabien/Simon(GUCEM)"
     units length meters
     units compass clino degrees
     data normal from to length compass clino

@@ -6,6 +6,13 @@ survey FT -title "François-Thierry"
     date 2022.04.24 
     team "Benoît/Urruty(GUCEM)"
     team "Gervais/Bois(GUCEM)"
+    explo-team "Emmanuel Gondras"
+    explo-team "Jean-Claude Dobrilla"
+    explo-team "Bernard Faure"
+    explo-team "Olivier Dutel"
+    explo-team "J. Baujard"
+    explo-team "E. Meygret"
+    explo-team "GSC"
     units length meters
     units compass clino degrees
     data normal from to length compass clino

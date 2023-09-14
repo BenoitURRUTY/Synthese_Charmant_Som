@@ -439,8 +439,6 @@ line pit -reverse on
   smooth off
 endline
 
-point 5780.0 4568.0 altitude -align left
-
 point 6546.0 5130.0 label -text "<center>P65<br>de la Chienlit"
 
 line pit
@@ -512,6 +510,7 @@ endline
 
 line wall
   5596.0 4560.0
+  altitude .
   5596.0 4560.0 5628.0 4542.0 5656.0 4531.0
   5683.38 4520.24 5839.16 4522.43 5842.0 4499.0
   5846.0 4466.0 5750.0 4504.0 5748.0 4454.0
@@ -762,6 +761,7 @@ line wall
   8598.0 1821.0
   8618.0 1865.0 8754.0 1728.0 8796.0 1742.0
   8838.0 1756.0 8833.54 1921.65 8828.0 1966.0
+  altitude .
   8822.0 2014.0 8713.0 1985.0 8629.0 2031.0
   smooth off
 endline

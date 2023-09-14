@@ -1,5 +1,10 @@
 encoding  utf-8
 
+map MP-Escalade_speleoloques2-plan-tot -title "Escalade_speleoloques2"
+    SP-Esc-1
+    break
+endmap
+
 map MC-Escalade_speleoloques2-coupe-tot-elev -title "Escalade_speleoloques2"
     SC-Esc-1
     break
@@ -8,3 +13,5 @@ map MC-Escalade_speleoloques2-coupe-tot-elev -title "Escalade_speleoloques2"
     SC-Esc-3
     break
 endmap
+
+

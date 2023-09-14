@@ -71,7 +71,7 @@ scrap SC-Esc-2 -projection [elevation 17] -station-names "" "@escalade_speleoloq
 line wall -subtype invisible
 endline
 
-point 772.0 3944.0 continuation -attr Code D -text "Escalade de 20m à réaliser"
+point 772.0 3944.0 continuation -attr Code E -attr Cavite 'Kriska' -attr Reseau 'Ded' -attr CA "Soufflant été" -text "Escalade de 20m à réaliser"
 
 line wall -reverse on -subtype invisible
   844.0 3560.0

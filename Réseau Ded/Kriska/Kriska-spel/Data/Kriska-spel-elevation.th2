@@ -31,6 +31,7 @@ line wall -subtype invisible
   2252.0 19846.0 2654.0 19903.0 2465.0 19714.0
   2276.0 19525.0 2157.0 19605.0 2144.0 19604.0
   smooth off
+  altitude .
 endline
 
 point 4556.0 14456.0 label -text "P40"
@@ -219,6 +220,7 @@ line wall -reverse on
   3378.0 10538.0 3424.0 10400.0 3432.0 10330.0
   3440.0 10260.0 3430.0 8798.0 3448.0 8764.0
   3466.0 8730.0 3618.23 8321.77 3660.0 8280.0
+  smooth off
 endline
 
 line wall -reverse on
@@ -237,11 +239,12 @@ line wall -subtype invisible
   3660.0 8280.0
 endline
 
-point 3040.0 13468.0 continuation -attr Code G -text "Jonction théorique vers P110"
+point 3040.0 13468.0 continuation -attr Code E -attr Cavite 'Kriska' -attr Reseau 'Ded' -attr CA '' -text "Jonction théorique vers P110"
 
 line wall -subtype invisible
   3066.0 13614.0
   3158.0 13234.0
+  altitude .
 endline
 
 line wall
@@ -307,11 +310,11 @@ endline
 area water
 endarea
 
-point 4716.0 5360.0 continuation -attr Code J -text "Depart dans méandre à aller voir, déjà visité"
+point 4716.0 5360.0 continuation -attr Code AP -attr Cavite 'Kriska' -attr Reseau 'Ded' -attr CA '' -text "Depart dans méandre à aller voir, déjà visité"
 
-point 4636.0 3920.0 continuation -attr Code I -text "Puits Borgne à topographier"
+point 4636.0 3920.0 continuation -attr Code P -attr Cavite 'Kriska' -attr Reseau 'Ded' -attr CA '' -text "Puits Borgne à topographier"
 
-point 5444.0 8232.0 continuation -attr Code H -text "Escalade de 40m à réaliser"
+point 5444.0 8232.0 continuation -attr Code E -attr Cavite 'Kriska' -attr Reseau 'Ded' -attr CA '' -text "Escalade de 40m à réaliser"
 
 line wall -close on -reverse on
   4472.0 5276.0
@@ -330,6 +333,7 @@ line wall -reverse on -subtype unsurveyed
   4864.0 6468.0 4768.0 8264.0 4876.0 8336.0
   4984.0 8408.0 5476.0 8744.0 5524.0 8348.0
   5572.0 7952.0 5482.0 6274.0 5495.0 6181.0
+  smooth off
 endline
 
 line wall -reverse on
@@ -436,6 +440,7 @@ line wall
   7214.0 2580.0 7390.0 2351.5 7427.0 2306.5
   7464.0 2261.5 7646.5 2210.5 7652.5 2209.5
   7658.5 2208.5 7768.0 2136.5 7784.0 2124.5
+  altitude .
   7800.0 2112.5 7843.0 2086.5 7850.0 2078.5
   7857.0 2070.5 7901.07 1910.6 7900.25 1894.25
   smooth off

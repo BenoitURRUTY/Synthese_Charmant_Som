@@ -289,22 +289,21 @@ endlayout
   
 # 3-EXPORTS   
 export map -fmt xvi -layout xviexport -o Data/spel-bivy-map.xvi
-export map -proj extended -layout xviexport -fmt xvi -o Data/spel-bivy-coupe.xvi
+# export map -proj extended -layout xviexport -fmt xvi -o Data/spel-bivy-coupe.xvi
 export map -proj [elevation 17] -layout xviexport -fmt xvi -o Data/spel-bivy-coupe-elevation.xvi 
 
 # Select maps
   select MP-spel-bivy-plan-tot@spel-bivy
-  select MC-spel-bivy-coupe-tot@spel-bivy
   select MC-spel-bivy-coupe-elev-tot@spel-bivy
 	 
-export map -projection extended -layout my_layout-coupe -o Outputs/spel-bivy-coupe.pdf 
+# export map -projection extended -layout my_layout-coupe -o Outputs/spel-bivy-coupe.pdf 
 export map -o Outputs/spel-bivy-plan.pdf -layout my_layout
 export map -projection [elevation 17] -layout my_layout-coupe -o Outputs/spel-bivy-coupe-elevation.pdf 
 
 export model -o Outputs/spel-bivy.lox
   
 # Export des fichiers ESRI
-#export map -proj plan -fmt esri -o Outputs/spel-bivy -layout my_layout
+# export map -proj plan -fmt esri -o Outputs/spel-bivy -layout my_layout
   
 # Export des fichiers kml
-export map -proj plan -fmt kml -o Outputs/spel-bivy.kml -layout my_layout
+# export map -proj plan -fmt kml -o Outputs/spel-bivy.kml -layout my_layout

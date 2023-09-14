@@ -57,7 +57,7 @@ point 2548.0 2848.0 remark -text "<center>Méandre<br>bifide"
 
 point 2676.0 2056.0 remark -text "<center>P20"
 
-point 2926.0 1730.0 continuation -attr Code M -text "Départ à mi-puits vers une faille"
+point 2926.0 1730.0 continuation -attr Code P -attr Cavite 'Kriska' -attr Reseau 'Ded' -attr CA '' -text "Départ à mi-puits vers une faille"
 
 line wall -reverse on -subtype invisible
   2618.0 1812.0
@@ -70,7 +70,7 @@ line wall -subtype unsurveyed
   smooth off
 endline
 
-point 2444.0 484.0 continuation -attr Code N -text "<center>Désob à continuer<br>écho derrière"
+point 2444.0 484.0 continuation -attr Code D -attr Cavite 'Kriska' -attr Reseau 'Ded' -attr CA 'Aspirant' -text "<center>Désob à continuer<br>écho derrière"
 
 line wall
   2638.0 413.0

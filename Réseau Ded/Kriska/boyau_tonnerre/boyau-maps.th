@@ -5,4 +5,9 @@ map MP-boyau-plan-tot -title "Boyau"
     break
 endmap
 
+map MC-boyau-elev-tot -title "boyau"
+    SC-boyau-elev-1
+    break
+endmap
+
 

@@ -27,7 +27,7 @@ line rope
   9104.0 8864.0
 endline
 
-point 8120.0 10120.0 continuation -attr Code F -text "Puits siphonnant à topographier"
+point 8120.0 10120.0 continuation -attr Code P -attr Cavite 'Kriska' -attr Reseau 'Ded' -attr CA '' -text "Puits siphonnant à topographier"
 
 line wall -subtype invisible
   7996.0 10472.0
@@ -41,7 +41,7 @@ point 4176.0 22036.0 label -text "L'Araignée"
 
 point 5968.0 20476.0 label -text "P35"
 
-point 4984.0 18896.0 continuation -attr Code E -text "Suite réseau des Darbouns ?"
+point 4984.0 18896.0 continuation -attr Code P -attr Cavite 'Kriska' -attr Reseau 'Ded' -attr CA '' -text "Suite réseau des Darbouns ?"
 
 point 6568.0 18640.0 label -text "Etroiture"
 
@@ -61,6 +61,7 @@ line water-flow
   7948.0 10528.0 8004.0 10484.0 8032.0 10476.0
   8060.0 10468.0 8100.0 10452.0 8104.0 10376.0
   8108.0 10300.0 8112.0 10292.0 8116.0 10264.0
+  smooth off
 endline
 
 point 5804.0 18128.0 water-flow -orientation 130.6
@@ -94,6 +95,7 @@ endline
 line wall
   5718.0 19306.0
   5724.0 19202.0 5834.0 18796.0 5792.0 18780.0
+  altitude .
   5750.0 18764.0 5662.0 18764.0 5670.0 18756.0
   5678.0 18748.0 5694.0 18732.0 5722.0 18716.0
   5750.0 18700.0 5770.0 18694.0 5776.0 18674.0
@@ -286,6 +288,7 @@ line wall -reverse on
   7444.01 11224.0 7600.0 12106.0 7552.0 12108.0
   7504.0 12110.0 7214.0 11992.0 7160.0 12014.0
   7106.0 12036.0 7026.0 12134.0 7020.0 12196.0
+  altitude .
   7014.0 12258.0 6686.0 13056.0 6716.0 13216.0
   smooth off
 endline
@@ -318,6 +321,7 @@ endline
 line wall
   11149.0 4606.0
   11105.0 4590.0 10914.0 4578.0 10888.0 4579.0
+  altitude .
   10862.0 4580.0 10862.0 4599.0 10857.0 4612.0
   10852.0 4625.0 10661.0 5282.0 10653.0 5304.0
   10645.0 5326.0 10473.0 6088.0 10462.0 6121.0

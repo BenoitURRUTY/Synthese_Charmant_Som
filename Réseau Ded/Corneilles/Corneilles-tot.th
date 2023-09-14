@@ -19,8 +19,7 @@ survey Corneilles -title "Corneilles"
 
 input Data/Corneilles.th2
 input Data/Corneilles-coupe-elevation.th2
-input Corneilles-SP.th
-input Corneilles-SC.th
+input Corneilles-maps.th
 
 endsurvey
 

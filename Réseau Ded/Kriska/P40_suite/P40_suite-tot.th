@@ -12,9 +12,7 @@ survey P40_suite -title "P40_suite"
 input Data/suite_p40-plan.th2
 input Data/suite_p40-elevation.th2
 
-input P40_suite-SP.th
-#input Kriska-spel-SC.th
-input P40_suite-SC-elev.th
+input P40_suite-maps.th
 
 join meander1 meander2 meander3
 

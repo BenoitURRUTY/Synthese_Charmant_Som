@@ -1,6 +1,6 @@
 encoding  utf-8
 ##XTHERION## xth_me_area_adjust -155.56299999999976 -130.0 1911.4616 1172.0946000000001
-##XTHERION## xth_me_area_zoom_to 200
+##XTHERION## xth_me_area_zoom_to 50
 ##XTHERION## xth_me_image_insert {1658.03 1 1.0} {183.10900000000004 aura.1@aura.Aura} Aura-map.xvi 0 {}
 
 
@@ -10,13 +10,12 @@ scrap SP-aura-1 -projection plan -station-names "" "@aura" -scale [-128.0 -128.0
 line pit
   621.0 505.0
   602.0 510.5 572.5 502.0 571.5 485.0
+  smooth off
 endline
 
 point 156.0 1056.0 label -text "Puits de l'Aura"
 
 point 200.0 912.0 entrance -orientation 173.9
-
-point 207.64 840.589 altitude -align left
 
 line pit -close on -reverse on
   204.0 866.25
@@ -54,6 +53,7 @@ endline
 
 line wall
   184.0 864.0
+  altitude .
   177.0 855.0 173.5 850.0 171.5 836.5
   169.28 821.53 167.0 803.0 177.0 785.0
   187.0 767.0 201.0 738.0 223.0 728.0
@@ -64,6 +64,7 @@ line wall
   411.0 612.0 439.0 582.0 449.0 566.0
   459.0 550.0 479.0 536.0 497.0 530.0
   515.0 524.0 549.0 510.0 574.0 482.0
+  smooth off
 endline
 
 point 601.3399999999999 472.08900000000006 station -name aura.6
@@ -121,6 +122,7 @@ line pit
   934.5 409.5 993.0 382.25 1006.0 378.75
   1019.0 375.25 1115.0 367.75 1127.25 372.75
   1139.5 377.75 1147.25 386.25 1148.5 389.5
+  smooth off
 endline
 
 line wall -reverse on -subtype pit
@@ -128,6 +130,7 @@ line wall -reverse on -subtype pit
   643.0 510.0 679.0 511.5 720.0 520.0
   747.69 525.74 768.62 533.88 803.0 533.0
   822.5 532.5 852.54 528.33 876.5 513.5
+  smooth off
 endline
 
 point 1026.54 406.72900000000004 station -name aura.4
@@ -170,6 +173,7 @@ line wall
   1152.0 428.75 1261.0 410.0 1284.0 404.0
   1307.0 398.0 1364.0 375.0 1380.0 363.0
   smooth off
+  altitude .
 endline
 
 point 1403.7 399.64900000000006 station -name aura.0

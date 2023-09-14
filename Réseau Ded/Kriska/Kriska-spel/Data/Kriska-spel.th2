@@ -31,11 +31,10 @@ point 171.0 1463.0 remark -text "Puits Kriska"
 
 point 500.0 1477.0 entrance -orientation 105.1
 
-point 732.0 1448.0 altitude -align top-left
-
 line wall -subtype pit
   645.0 1474.0
   646.0 1453.0 717.0 1381.0 743.0 1396.0
+  altitude .
   769.0 1411.0 848.0 1440.0 865.0 1450.0
   882.0 1460.0 954.0 1561.0 993.0 1561.0
   1032.0 1561.0 1072.25 1570.75 1094.25 1578.75
@@ -636,6 +635,7 @@ endline
 line wall -reverse on
   4458.0 1357.0
   4490.0 1330.0 4490.0 1289.0 4535.0 1278.0
+  altitude .
   4580.0 1267.0 4695.0 1215.0 4719.0 1212.0
   4743.0 1209.0 4752.32 1205.29 4776.5 1206.0
   smooth off
@@ -768,10 +768,9 @@ line wall
   smooth off
 endline
 
-point 5760.0 792.0 altitude -align top-right
-
 line wall -reverse on
   6719.0 875.0
+  altitude .
   6706.0 872.0 6589.36 813.48 6582.68 810.24
   6576.0 807.0 6416.0 740.5 6400.5 736.0
   6385.0 731.5 6243.0 717.0 6227.5 714.5

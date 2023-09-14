@@ -12,7 +12,7 @@ line wall -subtype invisible
   610.0 93.0
 endline
 
-point 572.0 36.0 continuation -attr Code P -text "Désob à continuer on entend l'eau et courant d'air présent"
+point 572.0 36.0 continuation -attr Code D -attr Cavite 'Kriska' -attr Reseau 'Ded' -attr CA 'Aspirant'  -text "Désob à continuer on entend l'eau et courant d'air présent"
 
 line border -close on
   333.0 603.0

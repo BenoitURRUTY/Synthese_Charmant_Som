@@ -4,9 +4,6 @@ encoding  utf-8
 
 source Corneilles-tot.th
 
-# Add entrances coordinates
-# input legendes/entrances_coordinates.th
-
 # Add config file
 input ../../config.thc 
   
@@ -287,16 +284,16 @@ endlayout
   
 # 3-EXPORTS   
 export map -fmt xvi -layout xviexport -o Data/Corneilles-map.xvi
-export map -proj extended -layout xviexport -fmt xvi -o Data/Corneilles-coupe.xvi
+#export map -proj extended -layout xviexport -fmt xvi -o Data/Corneilles-coupe.xvi
 export map -proj  [elevation 17] -layout xviexport -fmt xvi -o Data/Corneilles-coupe-elevation.xvi 
 
 # Select maps
 	select MP-Corneilles-plan-tot@Corneilles
 	select MC-Corneilles-coupe-tot@Corneilles
 	 
-export map -projection extended -layout my_layout-coupe -o Outputs/Corneilles-coupe.pdf 
+#export map -projection extended -layout my_layout-coupe -o Outputs/Corneilles-coupe.pdf 
 export map -o Outputs/Corneilles-plan.pdf -layout my_layout
- export map -projection  [elevation 17] -layout my_layout-coupe -o Outputs/Corneilles-coupe-elevation.pdf 
+export map -projection  [elevation 17] -layout my_layout-coupe -o Outputs/Corneilles-coupe-elevation.pdf 
 
 export model -o Outputs/Corneilles.lox
   

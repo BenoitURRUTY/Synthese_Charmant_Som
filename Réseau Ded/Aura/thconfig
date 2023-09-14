@@ -287,12 +287,12 @@ endlayout
   
 # 3-EXPORTS   
 export map -fmt xvi -layout xviexport -o Data/Aura-map.xvi
-export map -proj extended -layout xviexport -fmt xvi -o Data/Aura-coupe.xvi
+#export map -proj extended -layout xviexport -fmt xvi -o Data/Aura-coupe.xvi
 export map -proj [elevation 17] -layout xviexport -fmt xvi -o Data/Aura-coupe-elevation.xvi 
 
 # Select maps
-#	select MP-Aura-plan-tot@Aura
-#	select MC-Aura-coupe-tot@Aura
+select MP-Aura-plan-tot@Aura
+select MC-Aura-coupe-tot@Aura
 	 
 export map -projection [elevation 17] -layout my_layout-coupe -o Outputs/Aura-coupe.pdf 
 export map -o Outputs/Aura-plan.pdf -layout my_layout

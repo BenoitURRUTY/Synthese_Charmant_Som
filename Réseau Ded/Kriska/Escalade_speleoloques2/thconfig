@@ -287,15 +287,14 @@ endlayout
   
 # 3-EXPORTS   
 export map -fmt xvi -layout xviexport -o Data/Escalade_speleoloques2-map.xvi
-export map -proj extended -layout xviexport -fmt xvi -o Data/Escalade_speleoloques2-coupe.xvi
+# export map -proj extended -layout xviexport -fmt xvi -o Data/Escalade_speleoloques2-coupe.xvi
 export map -proj [elevation 17] -layout xviexport -fmt xvi -o Data/Escalade_speleoloques2-coupe-elevation.xvi 
 
 # Select maps
 	select MP-Escalade_speleoloques2-plan-tot@Escalade_speleoloques2
-	select MC-Escalade_speleoloques2-coupe-tot@Escalade_speleoloques2
   select MC-Escalade_speleoloques2-coupe-tot-elev@Escalade_speleoloques2
 	 
-export map -projection extended -layout my_layout-coupe -o Outputs/Escalade_speleoloques2-coupe.pdf 
+# export map -projection extended -layout my_layout-coupe -o Outputs/Escalade_speleoloques2-coupe.pdf 
 export map -o Outputs/Escalade_speleoloques2-plan.pdf -layout my_layout
 export map -projection [elevation 17] -layout my_layout-coupe -o Outputs/Escalade_speleoloques2-coupe-elevation.pdf 
 

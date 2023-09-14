@@ -7,6 +7,25 @@ survey Kriska1 -title "Kriska" -entrance 0
     date 2021.06.26
     team "Solveig/Reymond(GUCEM)"
     team "Benoît/Urruty(GUCEM)"
+    explo-team "François Thierry"
+    explo-team "Criska"
+    explo-team "Jean-Claude Dobrilla"
+    explo-team "Alain Marbach"
+    explo-team "Thiriet"
+    explo-team "Betschen"
+    explo-team "Collomb"
+    explo-team "André Méozzi"
+    explo-team "Rousset"
+    explo-team "Massari"
+    explo-team "R. Taffani"
+    explo-team "G. Marbach"
+    explo-team "CSC"
+    explo-team "SGCAF"
+    explo-team "FLT"
+    explo-team "Darbouns"
+    explo-team "A.C. Toulonnais"
+    explo-team "Aragnous"
+    explo-date 1962
     units length meters
     units compass clino degrees
     #cs UTM32

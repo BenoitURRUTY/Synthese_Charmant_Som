@@ -3,6 +3,7 @@
 survey gps_kriska -title "gps kriska"
 
   centerline
+    flags surface
     date 2022.09.10 
     team "Benoît/Urruty(GUCEM)"
     units length meters

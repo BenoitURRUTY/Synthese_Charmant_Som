@@ -1,6 +1,6 @@
 encoding  utf-8
 ##XTHERION## xth_me_area_adjust -2000 -616.1899999999998 1084.6924 3655.5602
-##XTHERION## xth_me_area_zoom_to 50
+##XTHERION## xth_me_area_zoom_to 25
 ##XTHERION## xth_me_image_insert {525.655 1 1.0} {-16.04000000000042 vire.0} Vire-coupe.xvi 0 {}
 
 
@@ -43,6 +43,7 @@ endline
 
 line wall
   -59.0 3067.0
+  altitude .
   -39.0 3050.0 47.0 2977.0 65.0 2955.0
   83.0 2933.0 233.0 2721.0 252.0 2694.0
   271.0 2667.0 324.0 2573.0 322.0 2545.0
@@ -129,6 +130,7 @@ endline
 line wall -subtype invisible
   -405.0 2070.0
   -415.0 1959.0
+  altitude .
 endline
 
 line wall -reverse on -subtype invisible

@@ -1,6 +1,7 @@
 encoding  utf-8
 
 survey Kriska -title "Kriska"
+   
 # Pour importer les différentes données de différents fichiers topos :
    input Kriska-spel/Kriska-spel-tot.th
 
@@ -39,8 +40,7 @@ survey Kriska -title "Kriska"
    input E60/E60-tot.th
    equate 34@Kriska1.Kriska-spel ES.3@E60.E60
 
-   input Kriska-tot-SC-elev.th
-   input Kriska-tot-SP.th
+   input Kriska-maps.th
 
 
    #join Scrap Plan

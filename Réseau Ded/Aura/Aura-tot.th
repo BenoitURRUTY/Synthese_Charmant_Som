@@ -12,8 +12,7 @@ survey Aura -title "Aura"
 input Data/Aura.th2
 input Data/Aura-coupe-elevation.th2
 
-input Aura-SC.th
-input Aura-SP.th
+input Aura-maps.th
 
 equate ga.2@gps_aura aura.11@aura
 

@@ -1,9 +1,0 @@
-encoding  utf-8
-
-map MC-Escalade1-coupe-tot -title "Escalade1"
-    SC-Escalade1-1
-    break
-    SC-Escalade1-2
-    break
-    SC-Escalade1-3
-endmap

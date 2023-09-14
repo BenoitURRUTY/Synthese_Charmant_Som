@@ -8,3 +8,9 @@ map MP-Vire-plan-tot -title "Vire"
   break
   SP-Vire-3
 endmap
+
+map MC-Vire-coupe-tot -title "Vire"
+  SC-Vire-1
+  break
+  SC-Vire-2
+endmap

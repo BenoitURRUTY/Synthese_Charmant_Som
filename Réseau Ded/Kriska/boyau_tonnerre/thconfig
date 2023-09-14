@@ -289,17 +289,16 @@ endlayout
   
 # 3-EXPORTS   
 export map -fmt xvi -layout xviexport -o Data/boyau-map.xvi
-export map -proj extended -layout xviexport -fmt xvi -o Data/boyau-coupe.xvi
+# export map -proj extended -layout xviexport -fmt xvi -o Data/boyau-coupe.xvi
 export map -proj [elevation 17] -layout xviexport -fmt xvi -o Data/boyau-coupe-elevation.xvi 
 
 # Select maps
 	select MP-boyau-plan-tot@boyau
-	select MC-boyau-coupe-tot@boyau
-                 select MC-boyau-elev-tot@boyau
+  select MC-boyau-elev-tot@boyau
 	 	 
-export map -projection extended -layout my_layout-coupe -o Outputs/boyau-coupe.pdf 
+# export map -projection extended -layout my_layout-coupe -o Outputs/boyau-coupe.pdf 
 export map -o Outputs/boyau-plan.pdf -layout my_layout
- export map -projection [elevation 17] -layout my_layout-coupe -o Outputs/boyau-coupe-elevation.pdf 
+export map -projection [elevation 17] -layout my_layout-coupe -o Outputs/boyau-coupe-elevation.pdf 
 
 export model -o Outputs/boyau.lox
   

@@ -15,3 +15,14 @@ map MP-Corneilles-plan-tot -title "Corneilles"
     
     
 endmap
+
+
+map MC-Corneilles-coupe-tot -title "Corneilles"
+    SC-Corneilles-4
+    break
+    SC-Corneilles-2
+    break
+    SC-Corneilles-1
+    break
+    SC-Corneilles-3
+endmap

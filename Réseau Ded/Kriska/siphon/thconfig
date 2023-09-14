@@ -289,17 +289,16 @@ endlayout
   
 # 3-EXPORTS   
 export map -fmt xvi -layout xviexport -o Data/siphon-map.xvi
-export map -proj extended -layout xviexport -fmt xvi -o Data/siphon-coupe.xvi
+# export map -proj extended -layout xviexport -fmt xvi -o Data/siphon-coupe.xvi
 export map -proj [elevation 17] -layout xviexport -fmt xvi -o Data/siphon-coupe-elevation.xvi 
 
 # Select maps
   select MP-siphon-plan-tot@siphon
-#	select MC-siphon-coupe-tot@siphon
   select MC-siphon-coupe-elev-tot@siphon
 	 
-export map -projection extended -layout my_layout-coupe -o Outputs/siphon-coupe.pdf 
+# export map -projection extended -layout my_layout-coupe -o Outputs/siphon-coupe.pdf 
 export map -o Outputs/siphon-plan.pdf -layout my_layout
- export map -projection [elevation 17] -layout my_layout-coupe -o Outputs/siphon-coupe-elevation.pdf 
+export map -projection [elevation 17] -layout my_layout-coupe -o Outputs/siphon-coupe-elevation.pdf 
 
 export model -o Outputs/siphon.lox
   
@@ -307,4 +306,4 @@ export model -o Outputs/siphon.lox
 #export map -proj plan -fmt esri -o Outputs/siphon -layout my_layout
   
 # Export des fichiers kml
-export map -proj plan -fmt kml -o Outputs/siphon.kml -layout my_layout
+# export map -proj plan -fmt kml -o Outputs/siphon.kml -layout my_layout

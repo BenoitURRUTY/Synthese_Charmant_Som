@@ -15,11 +15,8 @@ survey siphon -title "siphon"
 	## join scrap1 scrap2 -count n (où n = nombre de galerie à connecter, par défaut n = 1). C'est tout simple !
 
 input Data/siphon.th2
-input Data/siphon-coupe.th2
 input Data/siphon-coupe-elev.th2
 
-input siphon-SP.th
-input siphon-SC.th
-input siphon-SC-elev.th
+input siphon-maps.th
 
 endsurvey

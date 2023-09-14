@@ -43,8 +43,6 @@ endline
 
 point 2736.0 26680.0 label -text "Fissure dynamitée"
 
-point 3256.34 29438.54 altitude -align top
-
 point 6572.0 22696.0 label -text "P8"
 
 point 6520.0 23352.0 label -text "P8"
@@ -102,6 +100,7 @@ line wall
   3411.0 29315.0 3374.0 29382.0 3301.0 29424.0
   3228.0 29466.0 3245.0 29466.0 3245.0 29466.0
   smooth off
+  altitude .
 endline
 
 line wall
@@ -550,9 +549,9 @@ line wall
   smooth off
 endline
 
-point 16044.0 12356.0 continuation -attr Code B -text "Escalade possible, recherché si utile ou juste continuation de la faille" -align top-left -visibility on
+point 16044.0 12356.0 continuation -attr Code E -attr Cavite 'Valombre' -attr Reseau 'Ded' -attr CA '' -text "Escalade possible, rechercher si utile ou juste continuation de la faille" -align top-left -visibility on
 
-point 18976.0 7184.0 continuation -attr Code A -text "Ouverture étroite au plafond"
+point 18976.0 7184.0 continuation -attr Code E -attr Cavite 'Valombre' -attr Reseau 'Ded' -attr CA '' -text "Ouverture étroite au plafond"
 
 line wall -subtype invisible
   19108.0 7064.0
@@ -581,8 +580,6 @@ line rock-border -close off
   11016.0 18680.0 10740.0 18792.0 10716.0 18804.0
   smooth off
 endline
-
-point 20288.55 4104.68 altitude -align left
 
 point 17884.0 6476.0 label -text "<center>P18 :<br>Puits du maitre<br>qui retrouve son chien"
 
@@ -672,6 +669,7 @@ line wall
   19804.0 4492.0 19820.0 4456.0 19880.0 4436.0
   19940.0 4416.0 20212.0 4172.0 20248.0 4104.0
   smooth off
+  altitude .
 endline
 
 endscrap

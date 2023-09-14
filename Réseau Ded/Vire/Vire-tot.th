@@ -12,8 +12,7 @@ survey Vire -title "Vire"
 	input Data/Vire.th2
 	input Data/Vire-coupe.th2
 
-	input Vire-SC.th
-	input Vire-SP.th
+	input Vire-maps.th
 
 	join SC-Vire-2 SC-Vire-1
 

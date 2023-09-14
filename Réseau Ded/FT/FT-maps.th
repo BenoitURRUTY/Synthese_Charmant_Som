@@ -20,3 +20,9 @@ map MP-FT-plan-tot -title "FT"
     SP-FT-0
     break
 endmap
+
+map MC-FT-coupe-tot -title "FT"
+    SC-FT-1
+    break
+    SC-FT-2
+endmap

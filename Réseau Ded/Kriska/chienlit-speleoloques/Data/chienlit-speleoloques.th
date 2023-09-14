@@ -6,7 +6,7 @@ survey chienlit-speleoloques -title "chienlit-speleoloques"
     flags duplicate
     date 2022.01.22
     team "Benoît/Urruty(GUCEM)"
-    team "Laura/()"
+    team "Laura/"
     units length meters
     units compass clino degrees
     data normal from to length compass clino

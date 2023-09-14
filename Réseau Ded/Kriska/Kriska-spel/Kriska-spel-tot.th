@@ -16,9 +16,7 @@ input Data/Kriska-spel.th2
 #input Data/Kriska-spel-coupe.th2
 input Data/Kriska-spel-elevation.th2
 
-input Kriska-spel-SP.th
-#input Kriska-spel-SC.th
-input Kriska-spel-SC-elev.th
+input Kriska-spel-maps.th
 
 equate gk.2@gps_kriska 0@Kriska1
 

@@ -5,10 +5,10 @@ survey escalade_speleoloques2 -title "escalade_speleoloques2"
   centerline
     date 2023.06.15 
     explo-date 2023.06.15
-    team "Benoît/Urruty (GUCEM)"
-    team "Simon/Tissot (GUCEM)" 
-    explo-team "Benoît/Urruty (GUCEM)"
-    explo-team "Simon/Tissot (GUCEM)" 
+    team "Benoît/Urruty(GUCEM)"
+    team "Simon/Tissot(GUCEM)" 
+    explo-team "Benoît/Urruty(GUCEM)"
+    explo-team "Simon/Tissot(GUCEM)" 
     units length meters
     units compass clino degrees
     data normal from to length compass clino

@@ -4,7 +4,8 @@ survey E60 -title "E60"
 
   centerline
     date 2023.08.18 
-    # team Fabien Benoît 
+    team "Fabien/Simon"
+    team "Benoît/Urruty(GUCEM)" 
     units length meters
     units compass clino degrees
     data normal from to length compass clino

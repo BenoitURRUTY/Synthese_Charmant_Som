@@ -1,8 +1,0 @@
-encoding  utf-8
-
-
-map MC-Vire-coupe-tot -title "Vire"
-  SC-Vire-1
-  break
-  SC-Vire-2
-endmap

@@ -4,10 +4,10 @@ survey escalade_speleoloques -title "escalade_speleoloques"
 
   centerline
     date 2022.10.01 
-    team "Benoît/Urruty (GUCEM)"
-    team "Gervais/Bois (GUCEM)"
-    explo-team "Benoît/Urruty (GUCEM)"
-    explo-team "Gervais/Bois (GUCEM)"
+    team "Benoît/Urruty(GUCEM)"
+    team "Gervais/Bois(GUCEM)"
+    explo-team "Benoît/Urruty(GUCEM)"
+    explo-team "Gervais/Bois(GUCEM)"
     explo-date 2022.10.01
     units length meters
     units compass clino degrees
