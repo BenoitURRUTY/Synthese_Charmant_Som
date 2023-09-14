@@ -7,7 +7,7 @@ encoding  utf-8
 
 map MP-Ded-tot -title "Synthèse topographie du Réseau Ded"
 	
-    MP-Kriska-tot@Kriska
+    MP-Kriska-plan-tot@Kriska
     break
     MP-Valombre-plan-tot@Valombre [0 -60 m] below
     break
@@ -17,7 +17,7 @@ map MP-Ded-tot -title "Synthèse topographie du Réseau Ded"
     break
 	MP-FT-plan-tot@FT [0 -60 m] below
     break
-    MP-Puits1-coupe-tot@Puits1
+    MP-Puits1-plan-tot@Puits1
     break
     MP-William-plan-tot@William
     break

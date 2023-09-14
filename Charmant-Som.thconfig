@@ -326,8 +326,13 @@ export map -projection [elevation 17] -layout my_layout-coupe -o Outputs/Charman
 export model -o Outputs/Charmant-Som.lox
 
 # Export des fichiers ESRI
-export map -proj plan -fmt esri -o Outputs/Charmant-Som -layout my_layout
-export model -fmt esri -o Outputs/Charmant-Som-model -enable all
+export map -proj plan -fmt esri -o GIS/Charmant-Som -layout my_layout
+export model -fmt esri -o GIS/Charmant-Som-model -enable all
+
+
+#survex
+export model -fmt survex -o GIS/Charmant-Som.3d -enable all 
+
   
 # Export des fichiers kml
 export map -proj plan -fmt kml -o Outputs/Charmant-Som.kml -layout my_layout
