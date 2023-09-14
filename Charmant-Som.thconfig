@@ -43,7 +43,7 @@ layout my_layout
    # Pour faire la topo dans le system UTM  
    # Decommenter la ligne, et remplacer xx par la zone UTM
    cs UTM31
-
+   
    # "base-scale" specifie l echelle auquel nous avons
    # dessine nos croquis. Par defaut, c est 1/200.
    # Si on a utilise une autre echelle, 

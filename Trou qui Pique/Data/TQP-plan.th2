@@ -15,7 +15,7 @@ line pit
   392.57 -472.58
 endline
 
-line pit
+line pit -clip off
   348.92 -411.8
   342.54 -423.97
   341.72 -442.95
@@ -23,18 +23,6 @@ line pit
   346.97 -478.46
   353.75 -494.73
   377.15 -539.17
-endline
-
-line wall -subtype invisible
-  348.92 -411.8
-  352.0 -385.0 367.0 -295.0 348.0 -213.0
-  329.0 -131.0 249.0 451.0 224.0 481.0
-  199.0 511.0 140.0 518.0 152.0 421.0
-  164.0 324.0 463.0 -1272.0 512.0 -1283.0
-  561.0 -1294.0 589.0 -1296.0 577.0 -1219.0
-  565.0 -1142.0 378.3 -543.34 377.15 -539.17
-  376.0 -535.0 377.15 -539.17 377.15 -539.17
-  smooth off
 endline
 
 line wall -reverse on -subtype pit
@@ -207,15 +195,15 @@ line water-flow
   1115.4 -1177.59
 endline
 
-point 1310.79 -1294.48 blocks -scale xs
+point 1310.79 -1294.48 blocks
 
-point 1464.54 -1263.71 blocks -scale l
+point 1464.54 -1263.71 blocks
 
-point 1360.47 -1075.58 blocks -scale l
+point 1360.47 -1075.58 blocks
 
-point 1184.25 -1031.80 blocks -scale xs
+point 1184.25 -1031.80 blocks
 
-point 1210.27 -1164.32 blocks -scale l
+point 1210.27 -1164.32 blocks
 
 line pit
   1357.28 -1714.01
@@ -540,21 +528,54 @@ endline
 
 point 194.97 -3641.58 label -text "P24"
 
-point -1028.82 -3666.70 blocks
+line rock-border -close on
+  -828.0 -3440.0
+  -428.0 -3584.0
+  -592.0 -3636.0
+  -864.0 -3560.0
+  -828.0 -3440.0
+endline
 
-point -1316.84 -3328.03 blocks
+line rock-border -close on
+  -1604.0 -3148.0
+  -1464.0 -2948.0
+  -2020.0 -2888.0
+  -2092.0 -3076.0
+  -1604.0 -3148.0
+endline
 
-point -1227.76 -2935.90 blocks
+line rock-border -close on
+  -1076.0 -3316.0
+  -1144.0 -3468.0
+  -984.0 -3492.0
+  -944.0 -3348.0
+  -1076.0 -3316.0
+endline
 
-point -1554.38 -3259.71 blocks
+line rock-border -close on
+  -1244.0 -3556.0
+  -1188.0 -3712.0
+  -1004.0 -3632.0
+  -1024.0 -3532.0
+  -1244.0 -3556.0
+endline
 
-point -791.28 -3586.49 blocks
+line rock-border -close on
+  -1228.0 -3144.0
+  -1308.0 -3340.0
+  -1188.0 -3344.0
+  -1068.0 -3168.0
+  -1160.0 -3044.0
+  -1228.0 -3144.0
+endline
 
-point -1417.79 -2950.75 blocks
-
-point -1257.45 -3120.08 blocks
-
-point -1304.96 -3648.87 blocks
+line rock-border -close on
+  -1408.0 -3000.0
+  -1516.0 -3124.0
+  -1348.0 -3124.0
+  -1348.0 -3036.0
+  -1408.0 -3000.0
+endline
 
 line water-flow
   758.91 -3494.49
@@ -579,9 +600,11 @@ line water-flow
   smooth off
 endline
 
-point 266.19 -768.17 label -text "Entrée "
+point -44.0 -712.0 label -text "Trou qui Pique"
 
-line border
+point 212.0 -620.0 entrance -orientation 65.3
+
+line rock-edge -clip off
   348.92 -411.8
   343.9 -395.5 343.28 -281.66 338.25 -265.36
   326.7 -227.95 314.89 -191.77 305.59 -153.67
@@ -592,7 +615,7 @@ line border
   smooth off
 endline
 
-line rock-border
+line rock-edge -reverse on -clip off
   377.15 -539.17
   379.17 -560.15 423.38 -718.56 427.52 -739.23
   445.38 -828.39 485.57 -910.5 507.85 -998.47

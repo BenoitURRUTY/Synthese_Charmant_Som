@@ -12,7 +12,7 @@ input legendes/entrances_coordinates.th
 input ../config.thc 
 
 #DEM
-source ../GIS/DEM_new.th
+#source ../GIS/DEM_new.th
 
 # 2-LAYOUT   
 
@@ -44,6 +44,7 @@ layout my_layout
    # Decommenter la ligne, et remplacer xx par la zone UTM
    cs UTM31
 
+   
    # "base-scale" specifie l echelle auquel nous avons
    # dessine nos croquis. Par defaut, c est 1/200.
    # Si on a utilise une autre echelle, 
@@ -80,8 +81,8 @@ layout my_layout
    #color map-bg 85
 
    # Une couleur de topo (RVB)
-   color map-fg [100 100 80]
-
+   #color map-fg [100 100 80]
+   color map-fg altitude
    # la topo est transparente (on peut voir les galeries sousjacentes)
    # Par defaut, donc, pas vraiment besoin de specifier
    transparency on
