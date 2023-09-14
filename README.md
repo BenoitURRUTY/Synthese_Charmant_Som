@@ -1,10 +1,10 @@
-# Base de données topographiques du systèmes karstiques du massif du Charmant Som (Saint Pierre de Chartreuse, 38, France)
+# Base de données topographiques du système karstique du massif du Charmant Som (Saint Pierre de Chartreuse, 38, France)
 
 
 
 ## Overview
 
-Ce dépôt contient les données topographiques et les dessins associés des cavités du massif du Charmant Som à Saint Pierre de Chartreuse (73, France). 
+Ce dépôt contient les données topographiques et les dessins associés des cavités du massif du Charmant Som à Saint Pierre de Chartreuse (38, France). 
 
 Cela comprend :
 
@@ -15,7 +15,7 @@ Cela comprend :
 
 ## Description
 
-Ce dépôt sauvegarde les données topographiques et de dessin. Ces fichiers sont Therion (data + dessins).
+Ce dépôt sauvegarde les données topographiques et de dessin. Ces fichiers sont pour le logiciel Therion (data + dessins).
 
 Uniquement les fichiers sources sont sauvegardés pour des raisons de taille  :
 
@@ -53,12 +53,6 @@ Une convention a été mise en place pour la gestion des points d\'interrogation
 ## Auteur de la base de données
 
 Benoît Urruty (b.urruty77@gmail.com)
-
-
-
-## How to cite
-
-
 
 ## Contact
 
