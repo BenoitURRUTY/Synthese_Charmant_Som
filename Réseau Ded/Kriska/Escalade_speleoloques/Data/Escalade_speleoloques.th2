@@ -5,7 +5,8 @@ encoding  utf-8
 
 
 
-scrap SP-ES-1 -projection plan -station-names "" "@escalade_speleoloques" -scale [-128.0 -128.0 1151.6226000000001 -128.0 0.0 0.0 32.502414040000005 0.0 m]
+scrap SP-ES-1 -projection plan -station-names "" "@escalade_speleoloques" -scale [-128.0 -128.0 1151.6226000000001 -128.0 0.0 0.0 32.502414040000005 0.0 m] -author 2023 "Benoît Urruty" -copyright 2023 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/"
+
 
 line floor-meander
   776.0 771.0

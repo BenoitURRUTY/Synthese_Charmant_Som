@@ -12,7 +12,6 @@ survey Valombre -title "Valombre"
 input Data/Valombre.th2
 input Data/Valombre-coupe-elevation.th2
 
-input Valombre-SP.th
-input Valombre-SC.th
+input Valombre-maps.th
 
 endsurvey

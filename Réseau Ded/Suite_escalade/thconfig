@@ -287,17 +287,16 @@ endlayout
   
 # 3-EXPORTS   
 export map -fmt xvi -layout xviexport -o Data/Suite_Escalade-map.xvi
-export map -proj extended -layout xviexport -fmt xvi -o Data/Suite_Escalade-coupe.xvi
+# export map -proj extended -layout xviexport -fmt xvi -o Data/Suite_Escalade-coupe.xvi
 export map -proj  [elevation 17] -layout xviexport -fmt xvi -o Data/Suite_Escalade-coupe-elevation.xvi 
 
 # Select maps
-#	select MP-Suite Escalade-plan-tot@Suite Escalade
-#	select MC-Suite Escalade-coupe-tot@Suite Escalade
-select MP-SE-elevation-tot@Suite_escalade
+	select MP-SE-plan-tot@SE-tot
+  select MC-SE-elevation-tot@SE-tot
 	 
-export map -projection extended -layout my_layout-coupe -o Outputs/Suite_Escalade-coupe.pdf 
+# export map -projection extended -layout my_layout-coupe -o Outputs/Suite_Escalade-coupe.pdf 
 export map -o Outputs/Suite_Escalade-plan.pdf -layout my_layout
- export map -projection  [elevation 17] -layout my_layout-coupe -o Outputs/Suite_Escalade-coupe-elevation.pdf 
+export map -projection  [elevation 17] -layout my_layout-coupe -o Outputs/Suite_Escalade-coupe-elevation.pdf 
 
 export model -o Outputs/Suite_Escalade.lox
   

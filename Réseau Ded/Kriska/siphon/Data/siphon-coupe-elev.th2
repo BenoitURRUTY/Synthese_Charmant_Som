@@ -5,7 +5,8 @@ encoding  utf-8
 
 
 
-scrap SC-siphon-elev-1 -projection [elevation 17] -station-names "" "@siphon" -scale [-128.0 -128.0 6427.216 -128.0 0.0 0.0 166.5024864 0.0 m]
+scrap SC-siphon-elev-1 -projection [elevation 17] -station-names "" "@siphon" -scale [-128.0 -128.0 6427.216 -128.0 0.0 0.0 166.5024864 0.0 m] -author 2023 "Benoît Urruty" -copyright 2023 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/"
+
 
 point 1619.65 3790.55 station -name 31
 
@@ -117,7 +118,8 @@ endscrap
 
 
 
-scrap SC-siphon-elev-3 -projection [elevation 17] -station-names "" "@siphon" -scale [-128.0 -128.0 6427.216 -128.0 0.0 0.0 166.5024864 0.0 m]
+scrap SC-siphon-elev-3 -projection [elevation 17] -station-names "" "@siphon" -scale [-128.0 -128.0 6427.216 -128.0 0.0 0.0 166.5024864 0.0 m] -author 2023 "Benoît Urruty" -copyright 2023 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/"
+
 
 line wall
   2135.75 2940.75
@@ -299,7 +301,8 @@ endscrap
 
 
 
-scrap SC-siphon-elev-2 -projection [elevation 17] -station-names "" "@siphon" -scale [-128.0 -128.0 6427.216 -128.0 0.0 0.0 166.5024864 0.0 m]
+scrap SC-siphon-elev-2 -projection [elevation 17] -station-names "" "@siphon" -scale [-128.0 -128.0 6427.216 -128.0 0.0 0.0 166.5024864 0.0 m] -author 2023 "Benoît Urruty" -copyright 2023 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/"
+
 
 line wall -reverse on -subtype invisible
   1642.25 3731.0

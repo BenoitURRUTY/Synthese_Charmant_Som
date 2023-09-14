@@ -5,7 +5,9 @@ encoding  utf-8
 
 
 
-scrap SC-Puits1-1 -projection [elevation 17] -station-names "" "@Puits1" -scale [-128.0 -128.0 994.1422 -128.0 0.0 0.0 28.50241188 0.0 m]
+scrap SC-Puits1-1 -projection [elevation 17] -station-names "" "@Puits1" -scale [-128.0 -128.0 994.1422 -128.0 0.0 0.0 28.50241188 0.0 m] -author 2023 "Benoît Urruty" -copyright 2023 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/"
+
+
 
 line wall -reverse on -subtype invisible
   789.0 116.0

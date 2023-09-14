@@ -31,7 +31,6 @@ endlayout
   
 layout my_layout
  	# Call the config settings (Layout config inside the config.thc file)
-	copy Coords_Header_CPCPp
 	copy drawingconfig
 	copy headerl
 	copy langue-fr
@@ -161,7 +160,6 @@ endlayout
   
 layout my_layout-coupe
 	# Call the config settings (Layout config inside the config.thc file)
-	copy Coords_Header_CPCPp
 	copy drawingconfig
 	copy header_coupe
 	copy langue-fr

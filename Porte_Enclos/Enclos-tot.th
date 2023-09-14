@@ -1,6 +1,6 @@
 encoding  utf-8
 
-survey enclos -title "Enclos"
+survey enclos -title "Résurgence de la Porte de l'Enclos"
    input Data/enclos.th
   
  
@@ -12,7 +12,7 @@ survey enclos -title "Enclos"
 input Data/enclos.th2
 input Data/enclos-coupe.th2
 
-#input FT-maps.th
+input Enclos-maps.th
 
 endsurvey
 

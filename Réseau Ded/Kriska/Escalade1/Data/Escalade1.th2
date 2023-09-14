@@ -5,7 +5,8 @@ encoding  utf-8
 
 
 
-scrap SP-Escalade1-1 -projection plan -station-names "" "@Escalade1" -scale [-128.0 -128.0 1072.8824 -128.0 0.0 0.0 30.502412959999997 0.0 m]
+scrap SP-Escalade1-1 -projection plan -station-names "" "@Escalade1" -scale [-128.0 -128.0 1072.8824 -128.0 0.0 0.0 30.502412959999997 0.0 m] -author 2023 "Benoît Urruty" -copyright 2023 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/"
+
 
 line wall -subtype invisible
   569.0 522.0
@@ -84,7 +85,8 @@ endscrap
 
 
 
-scrap SP-Escalade1-2 -projection plan -station-names "" "@Escalade1" -scale [-128.0 -128.0 1072.8824 -128.0 0.0 0.0 30.502412959999997 0.0 m]
+scrap SP-Escalade1-2 -projection plan -station-names "" "@Escalade1" -scale [-128.0 -128.0 1072.8824 -128.0 0.0 0.0 30.502412959999997 0.0 m] -author 2023 "Benoît Urruty" -copyright 2023 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/"
+
 
 line pit
   294.0 400.0

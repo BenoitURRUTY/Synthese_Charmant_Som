@@ -12,7 +12,6 @@ survey William -title "William"
 input Data/William.th2
 input Data/William-coupe-elevation.th2
 
-input William-SC.th
-input William-SP.th
+input William-maps.th
 
 endsurvey

@@ -5,7 +5,8 @@ encoding  utf-8
 
 
 
-scrap SC-Corneilles-1 -projection [elevation 17] -station-names "" "@Corneilles" -scale [-128.0 -128.0 7372.0984 -128.0 0.0 0.0 190.50249936 0.0 m]
+scrap SC-Corneilles-1 -projection [elevation 17] -station-names "" "@Corneilles" -scale [-128.0 -128.0 7372.0984 -128.0 0.0 0.0 190.50249936 0.0 m] -author 2023 "Benoît Urruty" -copyright 2023 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/"
+
 
 line wall -subtype invisible
   5843.0 1258.0
@@ -155,7 +156,8 @@ endscrap
 
 
 
-scrap SC-Corneilles-3 -projection [elevation 17] -station-names "" "@escalade_corneille-vire" -scale [-128.0 -128.0 7372.0984 -128.0 0.0 0.0 190.50249936 0.0 m]
+scrap SC-Corneilles-3 -projection [elevation 17] -station-names "" "@escalade_corneille-vire" -scale [-128.0 -128.0 7372.0984 -128.0 0.0 0.0 190.50249936 0.0 m] -author 2023 "Benoît Urruty" -copyright 2023 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/"
+
 
 point 4112.8 7460.629999999999 station -name cv.0
 
@@ -295,7 +297,8 @@ endscrap
 
 
 
-scrap SC-Corneilles-4 -projection [elevation 17] -station-names "" "@vire-puits_escalade" -scale [-128.0 -128.0 7372.0984 -128.0 0.0 0.0 190.50249936 0.0 m]
+scrap SC-Corneilles-4 -projection [elevation 17] -station-names "" "@vire-puits_escalade" -scale [-128.0 -128.0 7372.0984 -128.0 0.0 0.0 190.50249936 0.0 m] -author 2023 "Benoît Urruty" -copyright 2023 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/"
+
 
 line wall -subtype invisible
   6037.0 6350.0
@@ -381,7 +384,8 @@ endscrap
 
 
 
-scrap SC-Corneilles-2 -projection [elevation 17] -station-names "" "@escalade_bas_corneilles" -scale [-128.0 -128.0 7372.0984 -128.0 0.0 0.0 190.50249936 0.0 m]
+scrap SC-Corneilles-2 -projection [elevation 17] -station-names "" "@escalade_bas_corneilles" -scale [-128.0 -128.0 7372.0984 -128.0 0.0 0.0 190.50249936 0.0 m] -author 2023 "Benoît Urruty" -copyright 2023 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/"
+
 
 line wall -subtype invisible
   5530.0 1646.0

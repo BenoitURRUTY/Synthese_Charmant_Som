@@ -309,7 +309,7 @@ endlayout
 	
 	 
 
-export atlas -layout atlas_layout -o Ded-atlas.pdf
+export atlas -layout atlas_layout -o Outputs/Ded-atlas.pdf
 
 
-export atlas -projection [elevation 17] -layout my_layout-coupe -o Ded-atlas_coupe_elevation.pdf
+export atlas -projection [elevation 17] -layout my_layout-coupe -o Outputs/Ded-atlas_coupe_elevation.pdf

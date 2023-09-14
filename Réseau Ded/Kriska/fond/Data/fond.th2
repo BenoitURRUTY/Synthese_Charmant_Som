@@ -5,7 +5,8 @@ encoding  utf-8
 
 
 
-scrap SP-fond-1 -projection plan -station-names "" "@fond" -scale [-128.0 -128.0 8002.02 -128.0 0.0 0.0 206.502508 0.0 m]
+scrap SP-fond-1 -projection plan -station-names "" "@fond" -scale [-128.0 -128.0 8002.02 -128.0 0.0 0.0 206.502508 0.0 m] -author 2023 "Benoît Urruty" -copyright 2023 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/"
+
 
 line wall -subtype invisible
 endline
@@ -85,7 +86,8 @@ endscrap
 
 
 
-scrap SP-fond-4 -projection plan -station-names "" "@fond" -scale [-128.0 -128.0 8002.02 -128.0 0.0 0.0 206.502508 0.0 m]
+scrap SP-fond-4 -projection plan -station-names "" "@fond" -scale [-128.0 -128.0 8002.02 -128.0 0.0 0.0 206.502508 0.0 m] -author 2023 "Benoît Urruty" -copyright 2023 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/"
+
 
 line wall -reverse on -subtype invisible
   6374.0 1719.0
@@ -137,7 +139,8 @@ endscrap
 
 
 
-scrap SP-fond-5 -projection plan -station-names "" "@fond" -scale [-128.0 -128.0 8002.02 -128.0 0.0 0.0 206.502508 0.0 m]
+scrap SP-fond-5 -projection plan -station-names "" "@fond" -scale [-128.0 -128.0 8002.02 -128.0 0.0 0.0 206.502508 0.0 m] -author 2023 "Benoît Urruty" -copyright 2023 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/"
+
 
 line wall -reverse on -subtype invisible
   7110.0 1697.0
@@ -198,7 +201,8 @@ endscrap
 
 
 
-scrap SP-fond-2 -projection plan -station-names "" "@fond" -scale [-128.0 -128.0 8002.02 -128.0 0.0 0.0 206.502508 0.0 m]
+scrap SP-fond-2 -projection plan -station-names "" "@fond" -scale [-128.0 -128.0 8002.02 -128.0 0.0 0.0 206.502508 0.0 m] -author 2023 "Benoît Urruty" -copyright 2023 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/"
+
 
 line wall -reverse on -subtype invisible
   2160.0 1598.0
@@ -318,7 +322,8 @@ endscrap
 
 
 
-scrap SP-fond-3 -projection plan -station-names "" "@fond" -scale [-128.0 -128.0 8002.02 -128.0 0.0 0.0 206.502508 0.0 m]
+scrap SP-fond-3 -projection plan -station-names "" "@fond" -scale [-128.0 -128.0 8002.02 -128.0 0.0 0.0 206.502508 0.0 m] -author 2023 "Benoît Urruty" -copyright 2023 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/"
+
 
 point 4281.0 733.0 water-flow
 

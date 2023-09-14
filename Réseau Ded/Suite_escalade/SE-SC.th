@@ -1,9 +1,0 @@
-encoding  utf-8
-
-map MC-SE-elevation-tot -title "SE"
-    SC-SE-1
-    break
-    SC-SE-2
-    break
-    SC-SE-3
-endmap

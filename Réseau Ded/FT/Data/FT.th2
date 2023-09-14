@@ -5,7 +5,8 @@ encoding  utf-8
 
 
 
-scrap SP-FT-1 -projection plan -station-names "" "@FT" -scale [-128.0 -128.0 4301.2306 -128.0 0.0 0.0 112.50245724 0.0 m]
+scrap SP-FT-1 -projection plan -station-names "" "@FT" -scale [-128.0 -128.0 4301.2306 -128.0 0.0 0.0 112.50245724 0.0 m] -author 2023 "Benoît Urruty" -copyright 2023 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/"
+
 
 line pit -close on
   3152.0 2847.0
@@ -55,7 +56,8 @@ endscrap
 
 
 
-scrap SP-FT-0 -projection plan -station-names "" "@FT" -scale [-128.0 -128.0 4301.2306 -128.0 0.0 0.0 112.50245724 0.0 m]
+scrap SP-FT-0 -projection plan -station-names "" "@FT" -scale [-128.0 -128.0 4301.2306 -128.0 0.0 0.0 112.50245724 0.0 m] -author 2023 "Benoît Urruty" -copyright 2023 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/"
+
 
 point 3557.0 2867.0 label -text "P19"
 
@@ -113,7 +115,8 @@ endscrap
 
 
 
-scrap SP-FT-2 -projection plan -station-names "" "@FT" -scale [-128.0 -128.0 4301.2306 -128.0 0.0 0.0 112.50245724 0.0 m]
+scrap SP-FT-2 -projection plan -station-names "" "@FT" -scale [-128.0 -128.0 4301.2306 -128.0 0.0 0.0 112.50245724 0.0 m] -author 2023 "Benoît Urruty" -copyright 2023 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/"
+
 
 line pit
   3065.0 2770.0
@@ -206,7 +209,8 @@ endscrap
 
 
 
-scrap SP-FT-3 -projection plan -station-names "" "@FT" -scale [-128.0 -128.0 4301.2306 -128.0 0.0 0.0 112.50245724 0.0 m]
+scrap SP-FT-3 -projection plan -station-names "" "@FT" -scale [-128.0 -128.0 4301.2306 -128.0 0.0 0.0 112.50245724 0.0 m] -author 2023 "Benoît Urruty" -copyright 2023 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/"
+
 
 line wall -reverse on -subtype invisible
   2045.0 3206.0
@@ -269,7 +273,8 @@ endscrap
 
 
 
-scrap SP-FT-4 -projection plan -station-names "" "@FT" -scale [-128.0 -128.0 4301.2306 -128.0 0.0 0.0 112.50245724 0.0 m]
+scrap SP-FT-4 -projection plan -station-names "" "@FT" -scale [-128.0 -128.0 4301.2306 -128.0 0.0 0.0 112.50245724 0.0 m] -author 2023 "Benoît Urruty" -copyright 2023 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/"
+
 
 point 1719.5 3529.25 label -text "P15"
 
@@ -341,7 +346,8 @@ endscrap
 
 
 
-scrap SP-FT-5 -projection plan -station-names "" "@FT" -scale [-128.0 -128.0 4301.2306 -128.0 0.0 0.0 112.50245724 0.0 m]
+scrap SP-FT-5 -projection plan -station-names "" "@FT" -scale [-128.0 -128.0 4301.2306 -128.0 0.0 0.0 112.50245724 0.0 m] -author 2023 "Benoît Urruty" -copyright 2023 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/"
+
 
 line wall -subtype invisible
   713.5 3266.0
@@ -462,7 +468,8 @@ endscrap
 
 
 
-scrap SP-FT-6 -projection plan -station-names "" "@FT" -scale [-128.0 -128.0 4301.2306 -128.0 0.0 0.0 112.50245724 0.0 m]
+scrap SP-FT-6 -projection plan -station-names "" "@FT" -scale [-128.0 -128.0 4301.2306 -128.0 0.0 0.0 112.50245724 0.0 m] -author 2023 "Benoît Urruty" -copyright 2023 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/"
+
 
 point 268.0 3175.0 label -text "<center>P14 <br>Deux tirs <br> et ça passe"
 
@@ -571,7 +578,8 @@ endscrap
 
 
 
-scrap SP-FT-7 -projection plan -station-names "" "@FT" -scale [-128.0 -128.0 4301.2306 -128.0 0.0 0.0 112.50245724 0.0 m]
+scrap SP-FT-7 -projection plan -station-names "" "@FT" -scale [-128.0 -128.0 4301.2306 -128.0 0.0 0.0 112.50245724 0.0 m] -author 2023 "Benoît Urruty" -copyright 2023 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/"
+
 
 point 2166.14 1545.67 station -name FT.57
 
@@ -655,7 +663,8 @@ endscrap
 
 
 
-scrap SP-FT-8 -projection plan -station-names "" "@FT" -scale [-128.0 -128.0 4301.2306 -128.0 0.0 0.0 112.50245724 0.0 m]
+scrap SP-FT-8 -projection plan -station-names "" "@FT" -scale [-128.0 -128.0 4301.2306 -128.0 0.0 0.0 112.50245724 0.0 m] -author 2023 "Benoît Urruty" -copyright 2023 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/"
+
 
 line pit
   2124.0 1209.5

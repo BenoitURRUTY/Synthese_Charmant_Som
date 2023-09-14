@@ -5,7 +5,7 @@ encoding  utf-8
 
 
 
-scrap SC-SE-1 -projection [elevation 17] -station-names "" "@Suite_escalade" -scale [-128.0 -128.0 4773.6718 -128.0 0.0 0.0 124.50246372 0.0 m]
+scrap SC-SE-1 -projection [elevation 17] -station-names "" "@Suite_escalade" -scale [-128.0 -128.0 4773.6718 -128.0 0.0 0.0 124.50246372 0.0 m] -author 2023 "Benoît Urruty" -copyright 2023 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/"
 
 area water
 endarea
@@ -139,7 +139,7 @@ endscrap
 
 
 
-scrap SC-SE-2 -projection [elevation 17] -station-names "" "@p110kriska" -scale [-128.0 -128.0 4773.6718 -128.0 0.0 0.0 124.50246372 0.0 m]
+scrap SC-SE-2 -projection [elevation 17] -station-names "" "@p110kriska" -scale [-128.0 -128.0 4773.6718 -128.0 0.0 0.0 124.50246372 0.0 m] -author 2023 "Benoît Urruty" -copyright 2023 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/"
 
 line wall
   4066.0 2136.0
@@ -238,7 +238,7 @@ endscrap
 
 
 
-scrap SC-SE-3 -projection [elevation 17] -station-names "" "@jonction_p110" -scale [-128.0 -128.0 4773.6718 -128.0 0.0 0.0 124.50246372 0.0 m]
+scrap SC-SE-3 -projection [elevation 17] -station-names "" "@jonction_p110" -scale [-128.0 -128.0 4773.6718 -128.0 0.0 0.0 124.50246372 0.0 m] -author 2023 "Benoît Urruty" -copyright 2023 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/"
 
 line wall -subtype invisible
   5724.0 -6126.0

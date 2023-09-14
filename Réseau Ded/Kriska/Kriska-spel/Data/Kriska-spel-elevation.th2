@@ -5,7 +5,8 @@ encoding  utf-8
 
 
 
-scrap SC-Kriska-spel-1 -projection [elevation 17] -station-names "" "@Kriska1" -scale [-128.0 -128.0 9970.525 -128.0 0.0 0.0 256.50253499999997 0.0 m]
+scrap SC-Kriska-spel-1 -projection [elevation 17] -station-names "" "@Kriska1" -scale [-128.0 -128.0 9970.525 -128.0 0.0 0.0 256.50253499999997 0.0 m] -author 2023 "Benoît Urruty" -copyright 2023 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/"
+
 
 line rope
   3585.0 15968.0
@@ -162,7 +163,8 @@ endscrap
 
 
 
-scrap SC-Kriska-spel-2 -projection [elevation 17] -station-names "" "@Kriska1" -scale [-128.0 -128.0 9970.525 -128.0 0.0 0.0 256.50253499999997 0.0 m]
+scrap SC-Kriska-spel-2 -projection [elevation 17] -station-names "" "@Kriska1" -scale [-128.0 -128.0 9970.525 -128.0 0.0 0.0 256.50253499999997 0.0 m] -author 2023 "Benoît Urruty" -copyright 2023 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/"
+
 
 line rope
   3408.0 13334.0
@@ -300,7 +302,8 @@ endscrap
 
 
 
-scrap SC-Kriska-spel-3 -projection [elevation 17] -station-names "" "@Kriska1" -scale [-128.0 -128.0 9970.525 -128.0 0.0 0.0 256.50253499999997 0.0 m]
+scrap SC-Kriska-spel-3 -projection [elevation 17] -station-names "" "@Kriska1" -scale [-128.0 -128.0 9970.525 -128.0 0.0 0.0 256.50253499999997 0.0 m] -author 2023 "Benoît Urruty" -copyright 2023 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/"
+
 
 line wall -reverse on -subtype invisible
   4388.0 5164.0

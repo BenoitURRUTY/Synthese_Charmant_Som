@@ -5,7 +5,8 @@ encoding  utf-8
 
 
 
-scrap SP-Esc-1 -projection plan -station-names "" "@escalade_speleoloques2" -scale [-128.0 -128.0 2411.4658 -128.0 0.0 0.0 64.50243132 0.0 m]
+scrap SP-Esc-1 -projection plan -station-names "" "@escalade_speleoloques2" -scale [-128.0 -128.0 2411.4658 -128.0 0.0 0.0 64.50243132 0.0 m] -author 2023 "Benoît Urruty" -copyright 2023 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/"
+
 
 line wall
   1908.0 802.0

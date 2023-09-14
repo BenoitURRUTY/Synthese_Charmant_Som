@@ -5,7 +5,7 @@ encoding  utf-8
 
 
 
-scrap SC-Vire-1 -projection [elevation 17] -station-names "" "@Vire" -scale [-903.5920000000001 -616.1899999999998 1084.6924 -616.1899999999998 0.0 0.0 50.50242376 0.0 m]
+scrap SC-Vire-1 -projection [elevation 17] -station-names "" "@Vire" -scale [-903.5920000000001 -616.1899999999998 1084.6924 -616.1899999999998 0.0 0.0 50.50242376 0.0 m] -author 2023 "Benoît Urruty" -copyright 2023 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/"
 
 line wall
 endline
@@ -99,7 +99,7 @@ endscrap
 
 
 
-scrap SC-Vire-2 -projection [elevation 17] -station-names "" "@Vire" -scale [-903.5920000000001 -616.1899999999998 1084.6924 -616.1899999999998 0.0 0.0 50.50242376 0.0 m]
+scrap SC-Vire-2 -projection [elevation 17] -station-names "" "@Vire" -scale [-903.5920000000001 -616.1899999999998 1084.6924 -616.1899999999998 0.0 0.0 50.50242376 0.0 m] -author 2023 "Benoît Urruty" -copyright 2023 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/"
 
 line wall -reverse on -subtype invisible
   549.0 27.0

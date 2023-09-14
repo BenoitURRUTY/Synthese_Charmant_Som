@@ -10,8 +10,8 @@ survey SE-tot -title "Suite escalade"
    
    input Data/Suite_Escalade-coupe-elevation.th2
    input Data/Suite_Escalade-plan.th2
-   input SE-SC.th
-   input SE-SP.th
+   
+   input SE-maps.th
 
 
 endsurvey

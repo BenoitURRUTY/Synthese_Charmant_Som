@@ -5,7 +5,8 @@ encoding  utf-8
 
 
 
-scrap SP-Kriska-spel-1 -projection plan -station-names "" "@Kriska1" -scale [-128.0 -128.0 7450.8386 -128.0 0.0 0.0 192.50250044 0.0 m]
+scrap SP-Kriska-spel-1 -projection plan -station-names "" "@Kriska1" -scale [-128.0 -128.0 7450.8386 -128.0 0.0 0.0 192.50250044 0.0 m] -author 2023 "Benoît Urruty" -copyright 2023 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/"
+
 
 line pit
   976.0 1675.0
@@ -65,13 +66,10 @@ endscrap
 
 
 
-scrap scrap152 -scale [-128.0 -128.0 7450.8386 -128.0 0.0 0.0 192.50250044 0.0 m]
-
-endscrap
 
 
+scrap SP-Kriska-spel-2 -projection plan -station-names "" "@Kriska1" -scale [-128.0 -128.0 7450.8386 -128.0 0.0 0.0 192.50250044 0.0 m] -author 2023 "Benoît Urruty" -copyright 2023 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/"
 
-scrap SP-Kriska-spel-2 -projection plan -station-names "" "@Kriska1" -scale [-128.0 -128.0 7450.8386 -128.0 0.0 0.0 192.50250044 0.0 m]
 
 line wall -subtype invisible
   1312.5 1662.0
@@ -115,7 +113,8 @@ endscrap
 
 
 
-scrap SP-Kriska-spel-3 -projection plan -station-names "" "@Kriska1" -scale [-128.0 -128.0 7450.8386 -128.0 0.0 0.0 192.50250044 0.0 m]
+scrap SP-Kriska-spel-3 -projection plan -station-names "" "@Kriska1" -scale [-128.0 -128.0 7450.8386 -128.0 0.0 0.0 192.50250044 0.0 m] -author 2023 "Benoît Urruty" -copyright 2023 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/"
+
 
 point 1899.0 1042.0 remark -text "<center>Etroiture<br>SuperMan"
 
@@ -180,7 +179,8 @@ endscrap
 
 
 
-scrap SP-Kriska-spel-4 -projection plan -station-names "" "@Kriska1" -scale [-128.0 -128.0 7450.8386 -128.0 0.0 0.0 192.50250044 0.0 m]
+scrap SP-Kriska-spel-4 -projection plan -station-names "" "@Kriska1" -scale [-128.0 -128.0 7450.8386 -128.0 0.0 0.0 192.50250044 0.0 m] -author 2023 "Benoît Urruty" -copyright 2023 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/"
+
 
 line wall -reverse on -subtype invisible
   2248.0 1148.0
@@ -277,7 +277,8 @@ endscrap
 
 
 
-scrap SP-Kriska-spel-5 -projection plan -station-names "" "@Kriska1" -scale [-128.0 -128.0 7450.8386 -128.0 0.0 0.0 192.50250044 0.0 m]
+scrap SP-Kriska-spel-5 -projection plan -station-names "" "@Kriska1" -scale [-128.0 -128.0 7450.8386 -128.0 0.0 0.0 192.50250044 0.0 m] -author 2023 "Benoît Urruty" -copyright 2023 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/"
+
 
 line wall
 endline
@@ -330,7 +331,8 @@ endscrap
 
 
 
-scrap SP-Kriska-spel-6 -projection plan -station-names "" "@Kriska1" -scale [-128.0 -128.0 7450.8386 -128.0 0.0 0.0 192.50250044 0.0 m]
+scrap SP-Kriska-spel-6 -projection plan -station-names "" "@Kriska1" -scale [-128.0 -128.0 7450.8386 -128.0 0.0 0.0 192.50250044 0.0 m] -author 2023 "Benoît Urruty" -copyright 2023 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/"
+
 
 line pit
 endline
@@ -442,7 +444,8 @@ endscrap
 
 
 
-scrap SP-Kriska-spel-7 -projection plan -station-names "" "@Kriska1" -scale [-128.0 -128.0 7450.8386 -128.0 0.0 0.0 192.50250044 0.0 m]
+scrap SP-Kriska-spel-7 -projection plan -station-names "" "@Kriska1" -scale [-128.0 -128.0 7450.8386 -128.0 0.0 0.0 192.50250044 0.0 m] -author 2023 "Benoît Urruty" -copyright 2023 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/"
+
 
 line wall -reverse on -subtype invisible
   3418.0 1846.0
@@ -492,7 +495,8 @@ endscrap
 
 
 
-scrap SP-Kriska-spel-8 -projection plan -station-names "" "@Kriska1" -scale [-128.0 -128.0 7450.8386 -128.0 0.0 0.0 192.50250044 0.0 m]
+scrap SP-Kriska-spel-8 -projection plan -station-names "" "@Kriska1" -scale [-128.0 -128.0 7450.8386 -128.0 0.0 0.0 192.50250044 0.0 m] -author 2023 "Benoît Urruty" -copyright 2023 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/"
+
 
 point 4044.0 1105.5 remark -text "P17 "
 
@@ -595,7 +599,8 @@ endscrap
 
 
 
-scrap SP-Kriska-spel-9 -projection plan -station-names "" "@Kriska1" -scale [-128.0 -128.0 7450.8386 -128.0 0.0 0.0 192.50250044 0.0 m]
+scrap SP-Kriska-spel-9 -projection plan -station-names "" "@Kriska1" -scale [-128.0 -128.0 7450.8386 -128.0 0.0 0.0 192.50250044 0.0 m] -author 2023 "Benoît Urruty" -copyright 2023 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/"
+
 
 line pit
 endline
@@ -672,7 +677,8 @@ endscrap
 
 
 
-scrap SP-Kriska-spel-10 -projection plan -station-names "" "@Kriska1" -scale [-128.0 -128.0 7450.8386 -128.0 0.0 0.0 192.50250044 0.0 m]
+scrap SP-Kriska-spel-10 -projection plan -station-names "" "@Kriska1" -scale [-128.0 -128.0 7450.8386 -128.0 0.0 0.0 192.50250044 0.0 m] -author 2023 "Benoît Urruty" -copyright 2023 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/"
+
 
 line wall -subtype invisible
 endline
@@ -741,7 +747,8 @@ endscrap
 
 
 
-scrap SP-Kriska-spel-11 -projection plan -station-names "" "@Kriska1" -scale [-128.0 -128.0 7450.8386 -128.0 0.0 0.0 192.50250044 0.0 m]
+scrap SP-Kriska-spel-11 -projection plan -station-names "" "@Kriska1" -scale [-128.0 -128.0 7450.8386 -128.0 0.0 0.0 192.50250044 0.0 m] -author 2023 "Benoît Urruty" -copyright 2023 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/"
+
 
 line wall -subtype invisible
   6651.0 928.0

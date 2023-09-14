@@ -5,7 +5,8 @@ encoding  utf-8
 
 
 
-scrap SC-P40-1 -projection [elevation 17] -station-names "" "@suite_p40" -scale [-128.0 -128.0 3750.0492 -128.0 0.0 0.0 98.50244968 0.0 m]
+scrap SC-P40-1 -projection [elevation 17] -station-names "" "@suite_p40" -scale [-128.0 -128.0 3750.0492 -128.0 0.0 0.0 98.50244968 0.0 m] -author 2023 "Benoît Urruty" -copyright 2023 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/"
+
 
 line border
   1932.0 2918.0
@@ -192,7 +193,8 @@ endscrap
 
 
 
-scrap SC-P40-3 -projection [elevation 17] -station-names "" "@suite_p40" -scale [-128.0 -128.0 3750.0492 -128.0 0.0 0.0 98.50244968 0.0 m]
+scrap SC-P40-2 -projection [elevation 17] -station-names "" "@suite_p40" -scale [-128.0 -128.0 3750.0492 -128.0 0.0 0.0 98.50244968 0.0 m] -author 2023 "Benoît Urruty" -copyright 2023 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/"
+
 
 line wall -subtype invisible
   1620.0 4664.0

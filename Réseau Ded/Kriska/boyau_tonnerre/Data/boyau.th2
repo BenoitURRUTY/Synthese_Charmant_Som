@@ -5,7 +5,8 @@ encoding  utf-8
 
 
 
-scrap SP-boyau-1 -projection plan -station-names "" "@boyau" -scale [-128.0 -128.0 915.402 -128.0 0.0 0.0 26.5024108 0.0 m]
+scrap SP-boyau-1 -projection plan -station-names "" "@boyau" -scale [-128.0 -128.0 915.402 -128.0 0.0 0.0 26.5024108 0.0 m] -author 2023 "Benoît Urruty" -copyright 2023 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/"
+
 
 point 661.415 677.957 station -name boyau.9
 

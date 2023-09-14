@@ -5,7 +5,8 @@ encoding utf-8
 
 # 2023.06.16 created by TopoDroid v. 6.2.13
 
-scrap escalade1506-1p -projection plan -scale [0 0 39.3701 0 0 0 1 0 m]
+scrap escalade1506-1p -projection plan -scale [0 0 39.3701 0 0 0 1 0 m] -author 2023 "Benoît Urruty" -copyright 2023 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/"
+
 
 line wall
   182.98 -242.06

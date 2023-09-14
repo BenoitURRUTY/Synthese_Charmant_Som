@@ -5,7 +5,8 @@ encoding  utf-8
 
 
 
-scrap SC-ES-elev-1 -projection [elevation 17] -station-names "" "@escalade_speleoloques" -scale [-128.0 -128.0 1151.6226000000001 -128.0 0.0 0.0 32.502414040000005 0.0 m]
+scrap SC-ES-elev-1 -projection [elevation 17] -station-names "" "@escalade_speleoloques" -scale [-128.0 -128.0 1151.6226000000001 -128.0 0.0 0.0 32.502414040000005 0.0 m] -author 2023 "Benoît Urruty" -copyright 2023 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/"
+
 
 line wall -reverse on -subtype invisible
   1070.0 1818.0

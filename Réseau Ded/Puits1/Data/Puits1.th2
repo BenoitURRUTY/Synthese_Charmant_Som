@@ -5,7 +5,9 @@ encoding  utf-8
 
 
 
-scrap SP-Puits1-1 -projection plan -station-names "" "@Puits1" -scale [-128.0 -128.0 836.6618 -128.0 0.0 0.0 24.50240972 0.0 m]
+scrap SP-Puits1-1 -projection plan -station-names "" "@Puits1" -scale [-128.0 -128.0 836.6618 -128.0 0.0 0.0 24.50240972 0.0 m] -author 2023 "Benoît Urruty" -copyright 2023 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/"
+
+
 
 line pit -close on
   624.0 191.0

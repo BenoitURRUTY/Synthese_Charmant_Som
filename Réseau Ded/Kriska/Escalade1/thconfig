@@ -300,7 +300,7 @@ export map -proj [elevation 17] -layout xviexport -fmt xvi -o Data/Escalade1-cou
 	 
 # export map -projection extended -layout my_layout-coupe -o Outputs/Escalade1-coupe.pdf 
 export map -o Outputs/Escalade1-plan.pdf -layout my_layout
- export map -projection [elevation 17] -layout my_layout-coupe -o Outputs/Escalade1-coupe-elevation.pdf 
+export map -projection [elevation 17] -layout my_layout-coupe -o Outputs/Escalade1-coupe-elevation.pdf 
 
 export model -o Outputs/Escalade1.lox
   

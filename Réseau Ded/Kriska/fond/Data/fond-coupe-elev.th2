@@ -5,7 +5,8 @@ encoding  utf-8
 
 
 
-scrap SC-fond-elev-1 -projection [elevation 17] -station-names "" "@fond" -scale [-128.0 -128.0 8395.721 -128.0 0.0 0.0 216.50251339999997 0.0 m]
+scrap SC-fond-elev-1 -projection [elevation 17] -station-names "" "@fond" -scale [-128.0 -128.0 8395.721 -128.0 0.0 0.0 216.50251339999997 0.0 m] -author 2023 "Benoît Urruty" -copyright 2023 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/"
+
 
 line rope
   4782.0 3182.0

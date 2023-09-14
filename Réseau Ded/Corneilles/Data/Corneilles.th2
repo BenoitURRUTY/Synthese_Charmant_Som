@@ -5,7 +5,8 @@ encoding  utf-8
 
 
 
-scrap SP-Corneilles-1 -projection plan -station-names "" "@Corneilles" -scale [-128.0 -128.0 6033.515 -128.0 0.0 0.0 156.502481 0.0 m]
+scrap SP-Corneilles-1 -projection plan -station-names "" "@Corneilles" -scale [-128.0 -128.0 6033.515 -128.0 0.0 0.0 156.502481 0.0 m] -author 2023 "Benoît Urruty" -copyright 2023 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/"
+
 
 line wall -subtype invisible
 endline
@@ -70,7 +71,8 @@ endscrap
 
 
 
-scrap SP-Corneilles-3 -projection plan -station-names "" "@escalade_corneille-vire" -scale [-128.0 -128.0 6033.515 -128.0 0.0 0.0 156.502481 0.0 m]
+scrap SP-Corneilles-3 -projection plan -station-names "" "@escalade_corneille-vire" -scale [-128.0 -128.0 6033.515 -128.0 0.0 0.0 156.502481 0.0 m] -author 2023 "Benoît Urruty" -copyright 2023 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/"
+
 
 line wall
   4111.0 561.0
@@ -132,7 +134,8 @@ endscrap
 
 
 
-scrap SP-Corneilles-2 -projection plan -station-names "" "@Corneilles" -scale [-128.0 -128.0 6033.515 -128.0 0.0 0.0 156.502481 0.0 m]
+scrap SP-Corneilles-2 -projection plan -station-names "" "@Corneilles" -scale [-128.0 -128.0 6033.515 -128.0 0.0 0.0 156.502481 0.0 m] -author 2023 "Benoît Urruty" -copyright 2023 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/"
+
 
 point 4330.7 813.3799999999999 station -name 10
 
@@ -229,7 +232,8 @@ endscrap
 
 
 
-scrap SP-Corneilles-5 -projection plan -station-names "" "@vire-puits_escalade" -scale [-148.0 -112.0 6033.515 -128.0 0.0 0.0 156.502481 0.0 m]
+scrap SP-Corneilles-5 -projection plan -station-names "" "@vire-puits_escalade" -scale [-148.0 -112.0 6033.515 -128.0 0.0 0.0 156.502481 0.0 m] -author 2023 "Benoît Urruty" -copyright 2023 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/"
+
 
 line wall -subtype invisible
   4245.0 332.0
@@ -300,7 +304,8 @@ endscrap
 
 
 
-scrap SP-Corneilles-4 -projection plan -station-names "" "@escalade_corneille-vire" -scale [-128.0 -128.0 6033.515 -128.0 0.0 0.0 156.502481 0.0 m]
+scrap SP-Corneilles-4 -projection plan -station-names "" "@escalade_corneille-vire" -scale [-128.0 -128.0 6033.515 -128.0 0.0 0.0 156.502481 0.0 m] -author 2023 "Benoît Urruty" -copyright 2023 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/"
+
 
 line wall
   3691.0 485.0
@@ -392,7 +397,8 @@ endscrap
 
 
 
-scrap SP-Corneilles-6 -projection plan -station-names "" "@escalade_bas_corneilles" -scale [-128.0 -128.0 6033.515 -128.0 0.0 0.0 156.502481 0.0 m]
+scrap SP-Corneilles-6 -projection plan -station-names "" "@escalade_bas_corneilles" -scale [-128.0 -128.0 6033.515 -128.0 0.0 0.0 156.502481 0.0 m] -author 2023 "Benoît Urruty" -copyright 2023 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/"
+
 
 point 5088.18 1214.9599999999998 station -name 3
 

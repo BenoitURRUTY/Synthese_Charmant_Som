@@ -5,7 +5,7 @@ encoding  utf-8
 
 
 
-scrap SP-Valombre-1 -projection plan -station-names "" "@Valombre" -scale [0 0 1600 0 0.0 0.0 40.64 0.0 m]
+scrap SP-Valombre-1 -projection plan -station-names "" "@Valombre" -scale [0 0 1600 0 0.0 0.0 40.64 0.0 m] -author 2023 "Benoît Urruty" -copyright 2023 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/"
 
 point 2060.0 5996.0 remark -text "<center>P20<br> des murettes"
 
@@ -136,7 +136,7 @@ endscrap
 
 
 
-scrap SP-Valombre-3 -projection plan -station-names "" "@Valombre" -scale [0 0 1600 0 0.0 0.0 40.64 0.0 m]
+scrap SP-Valombre-3 -projection plan -station-names "" "@Valombre" -scale [0 0 1600 0 0.0 0.0 40.64 0.0 m] -author 2023 "Benoît Urruty" -copyright 2023 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/"
 
 line wall
 endline
@@ -244,7 +244,7 @@ endscrap
 
 
 
-scrap SP-Valombre-4 -projection plan -station-names "" "@Valombre" -scale [0 0 1600 0 0.0 0.0 40.64 0.0 m]
+scrap SP-Valombre-4 -projection plan -station-names "" "@Valombre" -scale [0 0 1600 0 0.0 0.0 40.64 0.0 m] -author 2023 "Benoît Urruty" -copyright 2023 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/"
 
 line wall -reverse on
   7660.0 4976.0
@@ -329,7 +329,7 @@ endscrap
 
 
 
-scrap SP-Valombre-5 -projection plan -station-names "" "@Valombre" -scale [0 0 1600 0 0.0 0.0 40.64 0.0 m]
+scrap SP-Valombre-5 -projection plan -station-names "" "@Valombre" -scale [0 0 1600 0 0.0 0.0 40.64 0.0 m] -author 2023 "Benoît Urruty" -copyright 2023 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/"
 
 point 10148.0 4312.0 label -text "<center>P44 : <br>Puits du débutant"
 
@@ -382,7 +382,7 @@ endscrap
 
 
 
-scrap SP-Valombre-8 -projection plan -station-names "" "@Valombre" -scale [0 0 1600 0 0.0 0.0 40.64 0.0 m]
+scrap SP-Valombre-8 -projection plan -station-names "" "@Valombre" -scale [0 0 1600 0 0.0 0.0 40.64 0.0 m] -author 2023 "Benoît Urruty" -copyright 2023 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/"
 
 line wall -subtype pit
   12660.0 2841.0
@@ -448,7 +448,7 @@ endscrap
 
 
 
-scrap SP-Valombre-9 -projection plan -station-names "" "@Valombre" -scale [0 0 1600 0 0.0 0.0 40.64 0.0 m]
+scrap SP-Valombre-9 -projection plan -station-names "" "@Valombre" -scale [0 0 1600 0 0.0 0.0 40.64 0.0 m] -author 2023 "Benoît Urruty" -copyright 2023 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/"
 
 line wall -reverse on -subtype invisible
   13574.0 2877.0
@@ -524,7 +524,7 @@ endscrap
 
 
 
-scrap SP-Valombre-10 -projection plan -station-names "" "@Valombre" -scale [0 0 1600 0 0.0 0.0 40.64 0.0 m]
+scrap SP-Valombre-10 -projection plan -station-names "" "@Valombre" -scale [0 0 1600 0 0.0 0.0 40.64 0.0 m] -author 2023 "Benoît Urruty" -copyright 2023 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/"
 
 line wall -reverse on -subtype invisible
   15924.0 2892.0
@@ -600,7 +600,7 @@ endscrap
 
 
 
-scrap SP-Valombre-11 -projection plan -station-names "" "@Valombre" -scale [0 0 1600 0 0.0 0.0 40.64 0.0 m]
+scrap SP-Valombre-11 -projection plan -station-names "" "@Valombre" -scale [0 0 1600 0 0.0 0.0 40.64 0.0 m] -author 2023 "Benoît Urruty" -copyright 2023 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/"
 
 point 17456.0 2460.0 label -text "<center>P18 : <br>Puits du maitre <br> qui retrouve son chien"
 
@@ -698,7 +698,7 @@ endscrap
 
 
 
-scrap SP-Valombre-12 -projection plan -station-names "" "@Valombre" -scale [0 0 1600 0 0.0 0.0 40.64 0.0 m]
+scrap SP-Valombre-12 -projection plan -station-names "" "@Valombre" -scale [0 0 1600 0 0.0 0.0 40.64 0.0 m] -author 2023 "Benoît Urruty" -copyright 2023 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/"
 
 point 18672.0 2740.0 label -text "<center>P13 : <br>jonction Chienlit"
 
@@ -759,7 +759,7 @@ endscrap
 
 
 
-scrap SP-Valombre-6 -projection plan -station-names "" "@Valombre" -scale [0 0 1600 0 0.0 0.0 40.64 0.0 m]
+scrap SP-Valombre-6 -projection plan -station-names "" "@Valombre" -scale [0 0 1600 0 0.0 0.0 40.64 0.0 m] -author 2023 "Benoît Urruty" -copyright 2023 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/"
 
 point 10196.0 3484.0 label -text "R5"
 
@@ -856,7 +856,7 @@ endscrap
 
 
 
-scrap SP-Valombre-2 -projection plan -station-names "" "@Valombre" -scale [0 0 1600 0 0.0 0.0 40.64 0.0 m]
+scrap SP-Valombre-2 -projection plan -station-names "" "@Valombre" -scale [0 0 1600 0 0.0 0.0 40.64 0.0 m] -author 2023 "Benoît Urruty" -copyright 2023 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/"
 
 line wall -reverse on -subtype invisible
   6289.0 5463.0
@@ -1000,7 +1000,7 @@ endscrap
 
 
 
-scrap SP-Valombre-7 -projection plan -station-names "" "@Valombre" -scale [0 0 1600 0 0.0 0.0 40.64 0.0 m]
+scrap SP-Valombre-7 -projection plan -station-names "" "@Valombre" -scale [0 0 1600 0 0.0 0.0 40.64 0.0 m] -author 2023 "Benoît Urruty" -copyright 2023 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/"
 
 line pit
   12766.0 2982.0

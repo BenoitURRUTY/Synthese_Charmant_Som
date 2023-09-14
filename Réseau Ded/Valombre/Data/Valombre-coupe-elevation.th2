@@ -5,7 +5,7 @@ encoding  utf-8
 
 
 
-scrap SC-Valombre-1 -projection [elevation 17] -station-names "" "@Valombre" -scale [-128.0 -128.0 24143.761000000002 -128.0 0.0 0.0 616.5027294 0.0 m]
+scrap SC-Valombre-1 -projection [elevation 17] -station-names "" "@Valombre" -scale [-128.0 -128.0 24143.761000000002 -128.0 0.0 0.0 616.5027294 0.0 m] -author 2023 "Benoît Urruty" -copyright 2023 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/"
 
 line wall -subtype invisible
   9292.0 19288.0
@@ -297,7 +297,7 @@ endscrap
 
 
 
-scrap SC-Valombre-2 -projection [elevation 17] -station-names "" "@Valombre" -scale [-128.0 -128.0 24143.761000000002 -128.0 0.0 0.0 616.5027294 0.0 m]
+scrap SC-Valombre-2 -projection [elevation 17] -station-names "" "@Valombre" -scale [-128.0 -128.0 24143.761000000002 -128.0 0.0 0.0 616.5027294 0.0 m] -author 2023 "Benoît Urruty" -copyright 2023 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/"
 
 point 14522.97 10889.720000000001 station -name 29
 

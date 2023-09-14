@@ -5,7 +5,8 @@ encoding  utf-8
 
 
 
-scrap SC-spel-bivy-elev-1 -projection [elevation 17] -station-names "" "@Kriska2" -scale [-128.0 -128.0 10364.226 -128.0 0.0 0.0 266.5025404 0.0 m]
+scrap SC-spel-bivy-elev-1 -projection [elevation 17] -station-names "" "@Kriska2" -scale [-128.0 -128.0 10364.226 -128.0 0.0 0.0 266.5025404 0.0 m] -author 2023 "Benoît Urruty" -copyright 2023 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/"
+
 
 line rope
   9864.0 7240.0
@@ -380,7 +381,8 @@ endscrap
 
 
 
-scrap SC-spel-bivy-elev-0 -projection [elevation 17] -station-names "" "@Kriska2" -scale [-128.0 -128.0 10364.226 -128.0 0.0 0.0 266.5025404 0.0 m]
+scrap SC-spel-bivy-elev-0 -projection [elevation 17] -station-names "" "@Kriska2" -scale [-128.0 -128.0 10364.226 -128.0 0.0 0.0 266.5025404 0.0 m] -author 2023 "Benoît Urruty" -copyright 2023 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/"
+
 
 line rope
   11774.0 3739.0

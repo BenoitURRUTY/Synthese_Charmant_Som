@@ -1,0 +1,14 @@
+survey Ded -title "Synthèse topographie du Réseau Ded"
+
+   input "Réseau Ded/Ded.th"
+
+   input Porte_Enclos/Enclos-tot.th
+
+   input "Trou qui Pique/TQP-tot.th"
+
+   input "topo_prospection/Puits des 3 morts/3morts-tot.th"
+      
+   #input Maps-CS.th
+
+
+endsurvey

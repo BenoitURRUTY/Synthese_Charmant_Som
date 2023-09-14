@@ -11,11 +11,9 @@ survey fond -title "fond"
 	## join scrap1 scrap2 -count n (où n = nombre de galerie à connecter, par défaut n = 1). C'est tout simple !
 
 input Data/fond.th2
-input Data/fond-coupe.th2
 input Data/fond-coupe-elev.th2
 
 input fond-maps.th
-input fond-coupe.th
-input fond-coupe-elev.th
+
 
 endsurvey

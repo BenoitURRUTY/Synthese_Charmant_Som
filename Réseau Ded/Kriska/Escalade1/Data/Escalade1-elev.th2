@@ -5,7 +5,8 @@ encoding  utf-8
 
 
 
-scrap SC-Escalade1-elev-1 -projection [elevation 17] -station-names "" "@Escalade1" -scale [-128.0 -128.0 1545.3236 -128.0 0.0 0.0 42.50241944 0.0 m]
+scrap SC-Escalade1-elev-1 -projection [elevation 17] -station-names "" "@Escalade1" -scale [-128.0 -128.0 1545.3236 -128.0 0.0 0.0 42.50241944 0.0 m] -author 2023 "Benoît Urruty" -copyright 2023 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/"
+
 
 line wall -subtype invisible
   716.0 1898.0
@@ -57,7 +58,8 @@ endscrap
 
 
 
-scrap SC-Escalade1-elev-2 -projection [elevation 17] -station-names "" "@Escalade1" -scale [-128.0 -128.0 1545.3236 -128.0 0.0 0.0 42.50241944 0.0 m]
+scrap SC-Escalade1-elev-2 -projection [elevation 17] -station-names "" "@Escalade1" -scale [-128.0 -128.0 1545.3236 -128.0 0.0 0.0 42.50241944 0.0 m] -author 2023 "Benoît Urruty" -copyright 2023 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/"
+
 
 point 1014.0 322.0 water-flow -orientation 126.1
 

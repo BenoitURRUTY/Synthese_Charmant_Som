@@ -26,4 +26,10 @@ map MP-Valombre-plan-tot -title "Valombre"
     SP-Valombre-12 
 endmap
 
+map MC-Valombre-coupe-tot -title "Valombre"
+    SC-Valombre-1
+    break
+    SC-Valombre-2
+endmap
+
 

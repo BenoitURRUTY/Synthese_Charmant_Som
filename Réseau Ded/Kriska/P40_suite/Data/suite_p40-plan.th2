@@ -5,7 +5,8 @@ encoding  utf-8
 
 
 
-scrap SP-P40-1 -projection plan -station-names "" "@suite_p40" -scale [-128.0 -128.0 2883.907 -128.0 0.0 0.0 76.5024378 0.0 m]
+scrap SP-P40-1 -projection plan -station-names "" "@suite_p40" -scale [-128.0 -128.0 2883.907 -128.0 0.0 0.0 76.5024378 0.0 m] -author 2023 "Benoît Urruty" -copyright 2023 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/"
+
 
 line wall
   1397.5 1059.5
@@ -175,7 +176,8 @@ endscrap
 
 
 
-scrap SP-P40-2 -projection plan -station-names "" "@suite_p40" -scale [-128.0 -128.0 2883.907 -128.0 0.0 0.0 76.5024378 0.0 m]
+scrap SP-P40-2 -projection plan -station-names "" "@suite_p40" -scale [-128.0 -128.0 2883.907 -128.0 0.0 0.0 76.5024378 0.0 m] -author 2023 "Benoît Urruty" -copyright 2023 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/"
+
 
 line wall -reverse on -subtype invisible
   1284.0 1380.0
@@ -257,7 +259,8 @@ endscrap
 
 
 
-scrap SP-P40-4 -projection plan -station-names "" "@suite_p40" -scale [-128.0 -128.0 2883.907 -128.0 0.0 0.0 76.5024378 0.0 m]
+scrap SP-P40-4 -projection plan -station-names "" "@suite_p40" -scale [-128.0 -128.0 2883.907 -128.0 0.0 0.0 76.5024378 0.0 m] -author 2023 "Benoît Urruty" -copyright 2023 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/"
+
 
 line wall -reverse on -subtype invisible
   1274.0 1336.0
@@ -286,7 +289,8 @@ endscrap
 
 
 
-scrap SP-P40-3 -projection plan -station-names "" "@suite_p40" -scale [-128.0 -128.0 2883.907 -128.0 0.0 0.0 76.5024378 0.0 m]
+scrap SP-P40-3 -projection plan -station-names "" "@suite_p40" -scale [-128.0 -128.0 2883.907 -128.0 0.0 0.0 76.5024378 0.0 m] -author 2023 "Benoît Urruty" -copyright 2023 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/"
+
 
 line wall
 endline

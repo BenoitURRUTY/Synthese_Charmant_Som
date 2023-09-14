@@ -31,7 +31,6 @@ endlayout
   
 layout my_layout
  	# Call the config settings (Layout config inside the config.thc file)
-	copy Coords_Header_CPCPp
 	copy drawingconfig
 	copy headerl
 	copy langue-fr
@@ -161,7 +160,6 @@ endlayout
   
 layout my_layout-coupe
 	# Call the config settings (Layout config inside the config.thc file)
-	copy Coords_Header_CPCPp
 	copy drawingconfig
 	copy header_coupe
 	copy langue-fr
@@ -289,17 +287,15 @@ endlayout
   
 # 3-EXPORTS   
 export map -fmt xvi -layout xviexport -o Data/fond-map.xvi
-export map -proj extended -layout xviexport -fmt xvi -o Data/fond-coupe.xvi
+# export map -proj extended -layout xviexport -fmt xvi -o Data/fond-coupe.xvi
 export map -proj [elevation 17] -layout xviexport -fmt xvi -o Data/fond-coupe-elevation.xvi 
 
 # Select maps
-	select MP-Kriska-spel-plan-tot@fond
-	select MC-Kriska-spel-coupe-tot@fond
-	select MC-Kriska-spel-coupe-elev-tot@fond
+	select MP-fond-plan-tot@fond
+	select MC-fond-coupe-elev-tot@fond
 	 
-export map -projection extended -layout my_layout-coupe -o Outputs/fond-coupe.pdf 
 export map -o Outputs/fond-plan.pdf -layout my_layout
- export map -projection [elevation 17] -layout my_layout-coupe -o Outputs/fond-coupe-elevation.pdf 
+export map -projection [elevation 17] -layout my_layout-coupe -o Outputs/fond-coupe-elevation.pdf 
 
 export model -o Outputs/fond.lox
   

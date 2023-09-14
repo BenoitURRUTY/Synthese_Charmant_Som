@@ -5,7 +5,8 @@ encoding  utf-8
 
 
 
-scrap SC-JP-1 -projection [elevation 17] -station-names "" "@jonctionP90P17" -scale [-128.0 -128.0 2568.9462 -128.0 0.0 0.0 68.50243348 0.0 m]
+scrap SC-JP-1 -projection [elevation 17] -station-names "" "@jonctionP90P17" -scale [-128.0 -128.0 2568.9462 -128.0 0.0 0.0 68.50243348 0.0 m] -author 2023 "Benoît Urruty" -copyright 2023 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/"
+
 
 
 line wall

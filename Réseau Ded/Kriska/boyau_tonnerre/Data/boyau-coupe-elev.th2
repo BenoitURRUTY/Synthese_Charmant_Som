@@ -5,7 +5,8 @@ encoding  utf-8
 
 
 
-scrap SC-boyau-elev-1 -projection [elevation 17] -station-names "" "@boyau" -scale [-128.0 -128.0 1230.3628 -128.0 0.0 0.0 34.50241512 0.0 m]
+scrap SC-boyau-elev-1 -projection [elevation 17] -station-names "" "@boyau" -scale [-128.0 -128.0 1230.3628 -128.0 0.0 0.0 34.50241512 0.0 m] -author 2023 "Benoît Urruty" -copyright 2023 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/"
+
 
 line wall -subtype invisible
   482.0 83.0

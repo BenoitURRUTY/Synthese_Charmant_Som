@@ -5,7 +5,8 @@ encoding  utf-8
 
 
 
-scrap SP-spel-bivy-1 -projection plan -station-names "" "@Kriska2" -scale [-128.0 -128.0 10364.226 -128.0 0.0 0.0 266.5025404 0.0 m]
+scrap SP-spel-bivy-1 -projection plan -station-names "" "@Kriska2" -scale [-128.0 -128.0 10364.226 -128.0 0.0 0.0 266.5025404 0.0 m] -author 2023 "Benoît Urruty" -copyright 2023 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/"
+
 
 line wall -reverse on
   1828.0 4934.0
@@ -66,7 +67,8 @@ endscrap
 
 
 
-scrap SP-spel-bivy-2 -projection plan -station-names "" "@Kriska2" -scale [-128.0 -128.0 10364.226 -128.0 0.0 0.0 266.5025404 0.0 m]
+scrap SP-spel-bivy-2 -projection plan -station-names "" "@Kriska2" -scale [-128.0 -128.0 10364.226 -128.0 0.0 0.0 266.5025404 0.0 m] -author 2023 "Benoît Urruty" -copyright 2023 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/"
+
 
 line pit
   2033.25 5417.25
@@ -135,7 +137,8 @@ endscrap
 
 
 
-scrap SP-spel-bivy-3 -projection plan -station-names "" "@Kriska2" -scale [-128.0 -128.0 10364.226 -128.0 0.0 0.0 266.5025404 0.0 m]
+scrap SP-spel-bivy-3 -projection plan -station-names "" "@Kriska2" -scale [-128.0 -128.0 10364.226 -128.0 0.0 0.0 266.5025404 0.0 m] -author 2023 "Benoît Urruty" -copyright 2023 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/"
+
 
 line wall -reverse on -subtype invisible
   3075.25 5836.25
@@ -182,7 +185,8 @@ endscrap
 
 
 
-scrap SP-spel-bivy-4 -projection plan -station-names "" "@Kriska2" -scale [-128.0 -128.0 10364.226 -128.0 0.0 0.0 266.5025404 0.0 m]
+scrap SP-spel-bivy-4 -projection plan -station-names "" "@Kriska2" -scale [-128.0 -128.0 10364.226 -128.0 0.0 0.0 266.5025404 0.0 m] -author 2023 "Benoît Urruty" -copyright 2023 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/"
+
 
 line wall -subtype invisible
   3824.0 5032.0
@@ -293,7 +297,8 @@ endscrap
 
 
 
-scrap SP-spel-bivy-5 -projection plan -station-names "" "@Kriska2" -scale [-128.0 -128.0 10364.226 -128.0 0.0 0.0 266.5025404 0.0 m]
+scrap SP-spel-bivy-5 -projection plan -station-names "" "@Kriska2" -scale [-128.0 -128.0 10364.226 -128.0 0.0 0.0 266.5025404 0.0 m] -author 2023 "Benoît Urruty" -copyright 2023 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/"
+
 
 line wall -subtype invisible
   3824.0 5032.0
@@ -348,7 +353,8 @@ endscrap
 
 
 
-scrap SP-spel-bivy-6 -projection plan -station-names "" "@Kriska2" -scale [-128.0 -128.0 10364.226 -128.0 0.0 0.0 266.5025404 0.0 m]
+scrap SP-spel-bivy-6 -projection plan -station-names "" "@Kriska2" -scale [-128.0 -128.0 10364.226 -128.0 0.0 0.0 266.5025404 0.0 m] -author 2023 "Benoît Urruty" -copyright 2023 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/"
+
 
 line wall -subtype invisible
   4161.0 5039.0
@@ -420,7 +426,8 @@ endscrap
 
 
 
-scrap SP-spel-bivy-8 -projection plan -station-names "" "@Kriska2" -scale [-128.0 -128.0 10364.226 -128.0 0.0 0.0 266.5025404 0.0 m]
+scrap SP-spel-bivy-8 -projection plan -station-names "" "@Kriska2" -scale [-128.0 -128.0 10364.226 -128.0 0.0 0.0 266.5025404 0.0 m] -author 2023 "Benoît Urruty" -copyright 2023 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/"
+
 
 point 5386.62 5170.87 station -name bivy33
 
@@ -529,7 +536,8 @@ endscrap
 
 
 
-scrap SP-spel-bivy-9 -projection plan -station-names "" "@Kriska2" -scale [-128.0 -128.0 10364.226 -128.0 0.0 0.0 266.5025404 0.0 m]
+scrap SP-spel-bivy-9 -projection plan -station-names "" "@Kriska2" -scale [-128.0 -128.0 10364.226 -128.0 0.0 0.0 266.5025404 0.0 m] -author 2023 "Benoît Urruty" -copyright 2023 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/"
+
 
 line wall -subtype invisible
   6179.0 4266.0
@@ -571,7 +579,8 @@ endscrap
 
 
 
-scrap SP-spel-bivy-10 -projection plan -station-names "" "@Kriska2" -scale [-128.0 -128.0 10364.226 -128.0 0.0 0.0 266.5025404 0.0 m]
+scrap SP-spel-bivy-10 -projection plan -station-names "" "@Kriska2" -scale [-128.0 -128.0 10364.226 -128.0 0.0 0.0 266.5025404 0.0 m] -author 2023 "Benoît Urruty" -copyright 2023 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/"
+
 
 line water-flow
   5898.0 4444.0
@@ -643,7 +652,8 @@ endscrap
 
 
 
-scrap SP-spel-bivy-11 -projection plan -station-names "" "@Kriska2" -scale [-128.0 -128.0 10364.226 -128.0 0.0 0.0 266.5025404 0.0 m]
+scrap SP-spel-bivy-11 -projection plan -station-names "" "@Kriska2" -scale [-128.0 -128.0 10364.226 -128.0 0.0 0.0 266.5025404 0.0 m] -author 2023 "Benoît Urruty" -copyright 2023 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/"
+
 
 line pit
   7838.0 2348.0
@@ -728,7 +738,8 @@ endscrap
 
 
 
-scrap SP-spel-bivy-12 -projection plan -station-names "" "@Kriska2" -scale [-128.0 -128.0 10364.226 -128.0 0.0 0.0 266.5025404 0.0 m]
+scrap SP-spel-bivy-12 -projection plan -station-names "" "@Kriska2" -scale [-128.0 -128.0 10364.226 -128.0 0.0 0.0 266.5025404 0.0 m] -author 2023 "Benoît Urruty" -copyright 2023 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/"
+
 
 line pit
 endline
@@ -788,7 +799,8 @@ endscrap
 
 
 
-scrap SP-spel-bivy-13 -projection plan -station-names "" "@Kriska2" -scale [-128.0 -128.0 10364.226 -128.0 0.0 0.0 266.5025404 0.0 m]
+scrap SP-spel-bivy-13 -projection plan -station-names "" "@Kriska2" -scale [-128.0 -128.0 10364.226 -128.0 0.0 0.0 266.5025404 0.0 m] -author 2023 "Benoît Urruty" -copyright 2023 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/"
+
 
 line pit
   9407.0 1543.0

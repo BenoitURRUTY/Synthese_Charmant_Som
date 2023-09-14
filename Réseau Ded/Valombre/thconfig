@@ -292,16 +292,16 @@ endlayout
   
 # 3-EXPORTS   
 export map -fmt xvi -layout xviexport -o Data/Valombre-map.xvi
-export map -proj extended -layout xviexport -fmt xvi -o Data/Valombre-coupe.xvi
+# export map -proj extended -layout xviexport -fmt xvi -o Data/Valombre-coupe.xvi
 export map -proj  [elevation 17] -layout xviexport -fmt xvi -o Data/Valombre-coupe-elevation.xvi 
 
 # Select maps
-#	select MP-Valombre-plan-tot@Valombre
-#	select MC-Valombre-coupe-tot@Valombre
+	select MP-Valombre-plan-tot@Valombre
+	select MC-Valombre-coupe-tot@Valombre
 	 
-export map -projection extended -layout my_layout-coupe -o Outputs/Valombre-coupe.pdf 
+# export map -projection extended -layout my_layout-coupe -o Outputs/Valombre-coupe.pdf 
 export map -o Outputs/Valombre-plan.pdf -layout my_layout
- export map -projection  [elevation 17] -layout my_layout-coupe -o Outputs/Valombre-coupe-elevation.pdf 
+export map -projection  [elevation 17] -layout my_layout-coupe -o Outputs/Valombre-coupe-elevation.pdf 
 
 export model -o Outputs/Valombre.lox
   

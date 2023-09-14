@@ -13,5 +13,5 @@ endmap
 map MC-P40-coupe-tot-elev -title "P40_suite"
     SC-P40-1
     break
-    SC-P40-3
+    SC-P40-2
 endmap

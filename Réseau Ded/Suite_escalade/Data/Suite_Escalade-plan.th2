@@ -5,7 +5,7 @@ encoding  utf-8
 
 
 
-scrap SP-SE-1 -projection plan -station-names "" "@Suite_escalade" -scale [-128.0 -128.0 4773.6718 -128.0 0.0 0.0 124.50246372 0.0 m]
+scrap SP-SE-1 -projection plan -station-names "" "@Suite_escalade" -scale [-128.0 -128.0 4773.6718 -128.0 0.0 0.0 124.50246372 0.0 m] -author 2023 "Benoît Urruty" -copyright 2023 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/"
 
 line pit
   3827.0 1152.5
@@ -64,7 +64,7 @@ endscrap
 
 
 
-scrap SP-SE-3 -projection plan -station-names "" "@p110kriska" -scale [-128.0 -128.0 4773.6718 -128.0 0.0 0.0 124.50246372 0.0 m]
+scrap SP-SE-3 -projection plan -station-names "" "@p110kriska" -scale [-128.0 -128.0 4773.6718 -128.0 0.0 0.0 124.50246372 0.0 m] -author 2023 "Benoît Urruty" -copyright 2023 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/"
 
 line wall -subtype invisible
   3836.0 1209.0
@@ -201,7 +201,7 @@ endscrap
 
 
 
-scrap SP-SE-4 -projection plan -station-names "" "@jonction_p110" -scale [-128.0 -128.0 4773.6718 -128.0 0.0 0.0 124.50246372 0.0 m]
+scrap SP-SE-4 -projection plan -station-names "" "@jonction_p110" -scale [-128.0 -128.0 4773.6718 -128.0 0.0 0.0 124.50246372 0.0 m] -author 2023 "Benoît Urruty" -copyright 2023 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/"
 
 line wall
 endline
@@ -252,7 +252,7 @@ endscrap
 
 
 
-scrap SP-SE-2 -projection plan -station-names "" "@Suite_escalade" -scale [-128.0 -128.0 4773.6718 -128.0 0.0 0.0 124.50246372 0.0 m]
+scrap SP-SE-2 -projection plan -station-names "" "@Suite_escalade" -scale [-128.0 -128.0 4773.6718 -128.0 0.0 0.0 124.50246372 0.0 m] -author 2023 "Benoît Urruty" -copyright 2023 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/"
 
 line pit -close on
   3295.5 785.5

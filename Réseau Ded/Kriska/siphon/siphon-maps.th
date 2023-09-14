@@ -12,7 +12,7 @@ map MP-siphon-plan-tot -title "siphon"
     SP-siphon-5
 endmap
 
-map MC-Spel-bivy-coupe-elev-tot -title "Spel-bivy"
+map MC-siphon-coupe-elev-tot -title "Spel-bivy"
     SC-siphon-elev-1
     break
     SC-siphon-elev-2

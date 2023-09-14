@@ -12,7 +12,6 @@ survey Puits1 -title "Puits1"
 input Data/Puits1.th2
 input Data/Puits1-elevation.th2
 
-input Puits1-SC.th
-input Puits1-SP.th
+input Puits1-maps.th
 
 endsurvey

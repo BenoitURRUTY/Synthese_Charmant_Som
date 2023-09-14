@@ -32,7 +32,7 @@ map MC-Ded-tot -title "Synthèse topographie du Réseau Ded"
 	
     MC-Kriska-tot-elev@Kriska
     break
-    MP-Valombre-coupe-tot@Valombre 
+    MC-Valombre-coupe-tot@Valombre 
     break
 	MC-Aura-coupe-tot@Aura [-50 0 m] below
     break

@@ -5,7 +5,8 @@ encoding  utf-8
 
 
 
-scrap SP-JP-1 -projection plan -station-names "" "@jonctionP90P17" -scale [-128.0 -128.0 2096.505 -128.0 0.0 0.0 56.502427 0.0 m]
+scrap SP-JP-1 -projection plan -station-names "" "@jonctionP90P17" -scale [-128.0 -128.0 2096.505 -128.0 0.0 0.0 56.502427 0.0 m] -author 2023 "Benoît Urruty" -copyright 2023 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/"
+
 
 point 1294.49 691.3410000000001 station -name jp.6
 

@@ -1,6 +1,6 @@
 encoding  utf-8
 
-map MP-Kriska-tot -title "Kriska"
+map MP-Kriska-plan-tot -title "Kriska"
     MP-jonctionP90P17-plan-tot@jonctionP90P17
     break
     MP-Escalade_speleoloques2-plan-tot@Escalade_speleoloques2
@@ -42,7 +42,7 @@ map MC-Kriska-tot-elev -title "Kriska"
     break
     MC-boyau-elev-tot@boyau [-30 0 m] below
     break
-    MC-Spel-bivy-coupe-elev-tot@siphon
+    MC-siphon-coupe-elev-tot@siphon
     break
     MC-P40-coupe-tot-elev@P40_suite [30 0 m] below
     break 

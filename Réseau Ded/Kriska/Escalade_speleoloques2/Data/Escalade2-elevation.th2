@@ -5,7 +5,8 @@ encoding  utf-8
 
 
 
-scrap SC-Esc-1 -projection [elevation 17] -station-names "" "@escalade_speleoloques2" -scale [-128.0 -128.0 2726.4266000000002 -128.0 0.0 0.0 72.50243564 0.0 m]
+scrap SC-Esc-1 -projection [elevation 17] -station-names "" "@escalade_speleoloques2" -scale [-128.0 -128.0 2726.4266000000002 -128.0 0.0 0.0 72.50243564 0.0 m] -author 2023 "Benoît Urruty" -copyright 2023 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/"
+
 
 line wall -subtype invisible
 endline
@@ -66,7 +67,8 @@ endscrap
 
 
 
-scrap SC-Esc-2 -projection [elevation 17] -station-names "" "@escalade_speleoloques2" -scale [-128.0 -128.0 2726.4266000000002 -128.0 0.0 0.0 72.50243564 0.0 m]
+scrap SC-Esc-2 -projection [elevation 17] -station-names "" "@escalade_speleoloques2" -scale [-128.0 -128.0 2726.4266000000002 -128.0 0.0 0.0 72.50243564 0.0 m] -author 2023 "Benoît Urruty" -copyright 2023 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/"
+
 
 line wall -subtype invisible
 endline
@@ -130,7 +132,8 @@ endscrap
 
 
 
-scrap SC-Esc-3 -projection [elevation 17] -station-names "" "@escalade_speleoloques2" -scale [-128.0 -128.0 2726.4266000000002 -128.0 0.0 0.0 72.50243564 0.0 m]
+scrap SC-Esc-3 -projection [elevation 17] -station-names "" "@escalade_speleoloques2" -scale [-128.0 -128.0 2726.4266000000002 -128.0 0.0 0.0 72.50243564 0.0 m] -author 2023 "Benoît Urruty" -copyright 2023 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/"
+
 
 line wall -reverse on
   747.0 2261.0

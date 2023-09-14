@@ -5,7 +5,7 @@ encoding  utf-8
 
 
 
-scrap SC-William-1 -projection [elevation 17] -station-names "" "@William" -scale [-128.0 -128.0 1545.3236 -128.0 0.0 0.0 42.50241944 0.0 m]
+scrap SC-William-1 -projection [elevation 17] -station-names "" "@William" -scale [-128.0 -128.0 1545.3236 -128.0 0.0 0.0 42.50241944 0.0 m] -author 2023 "Benoît Urruty" -copyright 2023 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/"
 
 line wall
   722.0 3141.0

@@ -5,7 +5,8 @@ encoding  utf-8
 
 
 
-scrap SC-FT-1 -projection [elevation 17] -station-names "" "@FT" -scale [-128.0 -128.0 6584.6964 -128.0 0.0 0.0 170.50248856 0.0 m]
+scrap SC-FT-1 -projection [elevation 17] -station-names "" "@FT" -scale [-128.0 -128.0 6584.6964 -128.0 0.0 0.0 170.50248856 0.0 m] -author 2023 "Benoît Urruty" -copyright 2023 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/"
+
 
 point 3915.0 17671.0 label -text "François-Thierry"
 
@@ -194,7 +195,8 @@ endscrap
 
 
 
-scrap SC-FT-2 -projection [elevation 17] -station-names "" "@FT" -scale [-128.0 -128.0 6584.6964 -128.0 0.0 0.0 170.50248856 0.0 m]
+scrap SC-FT-2 -projection [elevation 17] -station-names "" "@FT" -scale [-128.0 -128.0 6584.6964 -128.0 0.0 0.0 170.50248856 0.0 m] -author 2023 "Benoît Urruty" -copyright 2023 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/"
+
 
 point 3215.44 7545.67 station -name FT.14
 

@@ -5,7 +5,7 @@ encoding  utf-8
 
 
 
-scrap SP-Vire-1 -projection plan -station-names "" "@Vire" -scale [-128.0 -128.0 1309.103 -128.0 0.0 0.0 36.5024162 0.0 m]
+scrap SP-Vire-1 -projection plan -station-names "" "@Vire" -scale [-128.0 -128.0 1309.103 -128.0 0.0 0.0 36.5024162 0.0 m] -author 2023 "Benoît Urruty" -copyright 2023 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/"
 
 line wall
   641.0 268.0
@@ -85,7 +85,7 @@ endscrap
 
 
 
-scrap SP-Vire-2 -projection plan -station-names "" "@Vire" -scale [-128.0 -128.0 1309.103 -128.0 0.0 0.0 36.5024162 0.0 m]
+scrap SP-Vire-2 -projection plan -station-names "" "@Vire" -scale [-128.0 -128.0 1309.103 -128.0 0.0 0.0 36.5024162 0.0 m] -author 2023 "Benoît Urruty" -copyright 2023 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/"
 
 line wall -subtype invisible
   523.0 1154.0
@@ -169,7 +169,7 @@ endscrap
 
 
 
-scrap SP-Vire-3 -projection plan -station-names "" "@Vire" -scale [-128.0 -128.0 1309.103 -128.0 0.0 0.0 36.5024162 0.0 m]
+scrap SP-Vire-3 -projection plan -station-names "" "@Vire" -scale [-128.0 -128.0 1309.103 -128.0 0.0 0.0 36.5024162 0.0 m] -author 2023 "Benoît Urruty" -copyright 2023 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/"
 
 line wall -subtype invisible
   859.0 698.0
