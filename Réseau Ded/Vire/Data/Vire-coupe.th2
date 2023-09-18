@@ -5,7 +5,7 @@ encoding  utf-8
 
 
 
-scrap SC-Vire-1 -projection [elevation 17] -station-names "" "@Vire" -scale [-903.5920000000001 -616.1899999999998 1084.6924 -616.1899999999998 0.0 0.0 50.50242376 0.0 m] -author 2023 "Benoît Urruty" -copyright 2023 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/"
+scrap SC-Vire-1 -projection [elevation 17] -station-names "" "@Vire" -author 2023 "Benoît Urruty" -copyright 2023 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [-903.5920000000001 -616.1899999999998 1084.6924 -616.1899999999998 0.0 0.0 50.50242376 0.0 m]
 
 line wall
 endline
@@ -99,7 +99,7 @@ endscrap
 
 
 
-scrap SC-Vire-2 -projection [elevation 17] -station-names "" "@Vire" -scale [-903.5920000000001 -616.1899999999998 1084.6924 -616.1899999999998 0.0 0.0 50.50242376 0.0 m] -author 2023 "Benoît Urruty" -copyright 2023 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/"
+scrap SC-Vire-2 -projection [elevation 17] -station-names "" "@Vire" -author 2023 "Benoît Urruty" -copyright 2023 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [-903.5920000000001 -616.1899999999998 1084.6924 -616.1899999999998 0.0 0.0 50.50242376 0.0 m]
 
 line wall -reverse on -subtype invisible
   549.0 27.0
@@ -127,7 +127,7 @@ line wall
   smooth off
 endline
 
-line wall -subtype invisible
+line wall -subtype invisible -clip off
   -405.0 2070.0
   -415.0 1959.0
   altitude .
@@ -141,6 +141,18 @@ endline
 point -774.0 2044.0 entrance -orientation 90.8
 
 point -1850.0 2041.0 label -text "Grotte de la Vire"
+
+line rock-border -reverse on -clip off
+  -415.0 1959.0
+  -484.0 1956.0 -532.0 1964.0 -544.0 1956.0
+  -556.0 1948.0 -548.0 1940.0 -560.0 1776.0
+  -572.0 1612.0 -572.0 1480.0 -576.0 1428.0
+endline
+
+line rock-border -clip off
+  -405.0 2070.0
+  -400.0 2156.0 -420.0 2244.0 -400.0 2392.0
+endline
 
 line wall
   284.0 2035.0

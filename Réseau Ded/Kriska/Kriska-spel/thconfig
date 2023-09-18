@@ -74,11 +74,11 @@ layout my_layout
  # origin-label 100 K
   
    # Une couleur de fond, 85% blanc = 15% noir
-  #color map-bg 85
+  color map-bg 85
   
    # Une couleur de topo (RVB)
-  color map-fg [100 100 80]
-  
+  #color map-fg [100 100 80]
+  color map-fg altitude
    # la topo est transparente (on peut voir les galeries sousjacentes)
    # Par defaut, donc, pas vraiment besoin de specifier
   transparency on
@@ -93,13 +93,13 @@ layout my_layout
    # si la cavite est importante et qu il y a beaucoup d explorateurs
    statistics explo-length off
    # Afficher developpement et profondeur de la cavite
-  statistics topo-length off
+  statistics topo-length on
   
    # Nous voulons une legende pour expliquer les symboles. "on" imprimera
    # seulement la legende des symboles dessines sur la topo, si l on veut
    # pour tous les symboles, utilises ou pas, il faut indiquer "all".
    # "legend off" = pas de legende
-  legend off
+  legend on
   
    # Par defaut, la legende est de 14 cm de largeur
      legend-width 18.5 cm
@@ -120,12 +120,12 @@ layout my_layout
   
    # Options pour afficher le squelette topo,
    # les points et le nom des stations topos
-   #symbol-hide line survey
-  debug station-names
+  symbol-hide line survey
+  #debug station-names
   
    # Specifier qu il faut imprimer une grille
    # au dessous de la topo  
-  grid bottom
+  #grid bottom
   
    # Specifier le pas de la grille, ici 100x100x100 metres
    # (Trois dimensions, oui, ça sert pour la coupe aussi) 
@@ -163,6 +163,7 @@ layout my_layout-coupe
 	copy drawingconfig
 	copy header_coupe
 	copy langue-fr
+	copy headerl
 	  
    # Titre  
    doc-title "Kriska - Spéléoloques"
@@ -221,13 +222,13 @@ layout my_layout-coupe
    # si la cavite est importante et qu il y a beaucoup d explorateurs
    statistics explo-length off
    # Afficher developpement et profondeur de la cavite
-  statistics topo-length off
+  statistics topo-length on
   
    # Nous voulons une legende pour expliquer les symboles. "on" imprimera
    # seulement la legende des symboles dessines sur la topo, si l on veut
    # pour tous les symboles, utilises ou pas, il faut indiquer "all".
    # "legend off" = pas de legende
-  legend off
+  legend on
   
    # Par defaut, la legende est de 14 cm de largeur
 	legend-width 14.5 cm
