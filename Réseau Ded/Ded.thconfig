@@ -172,8 +172,9 @@ endlayout
   
 layout my_layout-coupe
    # Call the config settings (Layout config inside the config.thc file)
-   copy Coords_Header_Ded
+   #copy Coords_Header_Ded
    copy drawingconfig
+   #copy header_coupe_vert-to-place
    copy header_coupe
    copy langue-fr
       
@@ -193,7 +194,7 @@ layout my_layout-coupe
    # employee, c est le cas apres avoir dessine la topo
    # sur un cheminement exporte avec le layout "xviexport"
    # (voir en bas)
-   base-scale 1 1000
+   base-scale 1 1500
 
    # "scale" : specification de l echelle,
    # pour imprimer la topo. La combination entre scale et base-scale
@@ -204,7 +205,7 @@ layout my_layout-coupe
    # l imprimante ne specifie pas l option "Fit in page"
    # ou similaire, sinon, l echelle sera change pendant
    # l impression
-   scale 1 1000
+   scale 1 1500
 
    # echelle graphique 20 m ampleur
    scale-bar 100 m

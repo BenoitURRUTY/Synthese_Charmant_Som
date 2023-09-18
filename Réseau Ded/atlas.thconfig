@@ -164,7 +164,7 @@ layout atlas_layout
 	endcode  
 
 # add extended-elev on the same pdf
-#map-image 105 0 s Outputs/Ded-coupe.pdf
+map-image 0 0 s Outputs/Ded-coupe.pdf
 
 endlayout
 

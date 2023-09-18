@@ -2055,39 +2055,39 @@ layout header_coupe
 			\vskip0.5cm
 		\fi
 		%print cavelength and depth
-		\everypar{\hangindent=2em\hangafter=1}
-		\edef\tmp{\the\cavelength} \ifx\tmp\empty \else
-			{\the\legendtextsize\si\the\cavelengthtitle: \ss\the\cavelength\par}
-		\fi
-		\edef\tmp{\the\cavedepth} \ifx\tmp\empty \else
-			{\the\legendtextsize\si\the\cavedepthtitle: \ss\the\cavedepth\par}
-		\fi
+		#\everypar{\hangindent=2em\hangafter=1}
+		#\edef\tmp{\the\cavelength} \ifx\tmp\empty \else
+		#	{\the\legendtextsize\si\the\cavelengthtitle: \ss\the\cavelength\par}
+		#\fi
+		#\edef\tmp{\the\cavedepth} \ifx\tmp\empty \else
+		#	{\the\legendtextsize\si\the\cavedepthtitle: \ss\the\cavedepth\par}
+		#\fi
 		# % end bruces addition
 
 		%print explorers names
-		\edef\tmp{\the\exploteam} \ifx\tmp\empty \else
-			{\the\legendtextsize\si\the\explotitle: \ss\the\exploteam\quad\si\the\explodate\par}
-		\fi
-		%print surveyors names
-		\edef\tmp{\the\topoteam} \ifx\tmp\empty \else
-			{\the\legendtextsize\si\the\topotitle: \ss\the\topoteam\quad\si\the\topodate\par}
-		\fi
+		#\edef\tmp{\the\exploteam} \ifx\tmp\empty \else
+		#	{\the\legendtextsize\si\the\explotitle: \ss\the\exploteam\quad\si\the\explodate\par}
+		#\fi
+		#%print surveyors names
+		#\edef\tmp{\the\topoteam} \ifx\tmp\empty \else
+		#	{\the\legendtextsize\si\the\topotitle: \ss\the\topoteam\quad\si\the\topodate\par}
+		#\fi
 		 %%print the guides
 		\edef\tmp{\the\guide} \ifx\tmp\empty \else
 			{\the\legendtextsize\si\the\thguide: \ss\the\guide\par}
 		\fi
 		%print cartographers names
-		\edef\tmp{\the\cartoteam} \ifx\tmp\empty \else
-			{\the\legendtextsize\si\the\cartotitle: \ss\the\cartoteam\quad\si\the\cartodate\par}
-		\fi
+		#\edef\tmp{\the\cartoteam} \ifx\tmp\empty \else
+		#	{\the\legendtextsize\si\the\cartotitle: \ss\the\cartoteam\quad\si\the\cartodate\par}
+		#\fi
 		%print synthesys name !!!  !!! with newtoks\synth \synth={Synth Name} in the thconfig
 		\edef\tmp{\the\synth} \ifx\tmp\empty \else
 			{\the\legendtextsize\si\the\thsynth: \ss\the\synth\par}
 		\fi
 		%print the club
-		\edef\tmp{\the\club} \ifx\tmp\empty \else
-			{\the\legendtextsize\si\the\thclub: \ss\the\club\par}
-		\fi
+		#\edef\tmp{\the\club} \ifx\tmp\empty \else
+		#	{\the\legendtextsize\si\the\thclub: \ss\the\club\par}
+		#\fi
 		%%print the expedition
 		\edef\tmp{\the\expe} \ifx\tmp\empty \else
 			{\the\legendtextsize\si\the\thexpe: \ss\the\expe\par}
