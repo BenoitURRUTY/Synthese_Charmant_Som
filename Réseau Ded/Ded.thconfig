@@ -165,7 +165,7 @@ layout my_layout
    endcode  
 
    # add extended-elev on the same pdf
-   #map-image 0 0 s Outputs/Ded-coupe_projected.pdf
+   map-image 100 0 w Outputs/Ded-coupe_projected.pdf #off/n/s/e/w/ne/nw/se/sw/center
    
 endlayout
 
@@ -175,7 +175,7 @@ layout my_layout-coupe
    #copy Coords_Header_Ded
    copy drawingconfig
    #copy header_coupe_vert-to-place
-   copy header_coupe
+   copy header_coupe_small
    copy langue-fr
       
    # Titre  
@@ -194,7 +194,7 @@ layout my_layout-coupe
    # employee, c est le cas apres avoir dessine la topo
    # sur un cheminement exporte avec le layout "xviexport"
    # (voir en bas)
-   base-scale 1 1500
+   base-scale 1 1200
 
    # "scale" : specification de l echelle,
    # pour imprimer la topo. La combination entre scale et base-scale
@@ -205,7 +205,7 @@ layout my_layout-coupe
    # l imprimante ne specifie pas l option "Fit in page"
    # ou similaire, sinon, l echelle sera change pendant
    # l impression
-   scale 1 1500
+   scale 1 1200
 
    # echelle graphique 20 m ampleur
    scale-bar 100 m
