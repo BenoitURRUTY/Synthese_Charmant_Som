@@ -1,0 +1,12 @@
+encoding  utf-8
+map MP-Grotte_Canaple-plan-tot -title "Grotte_Canaple"
+  SP-canaple-2
+  SP-canaple-1
+  break
+  
+endmap
+
+
+map MC-Grotte_Canaple-coupe-tot -title "Grotte_Canaple"
+  SC-canaple-1
+endmap

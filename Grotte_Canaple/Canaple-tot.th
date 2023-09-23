@@ -1,0 +1,10 @@
+encoding  utf-8
+
+survey Grotte_Canaple -title "Gouffre de Canaple"
+   input Data/canaple.th
+	
+   	input Data/canaple-plan.th2
+	input Data/canaple-coupe.th2
+	input Grotte_Canaple-maps.th
+		
+endsurvey
