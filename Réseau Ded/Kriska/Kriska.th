@@ -38,7 +38,7 @@ survey Kriska -title "Kriska"
 
 
    input E60/E60-tot.th
-   equate 34@Kriska1.Kriska-spel ES.3@E60.E60
+   equate jp.7@jonctionP90P17.jonctionP90P17 16@E60.E60
 
    input Kriska-maps.th
 
@@ -54,6 +54,7 @@ survey Kriska -title "Kriska"
    join SP-Kriska-spel-4@Kriska-spel SP-P40-2@P40_suite
    join SP-Kriska-spel-4@Kriska-spel SP-P40-3@P40_suite
    join SP-Kriska-spel-6@Kriska-spel SP-JP-1@jonctionP90P17
+   join SP-E60-1@E60 SP-Kriska-spel-8@Kriska-spel
 
    #join Scrap coupe
    
@@ -67,6 +68,6 @@ survey Kriska -title "Kriska"
    join SC-Kriska-spel-1@Kriska-spel SC-P40-1@P40_suite
    join SC-JP-1@jonctionP90P17 SC-Kriska-spel-2@Kriska-spel
    join SC-JP-1@jonctionP90P17 SC-Kriska-spel-3@Kriska-spel
-
+   join SC-E60-1@E60 SC-Kriska-spel-3@Kriska-spel
 
 endsurvey

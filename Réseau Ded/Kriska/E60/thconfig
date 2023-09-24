@@ -301,7 +301,7 @@ endlayout
 # 3-EXPORTS
 
 export map -fmt xvi -layout xviexport -o Data/E60-map.xvi
-export map -proj extended -layout xviexport -fmt xvi -o Data/E60-coupe.xvi
+#export map -proj extended -layout xviexport -fmt xvi -o Data/E60-coupe.xvi
 export map -proj [elevation 17] -layout xviexport -o Data/E60-coupe_elevation.xvi 
 
 # Select maps
@@ -309,7 +309,7 @@ export map -proj [elevation 17] -layout xviexport -o Data/E60-coupe_elevation.xv
 #  select MC-E60-coupe-tot@E60
 	 
 export map -projection [elevation 17] -layout my_layout-coupe -o Outputs/E60-coupe_elevation.pdf 
-export map -projection extended -layout my_layout-coupe -o Outputs/E60-coupe.pdf 
+#export map -projection extended -layout my_layout-coupe -o Outputs/E60-coupe.pdf 
 export map -o Outputs/E60-plan.pdf -layout my_layout
  
 export model -o Outputs/E60.lox

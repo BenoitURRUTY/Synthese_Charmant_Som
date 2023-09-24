@@ -4,8 +4,6 @@ survey E60 -title "E60"
    input Data/E60.th
 	
     input Data/E60-plan.th2
-	#input E60-SP.th
-	input Data/E60-coupe.th2
-	input E60-SC.th
-	
+	input E60-maps.th
+	input Data/E60-coupe.th2	
 endsurvey

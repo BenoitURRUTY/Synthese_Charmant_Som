@@ -12,6 +12,7 @@ line rope
   3706.0 15534.0
   4112.0 12888.0
   4112.0 12888.0 4168.0 12828.0 4128.0 12880.0
+  smooth off
 endline
 
 line rope -clip off
@@ -113,6 +114,7 @@ endline
 line wall -subtype invisible
   1956.0 19604.0
   1976.0 19672.0 1996.0 19896.0 2144.0 19604.0
+  smooth off
 endline
 
 line wall
@@ -366,8 +368,6 @@ point 4716.0 5360.0 continuation -attr Code AP -attr Cavite 'Kriska' -attr Resea
 
 point 4636.0 3920.0 continuation -attr Code P -attr Cavite 'Kriska' -attr Reseau 'Ded' -attr CA '' -text "Puits Borgne à topographier"
 
-point 5444.0 8232.0 continuation -attr Code E -attr Cavite 'Kriska' -attr Reseau 'Ded' -attr CA '' -text "Escalade de 40m à réaliser"
-
 line wall -close on -reverse on
   4472.0 5276.0
   4476.0 5216.0 4468.0 5172.0 4496.0 5160.0
@@ -375,17 +375,20 @@ line wall -close on -reverse on
   4554.0 5226.0 4468.0 5336.0 4472.0 5276.0
 endline
 
+line wall -reverse on
+  4808.0 6172.0
+  4864.0 6152.0 4856.0 6124.0 4912.0 6184.0
+  smooth off
+endline
+
+line wall -subtype invisible
+  5495.0 6181.0
+  4912.0 6184.0
+endline
+
 line wall -subtype invisible
   4808.0 6172.0
   4528.0 5896.0
-endline
-
-line wall -reverse on -subtype unsurveyed
-  4808.0 6172.0
-  4864.0 6468.0 4768.0 8264.0 4876.0 8336.0
-  4984.0 8408.0 5476.0 8744.0 5524.0 8348.0
-  5572.0 7952.0 5482.0 6274.0 5495.0 6181.0
-  smooth off
 endline
 
 line wall -reverse on

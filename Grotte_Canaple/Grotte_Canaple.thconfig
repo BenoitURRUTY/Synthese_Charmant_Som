@@ -163,7 +163,7 @@ layout my_layout
    endcode  
 
    # add extended-elev on the same pdf
-   #map-image 150 0 w Outputs/Gouffre_Canaple-coupe.pdf 
+   map-image 150 0 w Outputs/Gouffre_Canaple-coupe.pdf 
 
 endlayout
 
