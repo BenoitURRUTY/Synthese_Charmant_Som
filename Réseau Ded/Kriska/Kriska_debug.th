@@ -1,0 +1,80 @@
+encoding  utf-8
+
+survey Kriska -title "Kriska"
+   
+# Pour importer les différentes données de différents fichiers topos :
+
+   input caillou-bouge/caillou-bouge-tot.th
+   equate 0-0@escalade_speleoloques2.Escalade_speleoloques2 17@caillou-bouge.caillou-bouge
+
+   #input Kriska-spel/Kriska-spel-tot.th
+
+   #input Escalade1/Escalade1-tot.th
+   #equate bivouac@Escalade1.Escalade1 bivy1@Kriska2.spel-bivy
+   
+   #input spel-bivy/spel-bivy-tot.th
+   #equate bivy56@Kriska2.spel-bivy 52@Kriska1.Kriska-spel
+
+   #input fond/fond-tot.th
+   #equate 0@fond.fond bivouac@Escalade1.Escalade1
+   
+   #input boyau_tonnerre/boyau-tot.th
+   #equate  29@fond.fond boyau.0@boyau.boyau
+
+   #input siphon/siphon-tot.th
+   #equate 46@siphon.siphon 37@fond.fond
+
+   #input chienlit-speleoloques/chienlit-speleoloques-tot.th
+   #equate 36@chienlit-speleoloques.chienlit-speleoloques bivy54@Kriska2.spel-bivy
+
+   input Escalade_speleoloques/Escalade_speleoloques-tot.th
+   #equate es.0@escalade_speleoloques.Escalade_speleoloques  36@chienlit-speleoloques.chienlit-speleoloques
+
+   input Escalade_speleoloques2/Escalade_speleoloques2-tot.th 
+   equate es.2@escalade_speleoloques.Escalade_speleoloques 00-5@escalade_speleoloques2.Escalade_speleoloques2
+
+   #input P40_suite/P40_suite-tot.th
+   #equate 15-16@suite_p40.P40_suite 15@Kriska1.Kriska-spel
+
+   #input jonctionP90P17/jonctionP90P17-tot.th
+   #equate jp.0@jonctionP90P17.jonctionP90P17 26@Kriska1.Kriska-spel
+   #equate jp.7@jonctionP90P17.jonctionP90P17 35@Kriska1.Kriska-spel
+
+
+   #input E60/E60-tot.th
+   #equate jp.7@jonctionP90P17.jonctionP90P17 16@E60.E60
+
+   #input Kriska-maps.th
+
+
+   #join Scrap Plan
+   #join SP-Kriska-spel-11@Kriska-spel  SP-spel-bivy-1@spel-bivy
+   #join SP-spel-bivy-13@spel-bivy      SP-Escalade1-1@Escalade1
+   #join SP-Escalade1-1@Escalade1       SP-fond-1@fond
+   #join SP-boyau-1@boyau               SP-fond-4@fond
+   #join SP-siphon-5@siphon             SP-fond-5@fond
+   #join SP-spel-bivy-1@spel-bivy       SP-ES-1@Escalade_speleoloques
+   join SP-ES-1@Escalade_speleoloques SP-Esc-1@Escalade_speleoloques2
+   #join SP-Kriska-spel-4@Kriska-spel SP-P40-2@P40_suite
+   #join SP-Kriska-spel-4@Kriska-spel SP-P40-3@P40_suite
+   #join SP-Kriska-spel-6@Kriska-spel SP-JP-1@jonctionP90P17
+   #join SP-E60-1@E60 SP-Kriska-spel-8@Kriska-spel
+   #join SP-caillou-bouge-1@caillou-bouge SP-Esc-1@Escalade_speleoloques2
+
+   #join Scrap coupe
+   
+   #join SC-siphon-elev-1@siphon        SC-fond-elev-1@fond 
+   #join SC-spel-bivy-elev-0@spel-bivy  SC-fond-elev-1@fond 
+   #join SC-spel-bivy-elev-1@spel-bivy  SC-ES-elev-1@Escalade_speleoloques
+   #join SC-Escalade1-elev-1@Escalade1  SC-fond-elev-1@fond
+   join SC-ES-elev-1@Escalade_speleoloques SC-Esc-1@Escalade_speleoloques2
+   #join SC-Kriska-spel-1@Kriska-spel SC-P40-1@P40_suite
+   #join SC-Kriska-spel-1@Kriska-spel SC-P40-2@P40_suite
+   #join SC-Kriska-spel-1@Kriska-spel SC-P40-1@P40_suite
+   #join SC-JP-1@jonctionP90P17 SC-Kriska-spel-2@Kriska-spel
+   #join SC-JP-1@jonctionP90P17 SC-Kriska-spel-3@Kriska-spel
+   #join SC-E60-1@E60 SC-Kriska-spel-3@Kriska-spel
+   #join SC-caillou-bouge-1@caillou-bouge SC-Esc-2@Escalade_speleoloques2
+
+
+endsurvey

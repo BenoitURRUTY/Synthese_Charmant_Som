@@ -1525,7 +1525,7 @@ layout scalebar_horiz
 				label.bot(thTEX(decimal (l) & "\thinspace" & txt),(tmpl,-tmph));
 				%<en> To write the scale "1:scale" uncomment it the next line:
 				%<fr> Pour écrire l'échelle "1:scale" au dessus de la barre décommenter la ligne suivante :
-				%label.top(thTEX("Echelle 1 : " & decimal (Scale*100)),(0,0));
+				label.top(thTEX("Echelle 1 : " & decimal (Scale*100)),(0,0));
 			endgroup;
 		enddef;
 	endcode
@@ -1681,7 +1681,7 @@ layout headerl
 		
 		%print entrances coordinates (Lat-Long/WGS84) if defined
 		\edef\tmp{\the\ECoordinates} \ifx\tmp\empty \else
-			{\the\legendtextsize\si\the\thcoords: \ss\the\ECoordinates\par}
+			{\the\legendtextsize\si\the\thcoords: \par\the\ECoordinates\par}
 			\vskip0.5cm
 		\fi
 
@@ -1835,7 +1835,7 @@ layout header_coupe_vert-to-place
 		{
 		%print the coordinates of the entrance. It is associated with the entrances_coordinates.th file
 		\edef\tmp{\the\ECoordinates} \ifx\tmp\empty \else
-			{\the\legendtextsize\si\the\thcoords: \ss\the\ECoordinates\par}
+			{\the\legendtextsize\si\the\thcoords: \the\ECoordinates\par}
 			\vskip0.5cm
 		\fi
 		%print cavelength and depth
@@ -2676,4 +2676,19 @@ layout test
 
 	endcode
 
+endlayout
+
+layout for_print
+	code metapost
+      #fonts_setup( 20, 22, 24, 26, 28 );
+    endcode
+
+	
+
+  code tex-map
+    \legendwidth=70cm
+    \legendtextcolor={\color[0 0 0]}  % RGB values 0--100
+    \legendtextsize={\size[24]}
+    \legendtextheadersize={\size[35]}
+  endcode
 endlayout

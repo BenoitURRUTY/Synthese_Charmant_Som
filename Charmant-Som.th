@@ -1,4 +1,4 @@
-survey Ded -title "Synthèse topographie du Réseau Ded"
+survey Ded -title "Synthèse topographie du Charmant Som"
 
    input "Réseau Ded/Ded.th"
 
@@ -7,6 +7,8 @@ survey Ded -title "Synthèse topographie du Réseau Ded"
    input "Trou qui Pique/TQP-tot.th"
 
    input "topo_prospection/Puits des 3 morts/3morts-tot.th"
+
+   input Grotte_Canaple/Canaple-tot.th
       
    #input Maps-CS.th
 

@@ -3,6 +3,10 @@ encoding  utf-8
 survey Kriska -title "Kriska"
    
 # Pour importer les différentes données de différents fichiers topos :
+
+   input caillou-bouge/caillou-bouge-tot.th
+   equate 0-0@escalade_speleoloques2.Escalade_speleoloques2 17@caillou-bouge.caillou-bouge
+
    input Kriska-spel/Kriska-spel-tot.th
 
    input Escalade1/Escalade1-tot.th
@@ -55,6 +59,7 @@ survey Kriska -title "Kriska"
    join SP-Kriska-spel-4@Kriska-spel SP-P40-3@P40_suite
    join SP-Kriska-spel-6@Kriska-spel SP-JP-1@jonctionP90P17
    join SP-E60-1@E60 SP-Kriska-spel-8@Kriska-spel
+   #join SP-caillou-bouge-1@caillou-bouge SP-Esc-1@Escalade_speleoloques2
 
    #join Scrap coupe
    
@@ -69,5 +74,7 @@ survey Kriska -title "Kriska"
    join SC-JP-1@jonctionP90P17 SC-Kriska-spel-2@Kriska-spel
    join SC-JP-1@jonctionP90P17 SC-Kriska-spel-3@Kriska-spel
    join SC-E60-1@E60 SC-Kriska-spel-3@Kriska-spel
+   #join SC-caillou-bouge-1@caillou-bouge SC-Esc-2@Escalade_speleoloques2
+
 
 endsurvey

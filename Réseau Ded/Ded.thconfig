@@ -27,6 +27,8 @@ layout xviexport
 	grid bottom
 endlayout
 # fin de la définition du layout "xviexport" 
+
+
   
 layout my_layout
    # Call the config settings (Layout config inside the config.thc file)
@@ -34,7 +36,10 @@ layout my_layout
    copy drawingconfig
    copy headerl
    copy langue-fr
-      
+   copy for_print 
+ 
+   
+   
    # Titre  
    doc-title "Réseau Ded"
    # Auteur
@@ -52,7 +57,7 @@ layout my_layout
    # employee, c est le cas apres avoir dessine la topo
    # sur un cheminement exporte avec le layout "xviexport"
    # (voir en bas)
-   base-scale 1 500
+   base-scale 1 400
 
    # "scale" : specification de l echelle,
    # pour imprimer la topo. La combination entre scale et base-scale
@@ -63,7 +68,7 @@ layout my_layout
    # l imprimante ne specifie pas l option "Fit in page"
    # ou similaire, sinon, l echelle sera change pendant
    # l impression
-   scale 1 500
+   scale 1 400
 
    #surface bottom
    #surface-opacity 70
@@ -106,7 +111,6 @@ layout my_layout
    legend on
 
    # Par defaut, la legende est de 14 cm de largeur
-   legend-width 30 cm
    legend-columns 3
 
    # Specification la position de la manchette : interieur
@@ -165,8 +169,8 @@ layout my_layout
    endcode  
 
    # add extended-elev on the same pdf
-   map-image 100 0 w Outputs/Ded-coupe_projected.pdf #off/n/s/e/w/ne/nw/se/sw/center
-   
+   #map-image 100 0 w Outputs/Ded-coupe_projected.pdf #off/n/s/e/w/ne/nw/se/sw/center
+
 endlayout
 
   
@@ -177,7 +181,8 @@ layout my_layout-coupe
    #copy header_coupe_vert-to-place
    copy header_coupe_small
    copy langue-fr
-      
+   #copy for_print
+
    # Titre  
    doc-title "Réseau Ded"
    # Auteur
@@ -244,7 +249,7 @@ layout my_layout-coupe
    legend on
 
    # Par defaut, la legende est de 14 cm de largeur
-   legend-width 14.5 cm
+   legend-width 30 cm
 
    # Specification la position de la manchette : interieur
    # occuppe par le titule, auteurs, etc. Nous pouvons indiquer

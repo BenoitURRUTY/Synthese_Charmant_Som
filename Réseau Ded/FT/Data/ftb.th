@@ -11,7 +11,7 @@ survey ftb -title "ftb"
     units length meters
     station frb.17  "François-Thierry" entrance
     cs UTM32
-    fix frb.18 246836.47	5024212.88 1587.107
+    fix frb.18 246836.47	5024212.88 -30.869 #1587.107
     units compass clino degrees
     data normal from to length compass clino
     # extend auto

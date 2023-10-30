@@ -5,7 +5,7 @@ survey Vire -title "Vire"
   centerline
     date 2022.08.23 
     cs UTM32
-    fix vire.18 246792.76  5024246.69  1612.048
+    fix vire.18 246792.76  5024246.69  -5.928 #1612.048
     team "Coline/Camus(Spéléo Campus)"
     team "Benoît/Urruty(GUCEM)"
     station vire.9 "Grotte de la Vire" entrance

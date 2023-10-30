@@ -309,9 +309,9 @@ endlayout
   
 # 3-EXPORTS
 
-export map -fmt xvi -layout xviexport -o Data/Charmant-Som-map.xvi
+#export map -fmt xvi -layout xviexport -o Data/Charmant-Som-map.xvi
 #export map -proj extended -layout xviexport -fmt xvi -o Data/Charmant-Som-coupe.xvi
-export map -proj [elevation 17] -layout my_layout-coupe -o Data/Charmant-Som-coupe_projected.xvi 
+#export map -proj [elevation 17] -layout my_layout-coupe -o Data/Charmant-Som-coupe_projected.xvi 
 
 # Select maps
 select MP-Charmant-Som-tot@Charmant-Som
@@ -339,6 +339,6 @@ export map -proj plan -fmt kml -o Outputs/Charmant-Som.kml -layout my_layout
 export model -fmt kml -o Outputs/Charmant-Som-model.kml -enable all
 
 export continuation-list -o Outputs/ContinuationsCharmant-Som.html
-export survey-list -location on -o Outputs/Reseau_ded.html
+export survey-list -location on -o Outputs/Charmant-Som.html
 
 export database -fmt sql -o Outputs/databaseCharmant-Som.sql

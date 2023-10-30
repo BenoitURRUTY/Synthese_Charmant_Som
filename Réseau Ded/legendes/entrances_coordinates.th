@@ -42,11 +42,11 @@ layout Coords_Header_Ded
 		\def\thsizem{}
 		\ifx\thsizexl\nostring\def\thsizexl{30}\else\fi
 		\ifx\thsizel\nostring\def\thsizel{24}\else\fi
-		\ifx\thsizem\nostring\def\thsizem{12}\else\fi
+		\ifx\thsizem\nostring\def\thsizem{20}\else\fi
 		
 		\ECoordinates={
 			\edef\tmp{\thlocationDeda} \ifx\tmp\empty \else
-				{\size[\thsizem] \ss\thlocationDeda\vss}	% The first one should be without hskip
+				{\size[\thsizem]\hskip5.95cm  \ss\thlocationDeda\vss}	% The first one should be without hskip
 			\fi
 			\edef\tmp{\thlocationDedb} \ifx\tmp\empty \else
 				{\size[\thsizem]\hskip5.95cm \ss\thlocationDedb\vss}	% You need to set your hskip

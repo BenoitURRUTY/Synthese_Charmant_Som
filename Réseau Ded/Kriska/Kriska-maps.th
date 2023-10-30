@@ -22,6 +22,8 @@ map MP-Kriska-plan-tot -title "Kriska"
     MP-boyau-plan-tot@boyau 
     break
     MP-siphon-plan-tot@siphon
+    break
+    MP-caillou-bouge-plan-tot@caillou-bouge
     
     
 endmap
@@ -49,7 +51,8 @@ map MC-Kriska-tot-elev -title "Kriska"
     MC-siphon-coupe-elev-tot@siphon
     break
     MC-P40-coupe-tot-elev@P40_suite [30 0 m] below
-     
+    break
+    MC-caillou-bouge-coupe-tot@caillou-bouge
     
     
     
