@@ -1,14 +1,14 @@
 survey Ded -title "Synthèse topographie du Charmant Som"
 
-   input "Réseau Ded/Ded.th"
+   input "Réseau-Ded/Ded.th"
 
    input Porte_Enclos/Enclos-tot.th
 
-   input "Trou qui Pique/TQP-tot.th"
+   input "Trou-qui-Pique/TQP-tot.th"
 
-   input "topo_prospection/Puits des 3 morts/3morts-tot.th"
+   input "topo_prospection/Puits-des-3-morts/3morts-tot.th"
 
-   input Grotte_Canaple/Canaple-tot.th
+   #input "Grotte_Canaple/Canaple-tot.th"
       
    #input Maps-CS.th
 

@@ -12,7 +12,7 @@ source Charmant-Som.th
 input config.thc 
 
 #DEM
-#source ../GIS/DEM_new.th
+source /home/urrutyb/Documents/Speleo/database_speleo/Chartreuse/Reseau_ded/ded_qgis/DEM_filled_4m.th
 
 # 2-LAYOUT   
 
@@ -30,7 +30,7 @@ endlayout
   
 layout my_layout
    # Call the config settings (Layout config inside the config.thc file)
-   copy Coords_Header_Charmant-Som
+   #copy Coords_Header_Charmant-Som
    copy drawingconfig
    copy headerl
    copy langue-fr
@@ -171,7 +171,7 @@ endlayout
   
 layout my_layout-coupe
    # Call the config settings (Layout config inside the config.thc file)
-   copy Coords_Header_Charmant-Som
+   #copy Coords_Header_Charmant-Som
    copy drawingconfig
    copy header_coupe
    copy langue-fr
@@ -314,8 +314,8 @@ endlayout
 #export map -proj [elevation 17] -layout my_layout-coupe -o Data/Charmant-Som-coupe_projected.xvi 
 
 # Select maps
-select MP-Charmant-Som-tot@Charmant-Som
-select MC-Charmant-Som-tot@Charmant-Som
+#select MP-Charmant-Som-tot@Charmant-Som
+#select MC-Charmant-Som-tot@Charmant-Som
 	 
 export map -projection [elevation 17] -layout my_layout-coupe -o Outputs/Charmant-Som-coupe_projected.pdf 
 #export map -projection extended -layout my_layout-coupe -o Outputs/Charmant-Som-coupe.pdf 

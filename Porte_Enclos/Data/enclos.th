@@ -4,16 +4,16 @@ survey enclos -title "Enclos" -entrance "26"
 
   centerline
     date 2022.03.12
-    team "Romain/Vanel(GUCEM)"
-    team "Noémie/Briot(GUCEM)"
-    team "Benoît/Urruty(GUCEM)"
+    team "Romain/Vanel"
+    team "Noémie/Briot"
+    team "Benoît/Urruty"
     units length meters
     units compass clino degrees
     station 26 "Porte de l'Enclos"
     cs UTM32    
     fix 27 249298 5026129 780
     data normal from to length compass clino
-    # extend auto
+    # #extend auto
     0 . 2.24 172.2 1.8
     0 . 0.21 208.3 -82.9
     0 . 0.38 257.1 -12.5
@@ -23,139 +23,139 @@ survey enclos -title "Enclos" -entrance "26"
     0 . 0.40 316.7 -48.2
     extend right
     0 1 1.13 356.5 -20.3
-    # extend auto
+    # #extend auto
     1 . 0.17 215.3 87.8
     1 . 0.19 350.8 -79.0
     1 . 0.60 124.8 26.3
-    extend right
+    #extend right
     1 2 1.20 294.2 -26.5
-    # extend auto
+    # #extend auto
     2 . 0.23 135.5 -54.3
     2 . 0.33 184.8 63.4
     2 . 0.58 215.3 0.3
     2 . 0.35 32.6 -7.0
-    extend right
+    #extend right
     2 3 0.90 352.7 -19.2
-    # extend auto
+    # #extend auto
     3 . 0.53 233.3 -50.2
     3 . 0.39 232.4 1.0
     3 . 1.17 216.5 -4.2
     3 . 0.85 214.5 -13.1
-    extend right
+    #extend right
     3 4 0.65 306.8 -52.4
-    # extend auto
+    # #extend auto
     4 . 0.45 143.2 82.8
     4 . 0.44 71.2 40.6
     4 . 0.76 202.8 22.8
-    extend right
+    #extend right
     4 5 0.82 327.9 7.1
-    # extend auto
+    # #extend auto
     5 . 0.30 249.8 -80.6
     5 . 0.48 264.5 -49.1
     5 . 0.67 85.5 21.5
     5 . 1.25 17.4 -13.8
-    extend right
+    #extend right
     5 6 1.02 18.2 -13.6
-    # extend auto
+    # #extend auto
     6 . 0.49 38.0 -18.2
-    extend right
+    #extend right
     6 7 0.50 37.2 -17.3
-    # extend auto
+    # #extend auto
     7 . 0.31 355.2 69.4
     7 . 0.20 0.5 -42.1
     7 . 0.64 301.0 7.9
     7 . 2.10 6.1 6.2
-    extend right
+    #extend right
     7 8 2.07 7.0 8.1
-    # extend auto
+    # #extend auto
     8 . 1.27 301.4 -45.0
     8 . 1.25 308.8 -43.5
     8 . 0.84 290.8 -14.7
     8 . 0.14 289.7 49.4
-    extend right
+    #extend right
     8 9 1.76 325.7 -15.9
-    # extend auto
+    # #extend auto
     9 . 0.45 73.7 -6.0
     9 . 0.20 329.1 84.3
     9 . 0.35 93.4 -82.1
-    extend right
+    #extend right
     9 10 1.89 0.8 -9.5
-    # extend auto
+    # #extend auto
     10 . 0.24 197.9 -87.4
     10 . 0.24 308.0 55.4
     10 . 0.71 229.2 -1.6
-    extend right
+    #extend right
     10 11 2.11 304.2 -16.9
-    # extend auto
+    # #extend auto
     11 . 0.30 90.5 -68.9
     11 . 0.52 347.9 -22.0
     11 . 0.73 205.6 -13.7
-    extend vertical
+    #extend vertical
     11 12 1.88 261.5 -31.3
-    # extend auto
+    # #extend auto
     12 . 0.28 94.6 -74.0
     12 . 0.26 6.9 51.4
     12 . 0.80 27.0 7.4
-    extend right
+    #extend right
     12 13 3.77 334.1 -11.3
-    # extend auto
+    # #extend auto
     13 . 0.78 79.8 13.4
     13 . 0.61 106.6 46.9
     13 . 0.34 85.1 -52.1
-    extend right
+    #extend right
     13 14 1.29 20.2 13.2
-    # extend auto
+    # #extend auto
     14 . 2.79 214.1 -21.0
     14 . 2.37 240.8 -24.4
     14 . 2.20 256.7 -23.4
     14 . 0.44 305.5 -78.6
     14 . 0.42 219.6 64.9
     14 . 0.42 250.9 -32.9
-    extend right
+    #extend right
     14 15 4.09 346.8 5.1
-    # extend auto
+    # #extend auto
     15 . 0.35 346.8 5.0
     15 . 0.52 340.3 -82.4
     15 . 1.58 264.7 -18.3
     15 . 2.17 351.9 -5.4
     15 . 0.40 74.6 -1.6
-    extend right
+    #extend right
     15 16 3.79 317.0 -21.6
-    # extend auto
+    # #extend auto
     16 . 0.48 83.9 -83.2
     16 . 0.81 28.8 2.0
     16 . 0.86 215.0 -14.7
-    extend right
+    #extend right
     16 17 3.34 313.2 -16.5
-    # extend auto
+    # #extend auto
     17 . 0.27 283.6 79.1
     17 . 0.99 36.1 20.0
     17 . 2.49 258.8 -14.3
-    extend right
+    #extend right
     17 18 2.89 306.4 -9.0
     17 19 9.55 332.0 -4.2
-    # extend auto
+    # #extend auto
     18 . 0.35 355.6 -82.9
     18 . 2.22 53.6 18.1
     18 . 2.18 255.3 -20.7
-    extend vertical
+    #extend vertical
     18 20 2.16 267.2 -15.2
-    # extend auto
+    # #extend auto
     20 . 0.53 356.6 25.8
     20 . 0.57 18.5 -19.8
     20 . 1.22 36.5 7.8
     20 . 1.23 26.3 7.8
     20 . 0.53 42.0 9.8
-    extend right
+    #extend right
     20 19 6.90 0.6 3.5
-    # extend auto
+    # #extend auto
     19 . 1.01 262.4 -61.2
     19 . 3.25 252.3 -16.1
     19 . 0.51 272.2 38.1
     19 . 0.76 72.1 31.7
-    extend right
+    #extend right
     19 21 0.78 287.7 2.0
-    # extend auto
+    # #extend auto
     21 . 0.82 174.3 -83.8
     21 . 4.04 285.7 -7.9
     21 . 0.82 16.6 -12.3
@@ -163,17 +163,17 @@ survey enclos -title "Enclos" -entrance "26"
     21 . 3.83 172.7 -4.9
     21 . 2.48 213.8 -9.3
     21 . 5.34 226.0 -10.1
-    extend right
+    #extend right
     21 22 4.75 357.4 6.7
-    # extend auto
+    # #extend auto
     22 . 0.43 225.9 -74.0
     22 . 0.19 241.9 78.4
     22 . 0.87 254.6 -7.7
     22 . 0.19 65.5 25.6
     22 . 0.87 266.1 8.8
-    extend right
+    #extend right
     22 23 7.06 356.9 0.7
-    # extend auto
+    # #extend auto
     23 . 1.56 165.5 -29.4
     23 . 2.82 141.1 -10.1
     23 . 3.42 154.3 -8.6
@@ -182,27 +182,27 @@ survey enclos -title "Enclos" -entrance "26"
     23 . 2.42 292.0 -28.2
     23 . 5.04 251.7 -11.4
     23 . 9.70 311.5 -9.0
-    extend right
+    #extend right
     23 24 3.29 324.8 0.3
-    # extend auto
+    # #extend auto
     24 . 1.46 106.3 -84.9
     24 . 5.03 284.1 -8.9
     24 . 1.26 104.2 -22.5
-    extend right
+    #extend right
     24 25 3.07 350.5 1.5
-    # extend auto
+    # #extend auto
     25 . 2.55 9.8 22.8
     25 . 2.85 51.8 2.5
     25 . 10.57 333.1 -3.9
-    extend right
+    #extend right
     25 26 12.31 14.4 -4.3
-    # extend auto
+    # #extend auto
     26 . 5.47 138.0 66.5
     26 . 7.28 118.4 11.2
     26 . 10.98 111.7 -15.1
     26 . 4.53 285.5 29.1
     26 . 4.16 285.6 16.1
-    extend right
+    #extend right
     26 27 13.08 18.2 -2.1
   endcenterline
 
