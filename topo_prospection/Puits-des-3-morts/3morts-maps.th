@@ -1,0 +1,11 @@
+encoding  utf-8
+
+
+map MP-3morts-plan-tot -title "Puits des 3 cadavres"
+  SP-3morts-1
+endmap
+
+map MC-3morts-coupe-tot -title "Puits des 3 cadavres"
+  SC-3morts-1
+  
+endmap

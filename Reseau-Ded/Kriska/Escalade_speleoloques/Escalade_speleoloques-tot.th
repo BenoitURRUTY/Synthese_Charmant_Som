@@ -1,0 +1,26 @@
+encoding  utf-8
+
+survey Escalade_speleoloques -title "Escalade_speleoloques"
+# Pour importer les différentes données de différents fichiers topos : 
+   input Data/Escalade_speleoloques.th
+   input Data/escalade1506.th
+   input Data/caillou-bouge.th
+
+   equate 0-0@escalade_speleoloques2 17@caillou-bouge
+   equate es.2@escalade_speleoloques 00-5@escalade_speleoloques2
+
+
+ 
+##########################################################################################
+## Pour importer les différents fichiers de dessins en plan
+	## Et Pour assembler plusieurs scraps entre eux, il faut utiliser la commande
+	## join scrap1 scrap2 -count n (où n = nombre de galerie à connecter, par défaut n = 1). C'est tout simple !
+
+input Data/Escalade_speleoloques.th2
+input Data/Escalade_speleoloques-elevation.th2
+
+input Escalade_speleoloques-maps.th
+
+
+
+endsurvey

@@ -1,0 +1,58 @@
+survey Ded -title "Synthèse topographie du Réseau Ded"
+
+   input FT/FT-tot.th
+   input Kriska/Kriska.th
+   input Valombre/Valombre-tot.th
+   
+   input Corneilles/Corneilles-tot.th
+   input val_ref/val_ref-tot.th
+   input Suite_escalade/SE-tot.th
+   input Vire/Vire-tot.th
+   
+   input Aura/Aura-tot.th
+   input jonction/jonction-tot.th
+   input Puits1/Puits1-tot.th
+   input William/William-tot.th
+
+   #input Porte_Enclos/Enclos-tot.th
+      
+   input Maps.th
+#join line
+   equate FT.0@FT.FT 57@Valombre.Valombre
+   equate bivy29@Kriska2.spel-bivy.Kriska 0@Valombre.Valombre
+   equate 26@Kriska1.Kriska-spel.Kriska  0@jonction_p110.SE-tot
+   equate vire.0@Vire.Vire 11@vire-puits_escalade.Corneilles
+   equate 0@vire-puits_escalade.Corneilles SE.11@Suite_escalade.SE-tot
+
+   equate 0@val_ref.val_ref 27@Corneilles.Corneilles
+   equate 0@val_ref.val_ref 100@Valombre.Valombre
+      
+   equate j1-3.3@jonction.jonction p3.9@William.William
+   equate j1-3.0@jonction.jonction p1.6@Puits1.Puits1
+   equate aura.1@aura.Aura p3.4@William.William
+   equate p1.3@Puits1.Puits1 vire.14@Vire.Vire
+
+   #join Scrap
+   join SP-aura-3@Aura SP-William-1@William
+   join SP-Puits1-1@Puits1 SP-Vire-1@Vire
+   join SP-Valombre-4@Valombre SP-FT-0@FT
+   join SP-Valombre-12@Valombre SP-spel-bivy-8@spel-bivy.Kriska
+   join SP-Kriska-spel-6@Kriska-spel.Kriska SP-SE-4@SE-tot
+   join SP-SE-2@SE-tot SP-Corneilles-5@Corneilles
+   join SP-Corneilles-4@Corneilles SP-Vire-3@Vire
+   join SP-Corneilles-2@Corneilles SP-FT-3@FT
+
+
+   join SC-aura-1@Aura SC-William-1@William
+   join SC-Corneilles-3@Corneilles SC-Vire-2@Vire
+   join SC-Corneilles-4@Corneilles SC-SE-1@SE-tot
+   join SC-Kriska-spel-2@Kriska-spel.Kriska SC-SE-3@SE-tot
+   join SC-spel-bivy-elev-1@spel-bivy.Kriska SC-Valombre-2@Valombre
+   join SC-Valombre-2@Valombre SC-FT-2@FT
+   join SC-FT-2@FT SC-Corneilles-1@Corneilles
+   join SC-Vire-1@Vire SC-Puits1-1@Puits1
+   join SC-William-1@William SC-Puits1-1@Puits1
+
+
+
+endsurvey

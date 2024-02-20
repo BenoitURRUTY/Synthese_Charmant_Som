@@ -1,0 +1,28 @@
+encoding  utf-8
+
+map MP-FT-plan-tot -title "FT"
+    SP-FT-8
+    break
+    SP-FT-7
+    break
+    SP-FT-6
+    break
+    SP-FT-5
+    break
+    SP-FT-4
+    break
+    SP-FT-3
+    break
+    SP-FT-2
+    break
+    SP-FT-1
+    break
+    SP-FT-0
+    break
+endmap
+
+map MC-FT-coupe-tot -title "FT"
+    SC-FT-1
+    break
+    SC-FT-2
+endmap

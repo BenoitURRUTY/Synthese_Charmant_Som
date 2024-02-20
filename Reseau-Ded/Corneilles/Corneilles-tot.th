@@ -1,0 +1,25 @@
+encoding  utf-8
+
+survey Corneilles -title "Corneilles"
+   input Data/Corneilles.th
+   input Data/vire-puits_escalade.th
+   input Data/escalade_corneille-vire.th
+   input Data/escalade_bas_corneilles.th
+
+# join line
+   equate 16@Corneilles cv.17@escalade_corneille-vire
+   equate 3@Corneilles 0@escalade_bas_corneilles
+   equate cv.0@escalade_corneille-vire 11@vire-puits_escalade
+  
+ 
+##########################################################################################
+## Pour importer les différents fichiers de dessins en plan
+  ## Et Pour assembler plusieurs scraps entre eux, il faut utiliser la commande
+  ## join scrap1 scrap2 -count n (où n = nombre de galerie à connecter, par défaut n = 1). C'est tout simple !
+
+input Data/Corneilles.th2
+input Data/Corneilles-coupe-elevation.th2
+input Corneilles-maps.th
+
+endsurvey
+

@@ -1,0 +1,13 @@
+set xth(ctrl,cp,datlist) {}
+xth_cp_data_tree_insert 1 {} 0   "" "" "length: 520.00m (surface 0.00m, duplicated 0.00m)\nvertical range: 330.87m (from 99@Valombre.Valombre at 1514.96m to 0@Valombre.Valombre at 1184.09m)\nnorth-south range: 57.47m (from 100@Valombre.Valombre at 5024292.35m to 19@Valombre.Valombre at 5024234.88m)\neast-west range: 217.71m (from 0@Valombre.Valombre at 246982.25m to 99@Valombre.Valombre at 246764.54m)\nnumber of shots: 724\nnumber of stations: 725"
+xth_cp_data_tree_insert 46 1 1 Valombre Valombre "Valombre" "Valombre" "length: 520.00m (surface 0.00m, duplicated 0.00m)\nvertical range: 330.87m (from 99@Valombre.Valombre at 1514.96m to 0@Valombre.Valombre at 1184.09m)\nnorth-south range: 57.47m (from 100@Valombre.Valombre at 5024292.35m to 19@Valombre.Valombre at 5024234.88m)\neast-west range: 217.71m (from 0@Valombre.Valombre at 246982.25m to 99@Valombre.Valombre at 246764.54m)\nnumber of shots: 724\nnumber of stations: 725"
+xth_cp_data_tree_insert 48 46 2 Valombre Valombre.Valombre "Valombre" "Valombre" "length: 520.00m (surface 0.00m, duplicated 0.00m)\nvertical range: 330.87m (from 99@Valombre.Valombre at 1514.96m to 0@Valombre.Valombre at 1184.09m)\nnorth-south range: 57.47m (from 100@Valombre.Valombre at 5024292.35m to 19@Valombre.Valombre at 5024234.88m)\neast-west range: 217.71m (from 0@Valombre.Valombre at 246982.25m to 99@Valombre.Valombre at 246764.54m)\nnumber of shots: 724\nnumber of stations: 725"
+xth_cp_data_tree_create
+set xth(ctrl,cp,maplist) {}
+xth_cp_map_tree_insert projection 0 p1 {} 0 plan {} {} {}
+xth_cp_map_tree_insert projection 0 p2 {} 0 extended {} {} {}
+xth_cp_map_tree_create
+xth_cp_comp_stat 520 12
+set xth(th_exit_state) 1
+set xth(th_exit_number) 1632085422
+

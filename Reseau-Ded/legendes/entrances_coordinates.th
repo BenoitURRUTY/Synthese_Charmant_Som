@@ -1,0 +1,84 @@
+encoding  utf-8
+
+# Copyright (C) # Copyright (C) 2023 Benoît Urruty
+# This work is under the Creative Commons Attribution-ShareAlike-NonCommecial License:
+#	<http://creativecommons.org/licenses/by-nc-sa/4.0/> 
+
+layout Entrances_coords_Ded
+# Layout where we define the different variables that contain the text with 
+# the entrance coordinates we want to print in the header.
+# We need one variable per entrance.
+
+# This layout is called by the layout Coords_Header below
+
+	code tex-map
+		\def\thlocationDedd{Puits de l'Aura    --  Lat. : 45.32600149 N ; Long. : 5.768730337 E ; Alt. : 1618 m}
+		\def\thlocationDedh{Puits William    --  Lat. :  N ; Long. : E ; Alt. :  m}
+		\def\thlocationDedi{Puits de la Vire  --  Lat. : 45.32600949 N ; Long. : 5.76894108 E ; Alt. : 1612 m}
+		\def\thlocationDede{Puits de l'Escalade    --  Lat. :  N ; Long. :  E ; Alt. :  m}
+		\def\thlocationDedc{Gouffre Francois Thierry    --  Lat. : 45.32572144 N ; Long. : 5.76951525 E ; Alt. : 1587 m}
+		\def\thlocationDedf{Grotte de la Vire    --  Lat. : 45.32609 N ; Long. : 5.76893  E ; Alt. :  m}
+		\def\thlocationDeda{Puits Kriska    --  Lat. : 45.32582072 N ; Long. : 5.769854712 E ; Alt. : 1569 m}
+		\def\thlocationDedg{Puits des Corneilles    --  Lat. :  N ; Long. :  E ; Alt. :  m}
+		\def\thlocationDedb{Puits de Valombré    --  Lat. : 45.32633209 N ; Long. : 5.768488186 E ; Alt. : 1511 m}
+		\def\thlocationDedj{Résurgence de la Porte de l'Enclos  --  Lat. : 45.34371 N ; Long. : 5.79990 E ; Alt. : 780 m}
+	endcode 
+	
+endlayout
+
+
+layout Coords_Header_Ded
+# Layout that set the presentation for the entrance coordinates.
+	
+	copy Entrances_coords_Ded
+	# it calls the layout above Entrances_coords where we defined the different 
+	# variables that contain the text with 
+	# the entrance coordinates we want to print in the header.
+	
+	code tex-map
+		\def\nostring{}
+		\def\thsizexl{}
+		\def\thsizel{}
+		\def\thsizem{}
+		\ifx\thsizexl\nostring\def\thsizexl{30}\else\fi
+		\ifx\thsizel\nostring\def\thsizel{24}\else\fi
+		\ifx\thsizem\nostring\def\thsizem{20}\else\fi
+		
+		\ECoordinates={
+			\edef\tmp{\thlocationDeda} \ifx\tmp\empty \else
+				{\size[\thsizem]\hskip5.95cm  \ss\thlocationDeda\vss}	% The first one should be without hskip
+			\fi
+			\edef\tmp{\thlocationDedb} \ifx\tmp\empty \else
+				{\size[\thsizem]\hskip5.95cm \ss\thlocationDedb\vss}	% You need to set your hskip
+			\fi
+			\edef\tmp{\thlocationDedc} \ifx\tmp\empty \else
+				{\size[\thsizem]\hskip5.95cm \ss\thlocationDedc\vss}	% You need to set your hskip
+			\fi
+			\edef\tmp{\thlocationDedd} \ifx\tmp\empty \else
+				{\size[\thsizem]\hskip5.95cm \ss\thlocationDedd\vss}	% You need to set your hskip
+			\fi
+			\edef\tmp{\thlocationDede} \ifx\tmp\empty \else
+				{\size[\thsizem]\hskip5.95cm \ss\thlocationDede\vss}	% You need to set your hskip
+			\fi
+			\edef\tmp{\thlocationDedf} \ifx\tmp\empty \else
+				{\size[\thsizem]\hskip5.95cm \ss\thlocationDedf\vss}	% You need to set your hskip
+			\fi
+			\edef\tmp{\thlocationDedg} \ifx\tmp\empty \else
+				{\size[\thsizem]\hskip5.95cm \ss\thlocationDedg\vss}	% You need to set your hskip
+			\fi
+			\edef\tmp{\thlocationDedh} \ifx\tmp\empty \else
+				{\size[\thsizem]\hskip5.95cm \ss\thlocationDedh\vss}	% You need to set your hskip
+			\fi
+			\edef\tmp{\thlocationDedi} \ifx\tmp\empty \else
+				{\size[\thsizem]\hskip5.95cm \ss\thlocationDedi\vss}	% You need to set your hskip
+			\fi
+			\edef\tmp{\thlocationDedj} \ifx\tmp\empty \else
+				{\size[\thsizem]\hskip5.95cm \ss\thlocationDedj\vss}	% You need to set your hskip
+			\fi
+		}
+	endcode
+
+endlayout
+
+
+

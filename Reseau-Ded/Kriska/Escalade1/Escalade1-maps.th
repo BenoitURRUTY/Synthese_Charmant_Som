@@ -1,0 +1,14 @@
+encoding  utf-8
+
+map MP-Escalade1-plan-tot -title "Escalade1"
+    SP-Escalade1-1
+    break
+    SP-Escalade1-2
+endmap
+
+map MC-Escalade1-coupe-elev-tot -title "Escalade1"
+    SC-Escalade1-elev-1
+    break
+    SC-Escalade1-elev-2
+
+endmap

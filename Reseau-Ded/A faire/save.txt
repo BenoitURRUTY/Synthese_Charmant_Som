@@ -1,0 +1,2 @@
+-author 2023 "Benoît Urruty" -copyright 2023 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/"
+continuation -attr Code "" -attr Cavite "" -attr Reseau "" -attr CA "" -text ""

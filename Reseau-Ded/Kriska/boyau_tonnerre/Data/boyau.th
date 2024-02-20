@@ -1,0 +1,93 @@
+encoding  utf-8
+# 2021.09.11 created by TopoDroid v 5.1.40
+
+survey boyau -title "boyau"
+
+  centerline
+    date 2021.09.10
+    explo-team "Solveig/Reymond"
+    explo-team "Benoît/Urruty"
+    explo-team "Charlie/Rivoire"
+    explo-team "Théophile Bellintani"
+    team "Solveig/Reymond"
+    team "Benoît/Urruty"
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
+    extend right
+    boyau.0 boyau.1 1.88 331.3 -23.3
+    # extend auto
+    boyau.1 . 1.65 277.1 63.4
+    boyau.1 . 0.52 125.3 46.6
+    boyau.1 . 0.35 210.7 13.5
+    boyau.1 . 0.31 50.7 8.9
+    boyau.1 . 0.79 143.5 -45.6
+    boyau.1 . 0.89 148.9 6.7
+    boyau.1 . 2.21 140.4 8.8
+    boyau.1 . 1.00 107.9 -21.7
+    extend vertical
+    boyau.1 boyau.2 1.76 269.6 58.7
+    # extend auto
+    boyau.2 . 0.24 168.9 -14.2
+    boyau.2 . 0.25 57.8 -4.1
+    boyau.2 . 0.32 338.1 -68.3
+    boyau.2 . 0.37 148.9 -11.7
+    boyau.2 . 0.30 224.3 -11.8
+    boyau.2 . 0.64 312.8 -22.1
+    extend right
+    boyau.2 boyau.3 0.91 302.2 -8.1
+    # extend auto
+    boyau.3 . 0.42 76.4 9.1
+    boyau.3 . 0.49 107.4 77.9
+    boyau.3 . 0.21 110.9 -35.7
+    boyau.3 . 0.50 340.3 4.2
+    boyau.3 . 0.67 53.3 -71.1
+    extend right
+    boyau.3 boyau.4 1.56 57.9 -34.3
+    # extend auto
+    boyau.4 . 0.94 325.7 -26.8
+    boyau.4 . 0.59 131.3 71.7
+    boyau.4 . 1.10 30.1 -71.7
+    extend right
+    boyau.4 boyau.5 3.86 37.1 -48.3
+    # extend auto
+    boyau.5 . 0.45 23.4 17.9
+    boyau.5 . 0.46 72.6 71.1
+    boyau.5 . 0.39 148.7 27.6
+    extend vertical
+    boyau.5 boyau.6 2.94 97.9 -4.6
+    # extend auto
+    boyau.6 . 0.43 327.6 8.9
+    boyau.6 . 0.30 358.2 37.2
+    boyau.6 . 0.31 299.3 -59.4
+    extend right
+    boyau.6 boyau.7 2.41 45.0 -44.4
+    # extend auto
+    boyau.7 . 0.50 159.4 6.5
+    boyau.7 . 0.96 195.6 79.5
+    boyau.7 . 0.22 5.0 24.0
+    boyau.7 . 0.86 250.9 31.7
+    boyau.7 . 0.92 119.5 2.3
+    boyau.7 . 0.63 60.5 -4.7
+    extend right
+    boyau.7 boyau.8 1.31 302.4 -83.8
+    # extend auto
+    boyau.8 . 0.65 298.1 9.5
+    boyau.8 . 0.48 357.4 12.8
+    boyau.8 . 0.49 93.2 9.9
+    boyau.8 . 1.00 23.9 85.5
+    boyau.8 . 0.28 180.5 -73.6
+    extend right
+    boyau.8 boyau.9 1.16 14.7 -26.9
+    # extend auto
+    boyau.9 . 0.49 229.3 28.5
+    boyau.9 . 0.48 343.7 74.3
+    boyau.9 . 0.35 32.8 17.5
+    boyau.9 . 0.60 101.0 33.7
+    boyau.9 . 1.24 274.0 -2.0
+  endcenterline
+
+
+
+endsurvey
+

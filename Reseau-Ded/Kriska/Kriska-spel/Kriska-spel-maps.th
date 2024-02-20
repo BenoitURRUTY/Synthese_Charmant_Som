@@ -1,0 +1,34 @@
+encoding  utf-8
+
+map MP-Kriska-spel-plan-tot -title "Kriska-spel"
+    SP-Kriska-spel-1
+    break
+    SP-Kriska-spel-2
+    break
+    SP-Kriska-spel-3
+    break
+    SP-Kriska-spel-4
+    break
+    SP-Kriska-spel-5
+    break
+    SP-Kriska-spel-6
+    break
+    SP-Kriska-spel-7
+    break
+    SP-Kriska-spel-8
+    break
+    SP-Kriska-spel-9
+    break
+    SP-Kriska-spel-10
+    break
+    SP-Kriska-spel-11
+endmap
+
+map MC-Kriska-spel-coupe-tot-elev -title "Kriska-spel"
+    SC-Kriska-spel-1
+    break
+    SC-Kriska-spel-2
+    break
+    SC-Kriska-spel-3
+endmap
+

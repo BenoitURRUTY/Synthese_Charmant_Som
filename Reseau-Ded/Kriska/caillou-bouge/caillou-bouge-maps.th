@@ -1,0 +1,11 @@
+encoding  utf-8
+map MP-caillou-bouge-plan-tot -title "caillou-bouge"
+  SP-caillou-bouge-1
+
+endmap
+
+
+map MC-caillou-bouge-coupe-tot -title "caillou-bouge"
+  SC-caillou-bouge-1
+
+endmap

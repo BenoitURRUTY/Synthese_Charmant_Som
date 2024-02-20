@@ -1,0 +1,10 @@
+encoding  utf-8
+
+survey caillou-bouge -title "caillou-bouge"
+   input Data/caillou-bouge.th
+	
+   input Data/caillou-bouge-plan.th2
+	input caillou-bouge-maps.th
+	input Data/caillou-bouge-coupe.th2
+	
+endsurvey

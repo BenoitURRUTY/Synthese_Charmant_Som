@@ -1,0 +1,13 @@
+set xth(ctrl,cp,datlist) {}
+xth_cp_data_tree_insert 1 {} 0   "" "" "length: 55.40m (surface 0.00m, duplicated 0.00m)\nvertical range: 34.83m (from p3.9@William.William at 34.83m to p3.0@William.William at 0.00m)\nnorth-south range: 9.15m (from p3.8@William.William at 7.68m to p3.3@William.William at -1.47m)\neast-west range: 9.51m (from p3.6@William.William at 0.64m to p3.3@William.William at -8.87m)\nnumber of shots: 66\nnumber of stations: 67"
+xth_cp_data_tree_insert 46 1 1 William William "William" "William" "length: 55.40m (surface 0.00m, duplicated 0.00m)\nvertical range: 34.83m (from p3.9@William.William at 34.83m to p3.0@William.William at 0.00m)\nnorth-south range: 9.15m (from p3.8@William.William at 7.68m to p3.3@William.William at -1.47m)\neast-west range: 9.51m (from p3.6@William.William at 0.64m to p3.3@William.William at -8.87m)\nnumber of shots: 66\nnumber of stations: 67"
+xth_cp_data_tree_insert 48 46 2 William William.William "William" "William" "length: 55.40m (surface 0.00m, duplicated 0.00m)\nvertical range: 34.83m (from p3.9@William.William at 34.83m to p3.0@William.William at 0.00m)\nnorth-south range: 9.15m (from p3.8@William.William at 7.68m to p3.3@William.William at -1.47m)\neast-west range: 9.51m (from p3.6@William.William at 0.64m to p3.3@William.William at -8.87m)\nnumber of shots: 66\nnumber of stations: 67"
+xth_cp_data_tree_create
+set xth(ctrl,cp,maplist) {}
+xth_cp_map_tree_insert projection 0 p1 {} 0 plan {} {} {}
+xth_cp_map_tree_insert projection 0 p2 {} 0 extended {} {} {}
+xth_cp_map_tree_create
+xth_cp_comp_stat 55 5
+set xth(th_exit_state) 1
+set xth(th_exit_number) 1626980039
+

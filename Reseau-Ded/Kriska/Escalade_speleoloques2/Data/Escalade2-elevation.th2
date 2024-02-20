@@ -1,0 +1,174 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -136.0 -136.0 2994.0 4616.1914
+##XTHERION## xth_me_area_zoom_to 25
+##XTHERION## xth_me_image_insert {866.1399999999999 1 1.0} {2913.38 0} Escalade_speleoloques2-coupe-elevation.xvi 0 {}
+
+
+
+scrap SC-Esc-1 -projection [elevation 17] -station-names "" "@escalade_speleoloques2" -author 2023 "Benoît Urruty" -copyright 2023 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [-128.0 -128.0 2726.4266000000002 -128.0 0.0 0.0 72.50243564 0.0 m]
+
+line wall -subtype invisible
+endline
+
+line wall -subtype invisible
+  1796.0 816.0
+  1932.0 952.0
+endline
+
+line wall -reverse on -subtype invisible
+  1360.0 1976.0
+  1580.0 2568.0
+endline
+
+point 1640.0 1536.0 water-flow -orientation 207.2
+
+point 2882.0 2468.0 label -text "<center>E21<br>des Ecossais"
+
+line rope
+endline
+
+point 2988.0 1032.0 label -text "<center>E15 du<br>matos<br>oublié"
+
+line rope -clip off
+  1664.0 1608.0
+  1798.0 1502.0
+  1944.0 452.0
+endline
+
+line wall
+  1932.0 952.0
+  1928.0 1024.0 1912.0 1264.0 1904.0 1348.0
+  1896.0 1432.0 1936.0 1456.0 1896.0 1520.0
+  1856.0 1584.0 1856.0 1536.0 1764.0 1576.0
+  1672.0 1616.0 1680.0 1544.0 1676.0 1696.0
+  1672.0 1848.0 1700.0 1916.0 1688.0 2060.0
+  1676.0 2204.0 1652.0 2160.0 1636.0 2332.0
+  1620.0 2504.0 1584.0 2524.0 1580.0 2568.0
+  smooth off
+endline
+
+line wall -reverse on
+  1796.0 816.0
+  1792.0 920.0 1792.0 1122.0 1760.0 1230.0
+  1728.0 1338.0 1732.0 1268.0 1660.0 1324.0
+  1588.0 1380.0 1640.0 1428.0 1608.0 1448.0
+  1576.0 1468.0 1508.0 1432.0 1496.0 1480.0
+  1484.0 1528.0 1364.0 1964.0 1360.0 1976.0
+  smooth off
+endline
+
+point 1518.87 1503.94 station -name 00-0
+
+point 1664.32 1459.0500000000002 station -name 00-1
+
+point 1633.49 1406.3000000000002 station -name 00-2
+
+point 1778.4299999999998 1510.2300000000002 station -name 00-3
+
+point 1844.52 1297.6400000000003 station -name 00-4
+
+point 1961.55 470.08000000000015 station -name 00-5
+
+point 1920.6399999999999 450.3900000000001 station -name 00-6
+
+endscrap
+
+
+
+scrap SC-Esc-2 -projection [elevation 17] -station-names "" "@escalade_speleoloques2" -author 2023 "Benoît Urruty" -copyright 2023 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [-128.0 -128.0 2726.4266000000002 -128.0 0.0 0.0 72.50243564 0.0 m]
+
+line wall
+  812.0 3720.0
+  804.0 3618.0 859.0 2951.5 855.5 2901.75
+  smooth off
+endline
+
+line wall
+  1580.0 2568.0
+  1562.0 2668.0 1502.0 3218.0 1456.0 3216.0
+  1410.0 3214.0 1174.0 3128.0 1174.0 3160.0
+  1174.0 3192.0 1314.0 3412.0 1324.0 3462.0
+  1334.0 3512.0 1326.0 3582.0 1326.0 3674.0
+  smooth off
+endline
+
+line rope -clip off
+  1148.0 3156.0
+  1556.0 1494.0
+  1594.0 1646.0
+endline
+
+line wall
+  940.0 2788.0
+  966.0 2832.0 1052.0 2856.0 1078.0 2858.0
+  1104.0 2860.0 1144.0 2970.0 1164.0 2924.0
+  1184.0 2878.0 1360.0 1976.0 1360.0 1976.0
+  smooth off
+endline
+
+point 1190.99 3315.75 station -name 0-1
+
+point 1194.9099999999999 3324.4100000000003 station -name 0-2
+
+point 1147.55 3135.4300000000003 station -name 0-0
+
+point 1008.68 2915.75 station -name 1
+
+point 866.1399999999999 2913.38 station -name 0
+
+endscrap
+
+
+
+scrap SC-Esc-3 -projection [elevation 17] -station-names "" "@escalade_speleoloques2" -author 2023 "Benoît Urruty" -copyright 2023 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [-128.0 -128.0 2726.4266000000002 -128.0 0.0 0.0 72.50243564 0.0 m]
+
+line wall -reverse on
+  747.0 2261.0
+  775.0 2297.0 864.0 2432.0 840.0 2464.0
+  816.0 2496.0 844.0 2508.0 776.0 2508.0
+  708.0 2508.0 684.0 2508.0 652.0 2508.0
+  620.0 2508.0 576.0 2512.0 544.0 2556.0
+  512.0 2600.0 500.0 2596.0 512.0 2648.0
+  524.0 2700.0 576.0 2760.0 584.0 2812.0
+  592.0 2864.0 572.0 3084.0 608.0 3108.0
+  644.0 3132.0 700.0 3188.0 716.0 3120.0
+  732.0 3052.0 728.0 2724.0 825.0 2727.0
+  850.57 2727.79 855.5 2901.75 855.5 2901.75
+  smooth off
+endline
+
+line wall -subtype invisible
+  747.0 2261.0
+  740.0 2220.0
+endline
+
+line wall -reverse on -subtype invisible
+  855.5 2901.75
+  940.0 2788.0
+endline
+
+line wall -reverse on
+  940.0 2788.0
+  936.0 2736.0 920.0 2716.0 936.0 2700.0
+  952.0 2684.0 999.0 2683.0 999.0 2619.0
+  999.0 2555.0 941.0 2609.0 905.0 2561.0
+  869.0 2513.0 968.0 2444.0 976.0 2380.0
+  984.0 2316.0 960.0 2244.0 932.0 2244.0
+  904.0 2244.0 848.0 2244.0 808.0 2248.0
+  768.0 2252.0 740.0 2220.0 740.0 2220.0
+  smooth off
+endline
+
+point 867.6999999999999 2294.4900000000002 station -name 6
+
+point 756.52 2636.2200000000003 station -name 4
+
+point 843.3799999999999 2592.1200000000003 station -name 5
+
+point 940.42 2610.23 station -name 3
+
+point 866.6899999999999 2807.8700000000003 station -name 2
+
+endscrap
+
+

@@ -1,0 +1,35 @@
+encoding  utf-8
+
+map MP-Valombre-plan-tot -title "Valombre"
+    SP-Valombre-1
+    break
+    SP-Valombre-2
+    break
+    SP-Valombre-3
+    break
+    SP-Valombre-4
+    break
+    SP-Valombre-5
+    break
+    SP-Valombre-6
+    break
+    SP-Valombre-7
+    break
+    SP-Valombre-8
+    break
+    SP-Valombre-9
+    break
+    SP-Valombre-10
+    break
+    SP-Valombre-11  
+    break
+    SP-Valombre-12 
+endmap
+
+map MC-Valombre-coupe-tot -title "Valombre"
+    SC-Valombre-1
+    break
+    SC-Valombre-2
+endmap
+
+

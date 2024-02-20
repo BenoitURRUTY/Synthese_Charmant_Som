@@ -1,0 +1,15 @@
+set xth(ctrl,cp,datlist) {}
+xth_cp_data_tree_insert 1 {} 0   "" "" "length: 17.02m (surface 0.00m, duplicated 0.00m)\nvertical range: 6.14m (from p1.6@Puits1.Puits1 at 1609.00m to p1.3@Puits1.Puits1 at 1602.86m)\nnorth-south range: 10.02m (from p1.5@Puits1.Puits1 at 5024247.57m to p1.0@Puits1.Puits1 at 5024237.55m)\neast-west range: 5.81m (from p1.0@Puits1.Puits1 at 246796.64m to p1.6@Puits1.Puits1 at 246790.83m)\nnumber of shots: 45\nnumber of stations: 46"
+xth_cp_data_tree_insert 46 1 1 Puits1 Puits1 "Puits1" "Puits1" "length: 17.02m (surface 0.00m, duplicated 0.00m)\nvertical range: 6.14m (from p1.6@Puits1.Puits1 at 1609.00m to p1.3@Puits1.Puits1 at 1602.86m)\nnorth-south range: 10.02m (from p1.5@Puits1.Puits1 at 5024247.57m to p1.0@Puits1.Puits1 at 5024237.55m)\neast-west range: 5.81m (from p1.0@Puits1.Puits1 at 246796.64m to p1.6@Puits1.Puits1 at 246790.83m)\nnumber of shots: 45\nnumber of stations: 46"
+xth_cp_data_tree_insert 48 46 2 Puits1 Puits1.Puits1 "Puits1" "Puits1" "length: 17.02m (surface 0.00m, duplicated 0.00m)\nvertical range: 6.14m (from p1.6@Puits1.Puits1 at 1609.00m to p1.3@Puits1.Puits1 at 1602.86m)\nnorth-south range: 10.02m (from p1.5@Puits1.Puits1 at 5024247.57m to p1.0@Puits1.Puits1 at 5024237.55m)\neast-west range: 5.81m (from p1.0@Puits1.Puits1 at 246796.64m to p1.6@Puits1.Puits1 at 246790.83m)\nnumber of shots: 45\nnumber of stations: 46"
+xth_cp_data_tree_create
+set xth(ctrl,cp,maplist) {}
+xth_cp_map_tree_insert projection 0 p1 {} 0 plan {} {} {}
+xth_cp_map_tree_insert projection 0 p2 {} 0 extended {} {} {}
+xth_cp_map_tree_insert map 1 86X1 p2 1 MC-Puits1-coupe-tot MC-Puits1-coupe-tot@Puits1 "Puits1" "Puits1"
+xth_cp_map_tree_insert map 1 87X1 p1 1 MP-Puits1-plan-tot MP-Puits1-plan-tot@Puits1 "Puits1" "Puits1"
+xth_cp_map_tree_create
+xth_cp_comp_stat 17 2
+set xth(th_exit_state) 2
+set xth(th_exit_number) 1627036416
+

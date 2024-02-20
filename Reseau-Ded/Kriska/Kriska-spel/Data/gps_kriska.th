@@ -1,0 +1,23 @@
+# 2022.09.10 created by TopoDroid v 5.1.40
+
+survey gps_kriska -title "gps kriska"
+
+  centerline
+    flags surface
+    date 2022.09.10 
+    team "Benoît/Urruty"
+    units length meters
+    units compass clino degrees
+    cs UTM32
+    #fix gk.0 246863.52	5024222.85 -48.126 
+    fix gk.0 246863.52	5024222.85 1569.85
+    data normal from to length compass clino
+    extend right
+    gk.0 gk.1 1.82 35.8 -27.6
+  # ammarage haut
+    gk.1 gk.2 3.15 307.2 -12.7
+  # ammarage bas
+    gk.1 gk.3 3.13 308.2 -14.0
+  endcenterline
+
+endsurvey

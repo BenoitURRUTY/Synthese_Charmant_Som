@@ -1,0 +1,10 @@
+./val_ref/Data/val_ref.th:    fix 7 246738.11 5024348.94 1520.698
+./Valombre/Data/Valombre.th:    #fix 100 246768.306 5024279.310 1503
+./Corneilles/Data/Corneilles.th:    #fix 16 246807 5024270 1554
+./FT/Data/ftb.th:    fix frb.18 246836.47	5024212.88 1587.107
+./Aura/Data/Aura.th:    #fix aura.11 
+./Aura/Data/gps_aura.th:    fix ga.0 246776.21 5024246.46 1617.976
+./Vire/Data/Vire.th:    fix vire.18 246792.76  5024246.69  1612.048
+./Kriska/Kriska-spel/Data/gps_kriska.th:    fix gk.0 246863.52	5024222.85 1569.85
+./Kriska/Kriska-spel/Data/Kriska_1.th:    #fix 0 246868 5024221 1558
+./Puits1/Data/Puits1.th:    #fix p1.6 246790.83 5024245.71 1609
