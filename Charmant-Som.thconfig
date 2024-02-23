@@ -12,7 +12,7 @@ source Charmant-Som.th
 input config.thc 
 
 #DEM
-source /home/urrutyb/Documents/Speleo/database_speleo/Chartreuse/Reseau_ded/ded_qgis/DEM_filled_4m.th
+source GIS/DEM_filled_4m.th
 
 # 2-LAYOUT   
 

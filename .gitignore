@@ -8,6 +8,7 @@
 *.tif
 *.xvi
 
+*.svg
 *.kml
 *.lox
 *.log

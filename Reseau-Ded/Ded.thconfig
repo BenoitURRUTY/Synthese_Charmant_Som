@@ -12,8 +12,7 @@ input legendes/entrances_coordinates.th
 input ../config.thc 
 
 #DEM
-source /home/urrutyb/Documents/Speleo/database_speleo/Chartreuse/Reseau_ded/ded_qgis/DEM_Ded.th
-#source /home/urrutyb/Documents/Speleo/database_speleo/Chartreuse/Reseau_ded/ded_qgis/DEM_Ded_-100.th
+source ../GIS/DEM_Ded.th
 
 # 2-LAYOUT   
 
