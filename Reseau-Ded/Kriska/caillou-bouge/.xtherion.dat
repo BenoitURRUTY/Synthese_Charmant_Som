@@ -1,0 +1,16 @@
+set xth(ctrl,cp,datlist) {}
+xth_cp_data_tree_insert 1 {} 0   "" "" "length: 86.46m (surface 0.00m, duplicated 0.00m)\nvertical range: 43.93m (from 11@caillou-bouge.caillou-bouge at 35.92m to -1@caillou-bouge.caillou-bouge at -8.01m)\nnorth-south range: 15.12m (from 17@caillou-bouge.caillou-bouge at 15.12m to 0@caillou-bouge.caillou-bouge at 0.00m)\neast-west range: 19.07m (from -1@caillou-bouge.caillou-bouge at 3.75m to 13@caillou-bouge.caillou-bouge at -15.31m)\nnumber of shots: 125\nnumber of stations: 126"
+xth_cp_data_tree_insert 51 1 1 caillou-bouge caillou-bouge "caillou-bouge" "caillou-bouge" "length: 86.46m (surface 0.00m, duplicated 0.00m)\nvertical range: 43.93m (from 11@caillou-bouge.caillou-bouge at 35.92m to -1@caillou-bouge.caillou-bouge at -8.01m)\nnorth-south range: 15.12m (from 17@caillou-bouge.caillou-bouge at 15.12m to 0@caillou-bouge.caillou-bouge at 0.00m)\neast-west range: 19.07m (from -1@caillou-bouge.caillou-bouge at 3.75m to 13@caillou-bouge.caillou-bouge at -15.31m)\nnumber of shots: 125\nnumber of stations: 126"
+xth_cp_data_tree_insert 53 51 2 caillou-bouge caillou-bouge.caillou-bouge "caillou-bouge" "caillou-bouge" "length: 86.46m (surface 0.00m, duplicated 0.00m)\nvertical range: 43.93m (from 11@caillou-bouge.caillou-bouge at 35.92m to -1@caillou-bouge.caillou-bouge at -8.01m)\nnorth-south range: 15.12m (from 17@caillou-bouge.caillou-bouge at 15.12m to 0@caillou-bouge.caillou-bouge at 0.00m)\neast-west range: 19.07m (from -1@caillou-bouge.caillou-bouge at 3.75m to 13@caillou-bouge.caillou-bouge at -15.31m)\nnumber of shots: 125\nnumber of stations: 126"
+xth_cp_data_tree_create
+set xth(ctrl,cp,maplist) {}
+xth_cp_map_tree_insert projection 0 p1 {} 0 plan {} {} {}
+xth_cp_map_tree_insert projection 0 p2 {} 0 elevation\[17.0\] {} {} {}
+xth_cp_map_tree_insert projection 0 p3 {} 0 extended {} {} {}
+xth_cp_map_tree_insert map 1 92X1 p1 1 MP-caillou-bouge-plan-tot MP-caillou-bouge-plan-tot@caillou-bouge "caillou-bouge" "caillou-bouge"
+xth_cp_map_tree_insert map 1 93X1 p2 1 MC-caillou-bouge-coupe-tot MC-caillou-bouge-coupe-tot@caillou-bouge "caillou-bouge" "caillou-bouge"
+xth_cp_map_tree_create
+xth_cp_comp_stat 86 2
+set xth(th_exit_state) 1
+set xth(th_exit_number) 1716115539
+

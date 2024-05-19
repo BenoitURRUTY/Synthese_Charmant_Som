@@ -1,0 +1,15 @@
+set xth(ctrl,cp,datlist) {}
+xth_cp_data_tree_insert 1 {} 0   "" "" "length: 67.99m (surface 0.00m, duplicated 0.00m)\nvertical range: 36.50m (from 0-2@escalade_speleoloques2.Escalade_speleoloques2 at 5.22m to 00-6@escalade_speleoloques2.Escalade_speleoloques2 at -31.28m)\nnorth-south range: 5.44m (from 0-1@escalade_speleoloques2.Escalade_speleoloques2 at 0.51m to 4@escalade_speleoloques2.Escalade_speleoloques2 at -4.92m)\neast-west range: 17.22m (from 00-5@escalade_speleoloques2.Escalade_speleoloques2 at 14.26m to 4@escalade_speleoloques2.Escalade_speleoloques2 at -2.96m)\nnumber of shots: 214\nnumber of stations: 215"
+xth_cp_data_tree_insert 47 1 1 Escalade_speleoloques2 Escalade_speleoloques2 "Escalade\_speleoloques2" "Escalade\_speleoloques2" "length: 67.99m (surface 0.00m, duplicated 0.00m)\nvertical range: 36.50m (from 0-2@escalade_speleoloques2.Escalade_speleoloques2 at 5.22m to 00-6@escalade_speleoloques2.Escalade_speleoloques2 at -31.28m)\nnorth-south range: 5.44m (from 0-1@escalade_speleoloques2.Escalade_speleoloques2 at 0.51m to 4@escalade_speleoloques2.Escalade_speleoloques2 at -4.92m)\neast-west range: 17.22m (from 00-5@escalade_speleoloques2.Escalade_speleoloques2 at 14.26m to 4@escalade_speleoloques2.Escalade_speleoloques2 at -2.96m)\nnumber of shots: 214\nnumber of stations: 215"
+xth_cp_data_tree_insert 49 47 2 escalade_speleoloques2 escalade_speleoloques2.Escalade_speleoloques2 "escalade\_speleoloques2" "escalade\_speleoloques2" "length: 67.99m (surface 0.00m, duplicated 0.00m)\nvertical range: 36.50m (from 0-2@escalade_speleoloques2.Escalade_speleoloques2 at 5.22m to 00-6@escalade_speleoloques2.Escalade_speleoloques2 at -31.28m)\nnorth-south range: 5.44m (from 0-1@escalade_speleoloques2.Escalade_speleoloques2 at 0.51m to 4@escalade_speleoloques2.Escalade_speleoloques2 at -4.92m)\neast-west range: 17.22m (from 00-5@escalade_speleoloques2.Escalade_speleoloques2 at 14.26m to 4@escalade_speleoloques2.Escalade_speleoloques2 at -2.96m)\nnumber of shots: 214\nnumber of stations: 215"
+xth_cp_data_tree_create
+set xth(ctrl,cp,maplist) {}
+xth_cp_map_tree_insert projection 0 p1 {} 0 plan {} {} {}
+xth_cp_map_tree_insert projection 0 p2 {} 0 elevation\[17.0\] {} {} {}
+xth_cp_map_tree_insert map 1 128X1 p1 1 MP-Escalade_speleoloques2-plan-tot MP-Escalade_speleoloques2-plan-tot@Escalade_speleoloques2 "Escalade\_speleoloques2" "Escalade\_speleoloques2"
+xth_cp_map_tree_insert map 1 129X1 p2 1 MC-Escalade_speleoloques2-coupe-tot-elev MC-Escalade_speleoloques2-coupe-tot-elev@Escalade_speleoloques2 "Escalade\_speleoloques2" "Escalade\_speleoloques2"
+xth_cp_map_tree_create
+xth_cp_comp_stat 68 4
+set xth(th_exit_state) 1
+set xth(th_exit_number) 1716121357
+

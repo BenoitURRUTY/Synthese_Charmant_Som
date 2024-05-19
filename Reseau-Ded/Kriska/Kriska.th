@@ -4,8 +4,8 @@ survey Kriska -title "Kriska"
    
 # Pour importer les différentes données de différents fichiers topos :
 
-   #input caillou-bouge/caillou-bouge-tot.th
-   #equate 0-0@escalade_speleoloques2.Escalade_speleoloques2 17@caillou-bouge.caillou-bouge
+   # input caillou-bouge/caillou-bouge-tot.th
+   # equate 0-0@escalade_speleoloques2.Escalade_speleoloques2 17@caillou-bouge.caillou-bouge
 
    input Kriska-spel/Kriska-spel-tot.th
 
@@ -27,11 +27,11 @@ survey Kriska -title "Kriska"
    input chienlit-speleoloques/chienlit-speleoloques-tot.th
    equate 36@chienlit-speleoloques.chienlit-speleoloques bivy54@Kriska2.spel-bivy
 
-   input Escalade_speleoloques/Escalade_speleoloques-tot.th
-   equate es.0@escalade_speleoloques.Escalade_speleoloques  36@chienlit-speleoloques.chienlit-speleoloques
+   # input Escalade_speleoloques/Escalade_speleoloques-tot.th
+   # equate es.0@escalade_speleoloques.Escalade_speleoloques  36@chienlit-speleoloques.chienlit-speleoloques
 
-   input Escalade_speleoloques2/Escalade_speleoloques2-tot.th 
-   equate es.2@escalade_speleoloques.Escalade_speleoloques 00-5@escalade_speleoloques2.Escalade_speleoloques2
+   # input Escalade_speleoloques2/Escalade_speleoloques2-tot.th 
+   # equate 14@Escalade-postetroiture.Escalade-postetroiture 0@escalade_speleoloques2.Escalade_speleoloques2
 
    input P40_suite/P40_suite-tot.th
    equate 15-16@suite_p40.P40_suite 15@Kriska1.Kriska-spel
@@ -43,6 +43,9 @@ survey Kriska -title "Kriska"
    input E60/E60-tot.th
    equate jp.7@jonctionP90P17.jonctionP90P17 16@E60.E60
 
+   input Escalade-postetroiture/Escalade-postetroiture-tot.th
+   equate 0@Escalade-postetroiture.Escalade-postetroiture 52@Kriska1.Kriska-spel
+
    input Kriska-maps.th
 
 
@@ -52,8 +55,8 @@ survey Kriska -title "Kriska"
    join SP-Escalade1-1@Escalade1       SP-fond-1@fond
    join SP-boyau-1@boyau               SP-fond-4@fond
    join SP-siphon-5@siphon             SP-fond-5@fond
-   join SP-spel-bivy-1@spel-bivy       SP-ES-1@Escalade_speleoloques
-   join SP-ES-1@Escalade_speleoloques SP-Esc-1@Escalade_speleoloques2
+   # join SP-spel-bivy-1@spel-bivy       SP-ES-1@Escalade_speleoloques
+   # join SP-ES-1@Escalade_speleoloques SP-Esc-1@Escalade_speleoloques2
    join SP-Kriska-spel-4@Kriska-spel SP-P40-2@P40_suite
    join SP-Kriska-spel-4@Kriska-spel SP-P40-3@P40_suite
    join SP-Kriska-spel-6@Kriska-spel SP-JP-1@jonctionP90P17
@@ -66,7 +69,7 @@ survey Kriska -title "Kriska"
    join SC-spel-bivy-elev-0@spel-bivy  SC-fond-elev-1@fond 
    #join SC-spel-bivy-elev-1@spel-bivy  SC-ES-elev-1@Escalade_speleoloques
    join SC-Escalade1-elev-1@Escalade1  SC-fond-elev-1@fond
-   join SC-ES-elev-1@Escalade_speleoloques SC-Esc-1@Escalade_speleoloques2
+   # join SC-ES-elev-1@Escalade_speleoloques SC-Esc-1@Escalade_speleoloques2
    join SC-Kriska-spel-1@Kriska-spel SC-P40-1@P40_suite
    join SC-Kriska-spel-1@Kriska-spel SC-P40-2@P40_suite
    join SC-Kriska-spel-1@Kriska-spel SC-P40-1@P40_suite

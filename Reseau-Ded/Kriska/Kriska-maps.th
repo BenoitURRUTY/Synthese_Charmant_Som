@@ -1,13 +1,16 @@
 encoding  utf-8
 
 map MP-Kriska-plan-tot -title "Kriska"
+
+    MP-Escalade-postetroiture-plan-tot@Escalade-postetroiture
+    break
     MP-E60-plan-tot@E60
     break
     MP-jonctionP90P17-plan-tot@jonctionP90P17
     break
-    MP-Escalade_speleoloques2-plan-tot@Escalade_speleoloques2
+    # MP-Escalade_speleoloques2-plan-tot@Escalade_speleoloques2
     break
-    MP-Escalade_speleoloques-plan-tot@Escalade_speleoloques
+    # MP-Escalade_speleoloques-plan-tot@Escalade_speleoloques
     break
     MP-Escalade1-plan-tot@Escalade1
     break
@@ -22,8 +25,7 @@ map MP-Kriska-plan-tot -title "Kriska"
     MP-boyau-plan-tot@boyau 
     break
     MP-siphon-plan-tot@siphon
-    #break
-    #MP-caillou-bouge-plan-tot@caillou-bouge
+    
     
     
 endmap
@@ -34,7 +36,7 @@ map MC-Kriska-tot-elev -title "Kriska"
     break
     MC-jonctionP90P17-coupe-tot@jonctionP90P17
     break
-    MC-Escalade_speleoloques-coupe-tot-elev@Escalade_speleoloques
+    # MC-Escalade_speleoloques-coupe-tot-elev@Escalade_speleoloques
     break
     MC-Kriska-spel-coupe-tot-elev@Kriska-spel
     break
@@ -44,7 +46,7 @@ map MC-Kriska-tot-elev -title "Kriska"
     break 
     MC-Escalade1-coupe-elev-tot@Escalade1
     break
-    MC-Escalade_speleoloques2-coupe-tot-elev@Escalade_speleoloques2
+    # MC-Escalade_speleoloques2-coupe-tot-elev@Escalade_speleoloques2
     break
     MC-boyau-elev-tot@boyau [-30 0 m] below
     break
