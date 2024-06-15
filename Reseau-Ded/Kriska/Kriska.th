@@ -50,7 +50,7 @@ survey Kriska -title "Kriska"
 
 
    #join Scrap Plan
-   join SP-Kriska-spel-11@Kriska-spel  SP-spel-bivy-1@spel-bivy
+   join SP-Kriska-spel-11@Kriska-spel  SP-EscP-1@Escalade-postetroiture
    join SP-spel-bivy-13@spel-bivy      SP-Escalade1-1@Escalade1
    join SP-Escalade1-1@Escalade1       SP-fond-1@fond
    join SP-boyau-1@boyau               SP-fond-4@fond
@@ -61,6 +61,7 @@ survey Kriska -title "Kriska"
    join SP-Kriska-spel-4@Kriska-spel SP-P40-3@P40_suite
    join SP-Kriska-spel-6@Kriska-spel SP-JP-1@jonctionP90P17
    join SP-E60-1@E60 SP-Kriska-spel-8@Kriska-spel
+   join SP-EscP-1@Escalade-postetroiture SP-spel-bivy-1@spel-bivy
    #join SP-caillou-bouge-1@caillou-bouge SP-Esc-1@Escalade_speleoloques2
 
    #join Scrap coupe
@@ -76,6 +77,7 @@ survey Kriska -title "Kriska"
    join SC-JP-1@jonctionP90P17 SC-Kriska-spel-2@Kriska-spel
    join SC-JP-1@jonctionP90P17 SC-Kriska-spel-3@Kriska-spel
    join SC-E60-1@E60 SC-Kriska-spel-3@Kriska-spel
+   join SC-spel-bivy-elev-1@spel-bivy SC-EscP-1@Escalade-postetroiture
    #join SC-caillou-bouge-1@caillou-bouge SC-Esc-2@Escalade_speleoloques2
 
 

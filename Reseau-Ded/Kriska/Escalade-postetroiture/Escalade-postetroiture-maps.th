@@ -8,13 +8,12 @@ map MP-Escalade-postetroiture-plan-tot -title "Escalade-postetroiture"
     SP-EscP-2
 endmap
 
-# map MC-Escalade-postetroiture-coupe-tot-elev -title "Escalade-postetroiture"
-#     SC-EscP1
-#     break
-#     SC-EscP2
-#     break
-#     SC-EscP3
-#     break
-# endmap
+map MC-Escalade-postetroiture-coupe-tot-elev -title "Escalade-postetroiture"
+    
+    SC-EscP-2
+    break
+    SC-EscP-1
+    break
+endmap
 
 

@@ -167,7 +167,7 @@ layout my_layout
    endcode  
 
    # add extended-elev on the same pdf
-   map-image 100 0 w Outputs/Ded-coupe_projected.pdf #off/n/s/e/w/ne/nw/se/sw/center
+   # map-image 100 0 w Outputs/Ded-coupe_projected.pdf #off/n/s/e/w/ne/nw/se/sw/center
 
 endlayout
 
@@ -322,7 +322,7 @@ export map -proj [elevation 17] -layout my_layout-coupe -o Data/Ded-coupe_projec
 select MP-Ded-tot@Ded
 select MC-Ded-tot@Ded
 	 
-#export map -projection [elevation 17] -layout my_layout-coupe -o Outputs/Ded-coupe_projected.pdf 
+export map -projection [elevation 17] -layout my_layout-coupe -o Outputs/Ded-coupe_projected.pdf 
 #export map -projection extended -layout my_layout-coupe -o Outputs/Ded-coupe.pdf 
 #export map -o Outputs/Ded-plan.pdf -layout my_layout
 

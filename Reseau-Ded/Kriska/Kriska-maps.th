@@ -31,7 +31,8 @@ map MP-Kriska-plan-tot -title "Kriska"
 endmap
 
 map MC-Kriska-tot-elev -title "Kriska"
-    
+    MC-Escalade-postetroiture-coupe-tot-elev@Escalade-postetroiture
+    break
     MC-E60-coupe-tot@E60
     break
     MC-jonctionP90P17-coupe-tot@jonctionP90P17
