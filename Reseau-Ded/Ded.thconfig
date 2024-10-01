@@ -12,7 +12,7 @@ input legendes/entrances_coordinates.th
 input ../config.thc 
 
 #DEM
-#source ../GIS/DEM_Ded.th
+source ../GIS/DEM_Ded.th
 
 # 2-LAYOUT   
 
@@ -322,7 +322,7 @@ export map -proj [elevation 17] -layout my_layout-coupe -o Data/Ded-coupe_projec
 select MP-Ded-tot@Ded
 select MC-Ded-tot@Ded
 	 
-export map -projection [elevation 17] -layout my_layout-coupe -o Outputs/Ded-coupe_projected.pdf 
+#export map -projection [elevation 17] -layout my_layout-coupe -o Outputs/Ded-coupe_projected.pdf 
 #export map -projection extended -layout my_layout-coupe -o Outputs/Ded-coupe.pdf 
 #export map -o Outputs/Ded-plan.pdf -layout my_layout
 

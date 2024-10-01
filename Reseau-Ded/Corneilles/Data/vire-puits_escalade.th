@@ -132,5 +132,23 @@ survey vire-puits_escalade -title "vire-puits escalade"
     extend right
     11 12 3.12 284.4 72.5
   endcenterline
-
+  centerline
+    date 2024.09.29 
+    team "Océane/Terral"
+    team "Benoît/Urruty" 
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino left right up down
+    extend left
+    a0 a1 3.00 160.0 0.0 1 1 1 1 
+    extend right
+    a0 a2 1.50 327.0 0.0 1 1 1 1
+    a2 a3 1.80 180.0 -90.0 1 1 1 1
+    a3 a4 1.50 330.0 0.0 1 1 1 1
+    a4 a5 19.50 180.0 -90.0 1 1 1 1
+    a5 a6 4.50 310.0 0.0 1 1 1 1
+    a6 a7 2.40 25.0 0.0 1 1 1 1
+    a7 a8 9.50 180.0 -90.0 1 1 1 1
+    a8 0 4.00 25.0 20.0 1 1 1 1
+  endcenterline
 endsurvey
