@@ -197,7 +197,7 @@ layout my_layout-coupe
    # employee, c est le cas apres avoir dessine la topo
    # sur un cheminement exporte avec le layout "xviexport"
    # (voir en bas)
-   base-scale 1 600
+   base-scale 1 300
 
    # "scale" : specification de l echelle,
    # pour imprimer la topo. La combination entre scale et base-scale
@@ -208,7 +208,7 @@ layout my_layout-coupe
    # l imprimante ne specifie pas l option "Fit in page"
    # ou similaire, sinon, l echelle sera change pendant
    # l impression
-   scale 1 600	
+   scale 1 300	
 
    # echelle graphique 20 m ampleur
    scale-bar 100 m
@@ -326,8 +326,8 @@ select MC-Ded-tot@Ded
 #export map -projection extended -layout my_layout-coupe -o Outputs/Ded-coupe.pdf 
 #export map -o Outputs/Ded-plan.pdf -layout my_layout
 
-#export map -proj plan -fmt pdf -o Outputs/Ded-plan-continuations.pdf -layout my_layout-continuations
-#export map -projection [elevation 17] -fmt pdf -layout my_layout-coupe-continuations -o Outputs/Ded-coupe-continuations.pdf
+export map -proj plan -fmt pdf -o Outputs/Ded-plan-continuations.pdf -layout my_layout-continuations
+export map -projection [elevation 17] -fmt pdf -layout my_layout-coupe-continuations -o Outputs/Ded-coupe-continuations.pdf
 
 export model -o Outputs/Ded.lox
 export model -o Outputs/Ded.dxf

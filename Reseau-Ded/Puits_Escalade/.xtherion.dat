@@ -1,0 +1,14 @@
+set xth(ctrl,cp,datlist) {}
+xth_cp_data_tree_insert 1 {} 0   "" "" "length: 66.67m (surface 0.00m, duplicated 0.00m)\nvertical range: 48.95m (from M.8@entree-escalade.Puits-Escalade at 3.34m to 13@puit_escalade_kriska.Puits-Escalade at -45.61m)\nnorth-south range: 7.26m (from M.5@entree-escalade.Puits-Escalade at 4.16m to 5@puit_escalade_kriska.Puits-Escalade at -3.10m)\neast-west range: 22.03m (from 13@puit_escalade_kriska.Puits-Escalade at 16.79m to M.6@entree-escalade.Puits-Escalade at -5.24m)\nnumber of shots: 311\nnumber of stations: 313"
+xth_cp_data_tree_insert 47 1 1 Puits-Escalade Puits-Escalade "Puits-Escalade" "Puits-Escalade" "length: 66.67m (surface 0.00m, duplicated 0.00m)\nvertical range: 48.95m (from M.8@entree-escalade.Puits-Escalade at 3.34m to 13@puit_escalade_kriska.Puits-Escalade at -45.61m)\nnorth-south range: 7.26m (from M.5@entree-escalade.Puits-Escalade at 4.16m to 5@puit_escalade_kriska.Puits-Escalade at -3.10m)\neast-west range: 22.03m (from 13@puit_escalade_kriska.Puits-Escalade at 16.79m to M.6@entree-escalade.Puits-Escalade at -5.24m)\nnumber of shots: 311\nnumber of stations: 313"
+xth_cp_data_tree_insert 49 47 2 entree-escalade entree-escalade.Puits-Escalade "entree-escalade" "entree-escalade" "length: 10.75m (surface 0.00m, duplicated 0.00m)\nvertical range: 3.44m (from M.8@entree-escalade.Puits-Escalade at 3.34m to M.1@entree-escalade.Puits-Escalade at -0.10m)\nnorth-south range: 4.16m (from M.5@entree-escalade.Puits-Escalade at 4.16m to M.0@entree-escalade.Puits-Escalade at 0.00m)\neast-west range: 5.24m (from M.0@entree-escalade.Puits-Escalade at 0.00m to M.6@entree-escalade.Puits-Escalade at -5.24m)\nnumber of shots: 98\nnumber of stations: 99"
+xth_cp_data_tree_insert 53 47 2 puit_escalade_kriska puit_escalade_kriska.Puits-Escalade "puit escalade kriska" "puit escalade kriska" "length: 55.92m (surface 0.00m, duplicated 0.00m)\nvertical range: 45.61m (from 0@puit_escalade_kriska.Puits-Escalade at 0.00m to 13@puit_escalade_kriska.Puits-Escalade at -45.61m)\nnorth-south range: 4.53m (from 11@puit_escalade_kriska.Puits-Escalade at 1.43m to 5@puit_escalade_kriska.Puits-Escalade at -3.10m)\neast-west range: 16.86m (from 13@puit_escalade_kriska.Puits-Escalade at 16.79m to 3@puit_escalade_kriska.Puits-Escalade at -0.07m)\nnumber of shots: 213\nnumber of stations: 214"
+xth_cp_data_tree_create
+set xth(ctrl,cp,maplist) {}
+xth_cp_map_tree_insert projection 0 p1 {} 0 plan {} {} {}
+xth_cp_map_tree_insert projection 0 p2 {} 0 elevation\[17.0\] {} {} {}
+xth_cp_map_tree_create
+xth_cp_comp_stat 67 0
+set xth(th_exit_state) 1
+set xth(th_exit_number) 1728853186
+

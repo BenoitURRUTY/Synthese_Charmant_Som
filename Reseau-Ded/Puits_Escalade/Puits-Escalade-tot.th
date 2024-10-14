@@ -1,0 +1,18 @@
+encoding  utf-8
+
+survey Puits-Escalade -title "Puits-Escalade"
+   input Data/entree-escalade.th
+   input Data/puits_escalade_kriska.th
+
+# join line
+   equate M.0@entree-escalade 0@puit_escalade_kriska
+ 
+ 
+##########################################################################################
+## Pour importer les différents fichiers de dessins en plan
+  ## Et Pour assembler plusieurs scraps entre eux, il faut utiliser la commande
+  ## join scrap1 scrap2 -count n (où n = nombre de galerie à connecter, par défaut n = 1). C'est tout simple !
+
+
+endsurvey
+
