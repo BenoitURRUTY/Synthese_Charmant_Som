@@ -61,7 +61,7 @@ line wall
   smooth off
 endline
 
-line wall
+line wall -outline in
   1839.5 1290.5
   1834.5 1298.0 1836.5 1325.5 1837.25 1342.25
   1838.0 1359.0 1821.75 1401.75 1825.25 1420.5
@@ -81,7 +81,7 @@ line wall -subtype invisible
   smooth off
 endline
 
-line wall -subtype unsurveyed
+line wall -subtype unsurveyed -outline in
   1902.0 1259.0
   1879.0 1265.0 1861.0 1269.0 1839.5 1290.5
   smooth off

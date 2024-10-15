@@ -1,6 +1,6 @@
 encoding  utf-8
 ##XTHERION## xth_me_area_adjust -132.0 -132.0 10364.226 6427.216
-##XTHERION## xth_me_area_zoom_to 100
+##XTHERION## xth_me_area_zoom_to 200
 ##XTHERION## xth_me_image_insert {9448.82 1 1.0} {1574.7999999999997 bivy1} spel-bivy-map.xvi 0 {}
 
 
@@ -484,13 +484,17 @@ line wall -subtype invisible
   smooth off
 endline
 
+line wall -subtype invisible
+  5842.0 4499.0
+  5861.0 4518.0 5939.0 4558.0 5939.0 4558.0
+  smooth off
+endline
+
 line wall
   5596.0 4560.0
   altitude .
   5596.0 4560.0 5628.0 4542.0 5656.0 4531.0
   5683.38 4520.24 5839.16 4522.43 5842.0 4499.0
-  5846.0 4466.0 5750.0 4504.0 5748.0 4454.0
-  smooth off
 endline
 
 point 5770.259999999999 5006.65 station -name bivy30
@@ -530,8 +534,9 @@ line wall -reverse on -subtype pit
 endline
 
 line wall -subtype pit
-  5748.0 4454.0
-  5735.27 4389.44 5807.0 4353.0 5850.0 4343.0
+  5842.0 4499.0
+  5848.5 4481.0 5748.0 4487.0 5753.5 4435.0
+  5754.81 4422.59 5807.0 4353.0 5850.0 4343.0
   5893.0 4333.0 5983.32 4368.31 6013.5 4377.0
   6046.5 4386.5 6068.5 4387.5 6095.0 4382.0
   6116.55 4377.53 6139.5 4367.5 6145.0 4351.0
