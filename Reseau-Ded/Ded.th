@@ -42,6 +42,7 @@ survey Ded -title "Synthèse topographie du Réseau Ded"
    join SP-SE-2@SE-tot SP-Corneilles-5@Corneilles
    join SP-Corneilles-4@Corneilles SP-Vire-3@Vire
    join SP-Corneilles-2@Corneilles SP-FT-3@FT
+   join SP-Corneilles-5@Corneilles SP-PEsc-1@Puits-Escalade
 
 
    join SC-aura-1@Aura SC-William-1@William
@@ -53,7 +54,7 @@ survey Ded -title "Synthèse topographie du Réseau Ded"
    join SC-FT-2@FT SC-Corneilles-1@Corneilles
    join SC-Vire-1@Vire SC-Puits1-1@Puits1
    join SC-William-1@William SC-Puits1-1@Puits1
-
+   join SC-Corneilles-4@Corneilles SC-PEsc-1@Puits-Escalade
 
 
 endsurvey

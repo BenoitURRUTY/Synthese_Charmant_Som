@@ -17,6 +17,8 @@ point 62.0 1172.0 label -text "Puits de l'Aura"
 
 point 170.0 1030.0 entrance -orientation 173.9
 
+point 164.0 864.0 map-connection
+
 line pit -close on -reverse on
   204.0 866.25
   211.75 868.75 221.25 867.5 230.25 855.5

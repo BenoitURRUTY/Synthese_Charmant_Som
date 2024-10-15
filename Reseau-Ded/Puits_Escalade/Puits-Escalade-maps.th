@@ -1,28 +1,10 @@
 encoding  utf-8
 
-map MP-Corneilles-plan-tot -title "Corneilles"
-    SP-Corneilles-6
-    break
-    SP-Corneilles-4
-    break
-    SP-Corneilles-5
-    break
-    SP-Corneilles-3
-    break
-    SP-Corneilles-1
-    break
-    SP-Corneilles-2
-    
-    
+map MP-PEsc-plan-tot -title "PEsc"
+    SP-PEsc-1 
 endmap
 
 
-map MC-Corneilles-coupe-tot -title "Corneilles"
-    SC-Corneilles-4
-    break
-    SC-Corneilles-2
-    break
-    SC-Corneilles-1
-    break
-    SC-Corneilles-3
+map MC-PEsc-coupe-tot 
+    SC-PEsc-1
 endmap

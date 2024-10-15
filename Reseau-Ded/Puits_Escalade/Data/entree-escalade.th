@@ -4,7 +4,7 @@ survey entree-escalade -title "entree-escalade"
 
   centerline
     date 2024.10.13 
-    # team Benoît Urruty 
+    team "Océane/Terral"
     units length meters
     units compass clino degrees
     data normal from to length compass clino

@@ -22,11 +22,11 @@ line wall -subtype invisible
   357.0 1193.0
 endline
 
-point 1031.0 3704.0 label -text "Puits William"
+point 1007.0 3622.0 label -text "Puits William"
 
 point 1428.0 1738.0 label -text "P33"
 
-point 870.0 3444.0 entrance -orientation 191.9
+point 848.0 3358.0 entrance -orientation 191.9
 
 line rope
   800.0 3196.0

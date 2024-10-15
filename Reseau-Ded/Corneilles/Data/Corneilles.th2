@@ -1,5 +1,5 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust -228.0 -1428.0 6169.7356 3316.1913999999997
+##XTHERION## xth_me_area_adjust -269.7400000000007 -1458.7100000000003 6127.995599999999 3285.4813999999997
 ##XTHERION## xth_me_area_zoom_to 25
 ##XTHERION## xth_me_image_insert {5055.11 1 1.0} {637.7899999999997 0@Corneilles.Corneilles} Corneilles-map.xvi 0 {}
 
@@ -14,6 +14,8 @@ line wall -subtype invisible
   4208.5 801.0
   4231.5 888.0
 endline
+
+point 3784.0 1528.0 map-connection
 
 line wall -subtype pit
   4231.5 888.0
@@ -262,11 +264,17 @@ line wall
   4582.0 163.0 4664.0 130.0 4680.0 108.0
   4696.0 86.0 4668.0 37.0 4682.0 13.0
   4696.0 -11.0 4714.0 -121.0 4739.0 -123.0
-  4764.0 -125.0 4846.0 -137.0 4866.0 -166.0
-  4886.0 -195.0 4965.0 -245.0 4952.0 -291.0
-  4939.0 -337.0 4918.0 -336.0 4924.0 -367.0
-  4930.0 -398.0 4893.0 -686.0 4972.0 -667.0
-  5051.0 -648.0 5071.0 -568.0 5091.0 -548.0
+  smooth off
+endline
+
+line wall -subtype invisible
+  4739.0 -123.0
+  4812.0 -140.0 5062.0 -320.0 5091.0 -548.0
+  smooth off
+endline
+
+line wall
+  5091.0 -548.0
   5111.0 -528.0 5164.0 -358.0 5191.0 -358.0
   5218.0 -358.0 5285.0 -358.0 5308.0 -361.0
   smooth off
@@ -336,7 +344,7 @@ line wall -subtype invisible
   4245.0 332.0
 endline
 
-point 3892.0 -340.0 label -text "<center>P15<br>Traversée qui pue"
+point 3764.0 -92.0 label -text "<center>P15<br>Traversée qui pue"
 
 line wall -subtype pit
   4245.0 332.0

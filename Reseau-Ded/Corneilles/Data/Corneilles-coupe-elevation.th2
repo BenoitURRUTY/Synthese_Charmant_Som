@@ -261,7 +261,7 @@ line wall
   smooth off
 endline
 
-point 5416.0 8032.0 label -text "<center>Traversée<br>qui pue"
+point 5000.0 7864.0 label -text "<center>Traversée<br>qui pue"
 
 point 3860.0 6368.0 label -text "P15"
 
@@ -316,8 +316,8 @@ line wall -subtype invisible
 endline
 
 line wall -subtype invisible
-  5981.0 7325.0
-  5705.0 7275.0
+  6116.0 6604.0
+  5504.0 6968.0
 endline
 
 line wall -subtype invisible
@@ -334,9 +334,8 @@ line rope
 endline
 
 line wall
-  5705.0 7275.0
-  5688.0 7207.0 5655.0 6824.0 5612.0 6863.0
-  5569.0 6902.0 5399.0 6994.0 5317.0 7034.0
+  5504.0 6968.0
+  5461.0 7007.0 5399.0 6994.0 5317.0 7034.0
   5235.0 7074.0 5225.0 7105.0 5157.0 7172.0
   5089.0 7239.0 5009.0 7299.0 4948.0 7343.0
   4887.0 7387.0 4850.0 7448.0 4780.0 7444.0
@@ -344,12 +343,9 @@ line wall
   smooth off
 endline
 
-point 5852.0 7420.0 continuation -attr Code E -attr Cavite 'Vire' -attr Reseau 'Ded' -attr CA '' -text "Puits de l'Escalade, à grimper à nouveau"
-
 line wall
   6240.0 6428.0
-  6208.0 6447.0 6066.0 6804.0 6041.0 6917.0
-  6016.0 7030.0 5984.0 7283.0 5981.0 7325.0
+  6208.0 6447.0 6141.0 6491.0 6116.0 6604.0
   smooth off
 endline
 

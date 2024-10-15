@@ -11,20 +11,22 @@ map MP-Ded-tot -title "Synthèse topographie du Réseau Ded"
     break
     MP-Valombre-plan-tot@Valombre [0 -60 m] below
     break
-	MP-Aura-plan-tot@Aura
+	MP-Aura-plan-tot@Aura [0 50 m] below
     break
-    MP-Corneilles-plan-tot@Corneilles
+    MP-Corneilles-plan-tot@Corneilles [0 50 m] below
+    MP-Corneilles-plan-tot2@Corneilles
     break
 	MP-FT-plan-tot@FT [0 -60 m] below
     break
-    MP-Puits1-plan-tot@Puits1
+    MP-Puits1-plan-tot@Puits1 [0 50 m] below
     break
-    MP-William-plan-tot@William
+    MP-William-plan-tot@William [0 50 m] below
     break
-    MP-Vire-plan-tot@Vire
+    MP-Vire-plan-tot@Vire [0 50 m] below
     break
     MP-SE-plan-tot@SE-tot
-    
+    break
+    MP-PEsc-plan-tot@Puits-Escalade
 
 endmap
 
@@ -47,6 +49,8 @@ map MC-Ded-tot -title "Synthèse topographie du Réseau Ded"
     MC-Vire-coupe-tot@Vire
     break
     MC-SE-elevation-tot@SE-tot
+    break
+    MC-PEsc-coupe-tot@Puits-Escalade
     
 
 endmap
