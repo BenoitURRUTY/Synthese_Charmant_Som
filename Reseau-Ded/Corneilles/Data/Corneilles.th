@@ -9,8 +9,8 @@ survey Corneilles -title "Corneilles" -entrance "16"
     units length meters
     units compass clino degrees
     station 16  "Corneilles" entrance
-    #cs UTM32
-    #fix 16 246807 5024270 1554
+    cs UTM32
+    # fix 16 246805.70 5024268.12 1542
     data normal from to length compass clino
     # extend auto
     0 . 1.55 142.9 -85.4

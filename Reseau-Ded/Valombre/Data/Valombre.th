@@ -18,8 +18,8 @@ survey Valombre -title "Valombre" -entrance "100"
     units length meters
     units compass clino degrees
     station 100  "Valombré" entrance
-    #cs UTM32
-    #fix 100 246768.306 5024279.310 1503
+    cs UTM32
+    # fix 100 246762.22 5024277.42 1511
     data normal from to length compass clino
     # extend auto
     0 . 1.53 242.0 7.8

@@ -8,6 +8,8 @@ survey entree-escalade -title "entree-escalade"
     units length meters
     units compass clino degrees
     data normal from to length compass clino
+    cs EPSG:2154
+    fix M.8 916884.34 6473431.53 1604
     # extend auto
     M.0 . 0.86 277.9 52.8
     M.0 . 0.33 277.9 59.3
