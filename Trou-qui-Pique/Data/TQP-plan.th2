@@ -1,5 +1,5 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust -2804.0 -4156.0 3121.2943999999998 6368.0346
+##XTHERION## xth_me_area_adjust -2804.0 -4264.0 1924.0 560.0
 ##XTHERION## xth_me_area_zoom_to 25
 ##XTHERION## xth_me_image_insert {572.7800000000007 1 1.0} {-668.0300000000002 P-0} TQP-map.xvi 0 {}
 
@@ -747,7 +747,7 @@ endline
 
 point 680.0 -1636.0 label -text "<center>Salle<br>Annexe"
 
-point 1452.0 -3104.0 label -text "<center>Méandre<br>de la<br>série de pailles"
+point 1452.0 -3104.0 label -text "<center>Méandre<br>de la<br>série de pailles de Chartreuse"
 
 point -1868.0 -4116.0 label -text "<center>Salle de la<br>phobie des mégalithe"
 

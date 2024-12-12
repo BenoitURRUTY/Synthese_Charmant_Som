@@ -8,7 +8,7 @@ source TQP-tot.th
 input legendes/entrances_coordinates.th
 
 # Add config file
-input /home/urrutyb/Documents/Speleo/database_speleo/Chartreuse/Reseau_ded/topo_kriska/therion_kriska/config.thc 
+input ../config.thc 
 
 #DEM
 #source ../GIS/DEM_new.th
@@ -163,7 +163,7 @@ layout my_layout
    endcode  
 
    # add extended-elev on the same pdf
-   map-image 100 20 w Outputs/TQP-coupe.pdf
+   #map-image 100 20 w Outputs/TQP-coupe.pdf
 
 endlayout
 
@@ -309,7 +309,7 @@ export map -proj extended -layout xviexport -fmt xvi -o Data/TQP-coupe.xvi
 #  select MC-TQP-coupe-tot@TQP
 	 
 #export map -projection [elevation 17] -layout my_layout-coupe -o Outputs/TQP-coupe.pdf 
-export map -projection extended -layout my_layout-coupe -o Outputs/TQP-coupe.pdf 
+#export map -projection extended -layout my_layout-coupe -o Outputs/TQP-coupe.pdf 
 export map -o Outputs/TQP-plan.pdf -layout my_layout
  
 export model -o Outputs/TQP.lox

@@ -167,7 +167,7 @@ layout my_layout
    endcode  
 
    # add extended-elev on the same pdf
-   # map-image 100 0 w Outputs/Ded-coupe_projected.pdf #off/n/s/e/w/ne/nw/se/sw/center
+   #map-image 100 0 w Outputs/Ded-coupe_projected.pdf #off/n/s/e/w/ne/nw/se/sw/center
 
 endlayout
 
