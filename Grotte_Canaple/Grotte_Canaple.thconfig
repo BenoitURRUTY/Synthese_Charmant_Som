@@ -123,10 +123,10 @@ layout my_layout
 
    # Options pour afficher le squelette topo,
    # les points et le nom des stations topos
-   #symbol-hide line survey
-   #symbol-hide point cave-station
+   symbol-hide line survey
+   symbol-hide point cave-station
 
-   debug station-names
+   # debug station-names
 
    # Specifier qu il faut imprimer une grille
    # au dessous de la topo  
@@ -249,7 +249,7 @@ layout my_layout-coupe
    # 100 100, c est en haut, a droite
    # La manchette a des "points cardinaux" : n, s, ne, sw, etc.
    # Il faut specifier un de ces points 
-   map-header 0 00 nw
+   map-header 0 00 off
 
    # arrière plan de la manchette
    #map-header-bg off
@@ -258,10 +258,10 @@ layout my_layout-coupe
 
    # Options pour afficher le squelette topo,
    # les points et le nom des stations topos
-   #symbol-hide line survey
-   #symbol-hide point cave-station
+   symbol-hide line survey
+   symbol-hide point cave-station
 
-   debug station-names
+   # debug station-names
 
    # Specifier qu il faut imprimer une grille
    # au dessous de la topo  

@@ -12,7 +12,7 @@ input legendes/entrances_coordinates.th
 input ../config.thc 
 
 #DEM
-#source ../GIS/DEM_Ded.th
+source ../GIS/DEM_Ded.th
 
 # 2-LAYOUT   
 
@@ -38,7 +38,6 @@ layout my_layout
    copy langue-fr
    copy for_print 
  
-   
    # Titre  
    doc-title "Réseau Ded"
    # Auteur
@@ -129,8 +128,6 @@ layout my_layout
    # les points et le nom des stations topos
    symbol-hide line survey
    symbol-hide point cave-station
-
-   #debug station-names
 
    # Specifier qu il faut imprimer une grille
    # au dessous de la topo  

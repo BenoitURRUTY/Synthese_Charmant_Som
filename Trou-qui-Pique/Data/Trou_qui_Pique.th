@@ -5,7 +5,7 @@ survey Trou_qui_Pique -title "Trou qui Pique" -entrance "P-0"
   centerline
     date 2023.06.12 
     cs UTM32
-    fix P-0 246036.407 5024078.985 5024079 1717
+    fix P-0 246036.407 5024078.985 1717
     team "Benoît/Urruty "
     team "Thibaud/Galai  "
     team "Mathilde "
