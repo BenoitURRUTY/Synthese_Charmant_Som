@@ -58,7 +58,9 @@ Benoît Urruty (b.urruty77@gmail.com)
 
 [b.urruty77@gmail.com](b.urruty77@gmail.com )
 
-## Contact
+## Citation / DOI
+
+Urruty, B. (2024b). Base de données topographiques du Charmant Som [Therion]. https://github.com/BenoitURRUTY/Synthese_Charmant_Som
 
 
 [![DOI](https://zenodo.org/badge/791767298.svg)](https://doi.org/10.5281/zenodo.17455917)
