@@ -1,6 +1,6 @@
 survey Ded -title "Synthèse topographie du Charmant Som"
 
-   input "Réseau-Ded/Ded.th"
+   input "Reseau-Ded/Ded.th"
 
    input Porte_Enclos/Enclos-tot.th
 
