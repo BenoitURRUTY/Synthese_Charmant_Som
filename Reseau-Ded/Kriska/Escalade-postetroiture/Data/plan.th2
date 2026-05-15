@@ -14,8 +14,6 @@ line wall
   smooth off
 endline
 
-line pit
-endline
 
 line pit
   953.75 1072.0
@@ -36,8 +34,6 @@ point 1134.0 1036.0 blocks
 
 point 1253.0 1179.0 blocks
 
-line pit
-endline
 
 line pit
   1196.0 1649.0
@@ -184,8 +180,6 @@ line wall
   smooth off
 endline
 
-line wall -subtype unsurveyed
-endline
 
 point 835.0 1599.0 breakdown-choke
 
@@ -364,8 +358,6 @@ endscrap
 
 scrap SP-EscP-3 -projection plan -station-names "" "@Escalade-postetroiture" -scale [-128.0 -128.0 3277.608 -128.0 0.0 0.0 86.5024432 0.0 m]
 
-line wall
-endline
 
 line wall
   302.0 1069.0

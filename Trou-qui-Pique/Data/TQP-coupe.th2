@@ -41,8 +41,6 @@ point 4728.0 3692.0 label -text "<center>Méandre<br>de la<br>Série de Pailles 
 
 point 5760.0 4728.0 label -text "<center>R2"
 
-line rock-border
-endline
 
 point 2396.0 6956.0 label -text "<center>P50"
 

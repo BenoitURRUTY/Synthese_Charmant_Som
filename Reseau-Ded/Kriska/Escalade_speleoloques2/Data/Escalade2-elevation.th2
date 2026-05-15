@@ -7,8 +7,6 @@ encoding  utf-8
 
 scrap SC-Esc-1 -projection [elevation 17] -station-names "" "@escalade_speleoloques2" -author 2023 "Benoît Urruty" -copyright 2023 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [-128.0 -128.0 2726.4266000000002 -128.0 0.0 0.0 72.50243564 0.0 m]
 
-line wall -subtype invisible
-endline
 
 line wall -subtype invisible
   1796.0 816.0
@@ -24,8 +22,6 @@ point 1640.0 1536.0 water-flow -orientation 207.2
 
 point 2882.0 2468.0 label -text "<center>E21<br>des Ecossais"
 
-line rope
-endline
 
 point 2988.0 1032.0 label -text "<center>E15 du<br>matos<br>oublié"
 

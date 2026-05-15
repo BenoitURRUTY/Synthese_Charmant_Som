@@ -65,8 +65,6 @@ line rock-border -clip off
   smooth off
 endline
 
-line rock-border
-endline
 
 line rock-border
   1884.0 20024.0
@@ -341,8 +339,6 @@ point 3297.21 13316.539999999997 station -name 20
 
 point 3388.8700000000003 13320.479999999998 station -name 19
 
-line wall -subtype invisible
-endline
 
 point 3532.7000000000003 13305.519999999999 station -name 18
 
@@ -361,8 +357,6 @@ line wall -reverse on -subtype invisible
   4500.0 5328.0
 endline
 
-area water
-endarea
 
 point 4716.0 5360.0 continuation -attr Code AP -attr Cavite 'Kriska' -attr Reseau 'Ded' -attr CA '' -text "Depart dans méandre à aller voir, déjà visité"
 

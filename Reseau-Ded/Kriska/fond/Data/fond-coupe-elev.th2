@@ -51,8 +51,6 @@ line wall -subtype invisible
   2476.0 6132.0
 endline
 
-line rope
-endline
 
 point 7264.34 979.5299999999997 station -name 37
 
@@ -248,8 +246,6 @@ line wall
   6525.0 2096.75
 endline
 
-area water
-endarea
 
 area sump
   l71-4712-3186

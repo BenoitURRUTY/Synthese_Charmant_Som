@@ -71,8 +71,6 @@ line wall -subtype invisible
   3856.0 1084.0
 endline
 
-line wall -subtype invisible
-endline
 
 line wall -subtype invisible
   5172.5 1186.5
@@ -203,8 +201,6 @@ endscrap
 
 scrap SP-SE-4 -projection plan -station-names "" "@jonction_p110" -author 2023 "Benoît Urruty" -copyright 2023 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [-128.0 -128.0 4773.6718 -128.0 0.0 0.0 124.50246372 0.0 m]
 
-line wall
-endline
 
 line wall -subtype invisible
   5342.5 1205.0
@@ -324,8 +320,6 @@ endline
 
 point 3306.41 787.24 station -name SE.4
 
-line wall
-endline
 
 line rock-border -close on
   3098.0 739.0

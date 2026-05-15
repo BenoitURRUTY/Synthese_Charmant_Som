@@ -7,16 +7,12 @@ encoding  utf-8
 
 scrap SC-SE-1 -projection [elevation 17] -station-names "" "@Suite_escalade" -author 2023 "Benoît Urruty" -copyright 2023 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [-128.0 -128.0 4773.6718 -128.0 0.0 0.0 124.50246372 0.0 m]
 
-area water
-endarea
 
 line wall -reverse on -subtype invisible
   900.0 4900.0
   924.0 5224.0
 endline
 
-line wall
-endline
 
 line wall -reverse on
   3497.0 2778.0

@@ -34,8 +34,6 @@ line wall -subtype invisible
   smooth off
 endline
 
-line wall
-endline
 
 line wall
   511.0 458.0
@@ -46,8 +44,6 @@ line wall
   smooth off
 endline
 
-line wall
-endline
 
 line wall -subtype invisible
   442.0 515.0
@@ -55,8 +51,6 @@ line wall -subtype invisible
   smooth off
 endline
 
-line wall
-endline
 
 point 945.0 918.0 label -text "Bivouac"
 
@@ -97,8 +91,6 @@ line wall -reverse on
   620.5 388.5
 endline
 
-line wall
-endline
 
 point 127.0 212.5 continuation -attr Code E -attr Cavite 'Kriska' -attr Reseau 'Ded' -attr CA 'Absent?' -text "Escalade à continuer plutot étroit et sec"
 
@@ -108,8 +100,6 @@ line pit -place top
   smooth off
 endline
 
-line wall
-endline
 
 line wall
   330.0 269.0

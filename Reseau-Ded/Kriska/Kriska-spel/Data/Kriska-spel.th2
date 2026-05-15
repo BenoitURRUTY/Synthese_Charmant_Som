@@ -72,8 +72,6 @@ line wall -subtype invisible
   1202.25 1581.0
 endline
 
-line wall
-endline
 
 line chimney -close on
   1157.0 1531.5
@@ -193,8 +191,6 @@ endline
 
 point 2966.0 1104.0 label -text "P40 "
 
-line pit
-endline
 
 line wall -reverse on -subtype invisible
   2646.0 1011.0
@@ -207,8 +203,6 @@ line pit
   smooth off
 endline
 
-line pit
-endline
 
 line pit -reverse on
   2327.0 988.0
@@ -273,8 +267,6 @@ endscrap
 
 scrap SP-Kriska-spel-5 -projection plan -station-names "" "@Kriska1" -author 2023 "Benoît Urruty" -copyright 2023 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [-128.0 -128.0 7450.8386 -128.0 0.0 0.0 192.50250044 0.0 m]
 
-line wall
-endline
 
 line wall -reverse on
   1879.0 1940.5
@@ -326,8 +318,6 @@ endscrap
 
 scrap SP-Kriska-spel-6 -projection plan -station-names "" "@Kriska1" -author 2023 "Benoît Urruty" -copyright 2023 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [-128.0 -128.0 7450.8386 -128.0 0.0 0.0 192.50250044 0.0 m]
 
-line pit
-endline
 
 line wall -subtype invisible
   1879.0 1940.5
@@ -345,8 +335,6 @@ line pit
   smooth off
 endline
 
-line pit
-endline
 
 line pit
   2070.0 2028.0
@@ -367,8 +355,6 @@ line wall -subtype pit
   smooth off
 endline
 
-line wall
-endline
 
 line wall -subtype invisible
   2612.0 1896.0
@@ -383,8 +369,6 @@ line wall -subtype pit
   smooth off
 endline
 
-line pit
-endline
 
 line pit
   1955.0 1969.0
@@ -448,8 +432,6 @@ line wall -reverse on
   smooth off
 endline
 
-line wall
-endline
 
 line wall
   2776.0 2022.0
@@ -461,8 +443,6 @@ line wall
   smooth off
 endline
 
-line wall -subtype invisible
-endline
 
 line wall -reverse on -subtype invisible
   2776.0 2022.0
@@ -503,8 +483,6 @@ point 4160.63 1425.2 station -name 35
 
 point 3888.19 1662.99 station -name 34
 
-line pit
-endline
 
 line pit
   4173.0 1417.0
@@ -512,8 +490,6 @@ line pit
   smooth off
 endline
 
-line wall
-endline
 
 line pit
   3706.0 1811.0
@@ -570,8 +546,6 @@ line wall
   smooth off
 endline
 
-line wall -subtype invisible
-endline
 
 line wall -subtype invisible
   3418.0 1846.0
@@ -588,27 +562,19 @@ endscrap
 
 scrap SP-Kriska-spel-9 -projection plan -station-names "" "@Kriska1" -author 2023 "Benoît Urruty" -copyright 2023 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [-128.0 -128.0 7450.8386 -128.0 0.0 0.0 192.50250044 0.0 m]
 
-line pit
-endline
 
-line pit
-endline
 
 line wall -subtype invisible
   4173.0 1417.0
   4199.0 1185.0
 endline
 
-line wall -subtype invisible
-endline
 
 line wall -reverse on -subtype invisible
   4776.5 1206.0
   4783.0 1162.5
 endline
 
-line wall
-endline
 
 line pit
   4273.0 1423.0
@@ -632,8 +598,6 @@ line wall -reverse on
   smooth off
 endline
 
-line pit
-endline
 
 line wall -subtype pit
   4199.0 1185.0
@@ -656,8 +620,6 @@ point 4374.8 1270.08 station -name 37
 
 point 4166.93 1354.33 station -name 36
 
-line pit
-endline
 
 endscrap
 
@@ -665,8 +627,6 @@ endscrap
 
 scrap SP-Kriska-spel-10 -projection plan -station-names "" "@Kriska1" -author 2023 "Benoît Urruty" -copyright 2023 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [-128.0 -128.0 7450.8386 -128.0 0.0 0.0 192.50250044 0.0 m]
 
-line wall -subtype invisible
-endline
 
 point 5704.0 1616.0 label -text "<center>Etroitures<br>des Spéléoloques"
 
@@ -739,8 +699,6 @@ line wall -reverse on -subtype invisible
   6680.0 858.0
 endline
 
-line wall
-endline
 
 line wall -reverse on
   6680.0 858.0
@@ -753,8 +711,6 @@ line wall -reverse on
   smooth off
 endline
 
-line pit
-endline
 
 line wall -subtype invisible
   5566.75 994.5

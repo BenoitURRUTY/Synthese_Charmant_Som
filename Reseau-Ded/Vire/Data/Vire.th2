@@ -102,8 +102,6 @@ line contour -close on
   935.0 715.0 866.0 726.0 859.0 698.0
 endline
 
-line contour
-endline
 
 line rock-edge -reverse on
   625.0 195.0
@@ -156,8 +154,6 @@ endline
 
 point 173.23000000000002 1072.4389999999999 station -name vire.9
 
-line wall
-endline
 
 point 411.02 1070.079 station -name vire.8
 

@@ -217,8 +217,6 @@ point 4738.84 677.1600000000001 station -name 1
 
 point 4600.25 637.7900000000001 station -name 3
 
-line border -clip off
-endline
 
 line border -clip off
   657.0 2091.0

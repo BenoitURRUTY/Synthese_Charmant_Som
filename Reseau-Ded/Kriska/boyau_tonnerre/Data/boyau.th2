@@ -24,8 +24,6 @@ point 117.32499999999999 314.177 station -name boyau.3
 
 point 177.955 276.37700000000007 station -name boyau.2
 
-line wall
-endline
 
 point 249.60500000000002 276.37700000000007 station
 

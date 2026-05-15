@@ -28,8 +28,6 @@ line wall
   smooth off
 endline
 
-line wall
-endline
 
 line wall -reverse on
   547.0 302.0
@@ -48,8 +46,6 @@ line wall -reverse on
   smooth off
 endline
 
-line wall
-endline
 
 point 626.771 140.94800000000004 station -name p1.0
 

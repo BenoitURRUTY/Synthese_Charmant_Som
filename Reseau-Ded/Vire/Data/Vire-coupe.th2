@@ -7,8 +7,6 @@ encoding  utf-8
 
 scrap SC-Vire-1 -projection [elevation 17] -station-names "" "@Vire" -author 2023 "Benoît Urruty" -copyright 2023 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [-903.5920000000001 -616.1899999999998 1084.6924 -616.1899999999998 0.0 0.0 50.50242376 0.0 m]
 
-line wall
-endline
 
 line wall -subtype invisible
   287.0 2027.0
@@ -54,8 +52,6 @@ line wall
   smooth off
 endline
 
-line wall
-endline
 
 line wall -reverse on
   216.0 3106.0

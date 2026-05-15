@@ -7,8 +7,6 @@ encoding  utf-8
 
 scrap SP-fond-1 -projection plan -station-names "" "@fond" -author 2023 "Benoît Urruty" -copyright 2023 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [-128.0 -128.0 8002.02 -128.0 0.0 0.0 206.502508 0.0 m]
 
-line wall -subtype invisible
-endline
 
 line wall -subtype invisible
   867.0 2062.0

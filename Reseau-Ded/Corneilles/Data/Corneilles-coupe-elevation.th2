@@ -62,8 +62,6 @@ line wall
   smooth off
 endline
 
-line wall
-endline
 
 line wall -subtype presumed
   5851.0 868.0
@@ -418,8 +416,6 @@ point 5625.01 1935.4299999999998 station -name 1
 
 point 5762.8099999999995 1253.54 station -name 0
 
-line wall
-endline
 
 endscrap
 

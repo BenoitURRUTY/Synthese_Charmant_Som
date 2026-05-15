@@ -20,8 +20,6 @@ line wall -close on -subtype invisible
   230.0 107.0 257.0 115.0 256.0 122.0
 endline
 
-area water
-endarea
 
 point 866.14 157.485 station -name j1-3.0
 

@@ -7,8 +7,6 @@ encoding  utf-8
 
 scrap SC-3morts-1 -projection extended -station-names "" "@puits_des_3_morts" -scale [-128.0 -128.0 1151.6226000000001 -128.0 0.0 0.0 32.502414040000005 0.0 m]
 
-line wall -subtype invisible
-endline
 
 point 385.0 332.0 debris -orientation 0.0
 

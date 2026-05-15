@@ -433,8 +433,6 @@ line wall -subtype unsurveyed
   smooth off
 endline
 
-line wall
-endline
 
 point -576.0 140.0 entrance -orientation 285.5
 

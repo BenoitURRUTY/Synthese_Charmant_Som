@@ -7,8 +7,6 @@ encoding  utf-8
 
 scrap SC-PEsc-1 -projection [elevation 17] -scale [-128.0 -128.0 2726.4266000000002 -128.0 0.0 0.0 72.50243564 0.0 m]
 
-line wall -subtype invisible
-endline
 
 line border -clip off
   962.5 4438.0
@@ -38,8 +36,6 @@ line wall -clip off
   smooth off
 endline
 
-line wall -subtype invisible
-endline
 
 point 2754.0 2885.0 blocks -clip off
 

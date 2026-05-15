@@ -103,8 +103,6 @@ endscrap
 
 scrap SC-fond-2 -projection extended -station-names "" "@fond" -scale [-128.0 -128.0 3592.5688 -128.0 0.0 0.0 94.50244751999999 0.0 m]
 
-line wall
-endline
 
 line wall -subtype invisible
   2250.0 804.0
@@ -148,8 +146,6 @@ point 2108.31 1477.96 station -name 33
 
 point 2108.31 1659.06 station -name 32
 
-area water
-endarea
 
 line wall -subtype invisible
   1860.0 2060.0
@@ -187,8 +183,6 @@ line wall
   smooth off
 endline
 
-line wall
-endline
 
 line wall -reverse on
   1116.0 4368.0

@@ -7,8 +7,6 @@ encoding  utf-8
 
 scrap SP-caillou-bouge-1 -projection plan -station-names "" "@caillou-bouge" -scale [-128.0 -128.0 2017.7648 -128.0 0.0 0.0 54.50242591999999 0.0 m]
 
-line rock-border
-endline
 
 line rock-border -close on
   479.0 898.5

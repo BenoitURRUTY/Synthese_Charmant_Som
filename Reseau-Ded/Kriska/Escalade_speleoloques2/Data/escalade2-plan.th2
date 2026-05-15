@@ -55,8 +55,6 @@ line contour
   smooth off
 endline
 
-area water
-endarea
 
 line pit
   1162.0 920.0

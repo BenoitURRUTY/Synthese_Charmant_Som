@@ -17,8 +17,6 @@ line wall -reverse on
   582.0 1107.0
 endline
 
-line wall -subtype invisible
-endline
 
 line wall -reverse on -subtype invisible
   582.0 1107.0

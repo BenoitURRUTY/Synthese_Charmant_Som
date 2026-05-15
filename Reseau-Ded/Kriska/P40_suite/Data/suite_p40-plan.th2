@@ -224,8 +224,6 @@ point 1118.9 1569.29 station -name 15-16
 
 point 1249.61 1282.68 station -name 15-15
 
-line wall -subtype invisible
-endline
 
 line wall -subtype invisible
   1397.5 1059.5
@@ -288,8 +286,6 @@ endscrap
 
 scrap SP-P40-3 -projection plan -station-names "" "@suite_p40" -author 2023 "Benoît Urruty" -copyright 2023 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [-128.0 -128.0 2883.907 -128.0 0.0 0.0 76.5024378 0.0 m]
 
-line wall
-endline
 
 line wall -reverse on -subtype invisible
   766.0 1567.0

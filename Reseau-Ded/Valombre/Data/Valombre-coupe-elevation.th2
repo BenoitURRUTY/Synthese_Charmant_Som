@@ -71,8 +71,6 @@ line wall -close off
   3245.0 29466.0
 endline
 
-line rock-edge
-endline
 
 point 4112.0 26892.0 dig
 
@@ -112,8 +110,6 @@ line wall
   smooth off
 endline
 
-line wall
-endline
 
 line border
   5052.0 26432.0
@@ -224,8 +220,6 @@ line rope
   4704.0 26640.0
 endline
 
-line rope
-endline
 
 line rope
   3392.0 29292.0

@@ -232,8 +232,6 @@ line wall -reverse on
   smooth off
 endline
 
-line wall -subtype invisible
-endline
 
 line wall -reverse on -subtype invisible
   2277.75 1721.75
@@ -353,8 +351,6 @@ endline
 
 point 964.0 1032.0 label -text "R10"
 
-line water-flow -clip off
-endline
 
 line water-flow -clip off
   620.0 1054.0
