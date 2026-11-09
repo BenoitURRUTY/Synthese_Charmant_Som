@@ -1,0 +1,17 @@
+# 2021.11.27 created by TopoDroid v 5.1.40
+
+survey siphon-plongee -title "siphon-plongee"
+
+  centerline
+    date 2026.09.06
+    team "Emmanuel/Tessane"
+    explo-team "Emmanuel/Tessane"
+    units length meters
+    units compass clino degrees
+    data diving from to tape compass fromdepth todepth
+    pl-1 pl-2 35 120 0 -18.8
+    pl-2 pl-3 17 120 -18.8 -30 # estimation
+    
+  endcenterline
+
+endsurvey

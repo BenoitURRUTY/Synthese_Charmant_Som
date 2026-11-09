@@ -7,7 +7,9 @@ encoding  utf-8
 survey siphon -title "siphon"
 # Pour importer les différentes données de différents fichiers topos : 
    input Data/siphon.th
-	
+	input Data/siphon-plongee.th 
+
+	equate pl-1@siphon-plongee 0@siphon
  
 ##########################################################################################
 ## Pour importer les différents fichiers de dessins en plan

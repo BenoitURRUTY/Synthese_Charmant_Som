@@ -10,6 +10,8 @@ map MP-siphon-plan-tot -title "siphon"
     SP-siphon-1
     break
     SP-siphon-5
+    break
+    SP-siphon-6
 endmap
 
 map MC-siphon-coupe-elev-tot -title "Spel-bivy"
@@ -18,4 +20,6 @@ map MC-siphon-coupe-elev-tot -title "Spel-bivy"
     SC-siphon-elev-2
     break
     SC-siphon-elev-3
+    break
+    SC-siphon-elev-4
 endmap
